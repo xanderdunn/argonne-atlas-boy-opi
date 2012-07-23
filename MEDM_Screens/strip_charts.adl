@@ -1,0 +1,1429 @@
+
+file {
+	name="/home/phoebus/NDA/strip_charts.adl"
+	version=030105
+}
+display {
+	object {
+		x=19
+		y=265
+		width=970
+		height=771
+	}
+	clr=14
+	bclr=4
+	cmap=""
+	gridSpacing=5
+	gridOn=0
+	snapToGrid=0
+}
+"color map" {
+	ncolors=65
+	colors {
+		ffffff,
+		ececec,
+		dadada,
+		c8c8c8,
+		bbbbbb,
+		aeaeae,
+		9e9e9e,
+		919191,
+		858585,
+		787878,
+		696969,
+		5a5a5a,
+		464646,
+		2d2d2d,
+		000000,
+		00d800,
+		1ebb00,
+		339900,
+		2d7f00,
+		216c00,
+		fd0000,
+		de1309,
+		be190b,
+		a01207,
+		820400,
+		5893ff,
+		597ee1,
+		4b6ec7,
+		3a5eab,
+		27548d,
+		fbf34a,
+		f9da3c,
+		eeb62b,
+		e19015,
+		cd6100,
+		ffb0ff,
+		d67fe2,
+		ae4ebc,
+		8b1a96,
+		610a75,
+		a4aaff,
+		8793e2,
+		6a73c1,
+		4d52a4,
+		343386,
+		c7bb6d,
+		b79d5c,
+		a47e3c,
+		7d5627,
+		58340f,
+		99ffff,
+		73dfff,
+		4ea5f9,
+		2a63e4,
+		0a00b8,
+		ebf1b5,
+		d4db9d,
+		bbc187,
+		a6a462,
+		8b8239,
+		73ff6b,
+		52da3b,
+		3cb420,
+		289315,
+		1a7309,
+	}
+}
+text {
+	object {
+		x=107
+		y=307
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Mean:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=147
+		y=306
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S1_mean_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=107
+		y=321
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Sigma:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=147
+		y=321
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S1_sigma_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=107
+		y=336
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Min:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=147
+		y=336
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S1_min_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=107
+		y=350
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Max:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=147
+		y=351
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S1_max_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=280
+		y=307
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Mean:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=320
+		y=306
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S1_mean_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=280
+		y=321
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Sigma:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=320
+		y=321
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S1_sigma_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=280
+		y=336
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Min:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=320
+		y=336
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S1_min_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=280
+		y=350
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Max:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=320
+		y=351
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S1_max_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=599
+		y=307
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Mean:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=639
+		y=306
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S2_mean_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=599
+		y=321
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Sigma:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=639
+		y=321
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S2_sigma_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=599
+		y=336
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Min:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=639
+		y=336
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S2_min_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=599
+		y=350
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Max:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=639
+		y=351
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S2_max_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=772
+		y=307
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Mean:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=812
+		y=306
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S2_mean_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=772
+		y=321
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Sigma:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=812
+		y=321
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S2_sigma_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=772
+		y=336
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Min:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=812
+		y=336
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S2_min_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=772
+		y=350
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Max:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=812
+		y=351
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S2_max_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=132
+		y=690
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Mean:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=172
+		y=689
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S3_mean_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=132
+		y=704
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Sigma:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=172
+		y=704
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S3_sigma_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=132
+		y=719
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Min:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=172
+		y=719
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S3_min_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=132
+		y=733
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Max:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=172
+		y=734
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S3_max_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=305
+		y=690
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Mean:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=345
+		y=689
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S3_mean_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=305
+		y=704
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Sigma:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=345
+		y=704
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S3_sigma_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=305
+		y=719
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Min:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=345
+		y=719
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S3_min_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=305
+		y=733
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Max:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=345
+		y=734
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S3_max_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=605
+		y=690
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Mean:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=645
+		y=689
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S4_mean_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=605
+		y=704
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Sigma:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=645
+		y=704
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S4_sigma_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=605
+		y=719
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Min:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=645
+		y=719
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S4_min_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=605
+		y=733
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Phase Max:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=645
+		y=734
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S4_max_phase"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=778
+		y=690
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Mean:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=818
+		y=689
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S4_mean_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=778
+		y=704
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Sigma:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=818
+		y=704
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S4_sigma_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=778
+		y=719
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Min:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=818
+		y=719
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S4_min_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=778
+		y=733
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="Ampl Max:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=818
+		y=734
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S4_max_ampl"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=119
+		y=16
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=63
+	}
+	textix="S1 Phase"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=347
+		y=16
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=20
+	}
+	textix="S1 Amplitude"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=597
+		y=16
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=63
+	}
+	textix="S2 Phase"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=825
+		y=16
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=20
+	}
+	textix="S2 Amplitude"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=103
+		y=397
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=63
+	}
+	textix="S3 Phase"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=331
+		y=397
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=20
+	}
+	textix="S3 Amplitude"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=581
+		y=397
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=63
+	}
+	textix="S4 Phase"
+	align="horiz. centered"
+}
+text {
+	object {
+		x=809
+		y=397
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=20
+	}
+	textix="S4 Amplitude"
+	align="horiz. centered"
+}
+"strip chart" {
+	object {
+		x=5
+		y=34
+		width=467
+		height=264
+	}
+	plotcom {
+		ylabel="Degrees"
+		clr=14
+		bclr=2
+	}
+	pen[0] {
+		chan="$(P)$(S):S1_mean_phase"
+		clr=17
+		limits {
+			loprSrc="default"
+			loprDefault=-0.5
+			hoprSrc="default"
+			hoprDefault=0.5
+		}
+	}
+	pen[1] {
+		chan="$(P)$(S):S1_mean_ampl"
+		clr=22
+		limits {
+			loprSrc="default"
+			hoprSrc="default"
+			hoprDefault=5
+		}
+	}
+}
+"strip chart" {
+	object {
+		x=493
+		y=35
+		width=467
+		height=264
+	}
+	plotcom {
+		ylabel="Degrees"
+		clr=14
+		bclr=2
+	}
+	pen[0] {
+		chan="$(P)$(S):S2_mean_phase"
+		clr=17
+		limits {
+			loprSrc="default"
+			loprDefault=-0.5
+			hoprSrc="default"
+			hoprDefault=0.5
+		}
+	}
+	pen[1] {
+		chan="$(P)$(S):S2_mean_ampl"
+		clr=22
+		limits {
+			loprSrc="default"
+			hoprSrc="default"
+			hoprDefault=5
+		}
+	}
+}
+"strip chart" {
+	object {
+		x=3
+		y=417
+		width=467
+		height=264
+	}
+	plotcom {
+		ylabel="Degrees"
+		clr=14
+		bclr=2
+	}
+	pen[0] {
+		chan="$(P)$(S):S3_mean_phase"
+		clr=17
+		limits {
+			loprSrc="default"
+			loprDefault=-0.5
+			hoprSrc="default"
+			hoprDefault=0.5
+		}
+	}
+	pen[1] {
+		chan="$(P)$(S):S3_mean_ampl"
+		clr=22
+		limits {
+			loprSrc="default"
+			hoprSrc="default"
+			hoprDefault=5
+		}
+	}
+}
+"strip chart" {
+	object {
+		x=491
+		y=418
+		width=467
+		height=264
+	}
+	plotcom {
+		ylabel="Degrees"
+		clr=14
+		bclr=2
+	}
+	pen[0] {
+		chan="$(P)$(S):S4_mean_phase"
+		clr=17
+		limits {
+			loprSrc="default"
+			loprDefault=-0.5
+			hoprSrc="default"
+			hoprDefault=0.5
+		}
+	}
+	pen[1] {
+		chan="$(P)$(S):S4_mean_ampl"
+		clr=22
+		limits {
+			loprSrc="default"
+			hoprSrc="default"
+			hoprDefault=5
+		}
+	}
+}
+text {
+	object {
+		x=188
+		y=367
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="# of Elements:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=228
+		y=368
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S1_num_elements"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=679
+		y=367
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="# of Elements:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=719
+		y=368
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S2_num_elements"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=210
+		y=750
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="# of Elements:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=250
+		y=751
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S3_num_elements"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+text {
+	object {
+		x=682
+		y=750
+		width=37
+		height=14
+	}
+	"basic attribute" {
+		clr=14
+	}
+	textix="# of Elements:"
+	align="horiz. right"
+}
+"text update" {
+	object {
+		x=722
+		y=751
+		width=60
+		height=14
+	}
+	monitor {
+		chan="$(P)$(S):S4_num_elements"
+		clr=14
+		bclr=2
+	}
+	align="horiz. right"
+	limits {
+	}
+}
+"related display" {
+	object {
+		x=192
+		y=10
+		width=100
+		height=18
+	}
+	display[0] {
+		label="Phase / Amplitude"
+		name="phase_ampl_2.adl"
+		args="P=$(P),S=$(S),SIG=S1"
+	}
+	clr=14
+	bclr=51
+	label=" Waveforms"
+}
+"related display" {
+	object {
+		x=674
+		y=14
+		width=100
+		height=18
+	}
+	display[0] {
+		label="Phase / Amplitude"
+		name="phase_ampl_2.adl"
+		args="P=$(P),S=$(S),SIG=S2"
+	}
+	clr=14
+	bclr=51
+	label=" Waveforms"
+}
+"related display" {
+	object {
+		x=181
+		y=397
+		width=100
+		height=18
+	}
+	display[0] {
+		label="Phase / Amplitude"
+		name="phase_ampl_2.adl"
+		args="P=$(P),S=$(S),SIG=S3"
+	}
+	clr=14
+	bclr=51
+	label=" Waveforms"
+}
+"related display" {
+	object {
+		x=659
+		y=397
+		width=100
+		height=18
+	}
+	display[0] {
+		label="Phase / Amplitude"
+		name="phase_ampl_2.adl"
+		args="P=$(P),S=$(S),SIG=S4"
+	}
+	clr=14
+	bclr=51
+	label=" Waveforms"
+}
