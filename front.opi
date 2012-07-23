@@ -161,7 +161,7 @@ $(pv_value)</tooltip>
     <wuid>6906f4f8:137a993ba92:-7d5a</wuid>
     <auto_size>true</auto_size>
     <scripts />
-    <height>42</height>
+    <height>21</height>
     <name>Label_11</name>
     <transparent>true</transparent>
     <show_scrollbar>false</show_scrollbar>
@@ -482,7 +482,7 @@ $(trace_0_y_pv_value)</tooltip>
     <border_style>1</border_style>
     <rules />
     <pv_value />
-    <border_width>1</border_width>
+    <border_width>0</border_width>
     <line_width>0</line_width>
     <horizontal_fill>true</horizontal_fill>
     <border_color>
@@ -2472,7 +2472,7 @@ $(pv_value)</tooltip>
     <font>
       <fontdata fontName="Tahoma" height="12" style="0" />
     </font>
-    <width>45</width>
+    <width>40</width>
     <border_style>0</border_style>
     <rules />
     <border_width>1</border_width>
