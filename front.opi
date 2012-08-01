@@ -5080,7 +5080,7 @@ $(pv_value)</tooltip>
         </foreground_color>
         <widget_type>Text Input</widget_type>
         <enabled>true</enabled>
-        <text>POS.   XXXX</text>
+        <text />
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <precision>0</precision>
         <font>
@@ -5203,7 +5203,7 @@ $(pv_value)</tooltip>
         </foreground_color>
         <widget_type>Text Input</widget_type>
         <enabled>true</enabled>
-        <text>XXXXXXX</text>
+        <text />
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <precision>0</precision>
         <font>
@@ -6483,38 +6483,7 @@ $(trace_0_y_pv_value)</tooltip>
         <trace_1_y_axis_index>1</trace_1_y_axis_index>
         <trace_3_anti_alias>true</trace_3_anti_alias>
         <trace_1_concatenate_data>true</trace_1_concatenate_data>
-        <rules>
-          <rule name="Trace0_Channels" prop_id="trace_0_y_pv" out_exp="false">
-            <exp bool_exp="pvStr0 == &quot;Channel 1&quot;">
-              <value>$(TS)1LLRF4:STATS0:S1_mean_ampl</value>
-            </exp>
-            <exp bool_exp="pvStr0 == &quot;Channel 2&quot;">
-              <value>$(TS)LLRF4:STATS0:S2_mean_ampl</value>
-            </exp>
-            <exp bool_exp="pvStr0 == &quot;Channel 3&quot;">
-              <value>$(TS)LLRF4:STATS0:S3_mean_ampl</value>
-            </exp>
-            <exp bool_exp="pvStr0 == &quot;Channel 4&quot;">
-              <value>$(TS)LLRF4:STATS0:S4_mean_ampl</value>
-            </exp>
-            <pv trig="true">loc://chann</pv>
-          </rule>
-          <rule name="Trace1_Channels" prop_id="trace_1_y_pv" out_exp="false">
-            <exp bool_exp="pvStr0 == &quot;Channel 1&quot;">
-              <value>$(TS)LLRF4:STATS0:S1_mean_phase</value>
-            </exp>
-            <exp bool_exp="pvStr0 == &quot;Channel 2&quot;">
-              <value>$(TS)LLRF4:STATS0:S2_mean_phase</value>
-            </exp>
-            <exp bool_exp="pvStr0 == &quot;Channel 3&quot;">
-              <value>$(TS)LLRF4:STATS0:S3_mean_phase</value>
-            </exp>
-            <exp bool_exp="pvStr0 == &quot;Channel 4&quot;">
-              <value>$(TS)LLRF4:STATS0:S4_mean_phase</value>
-            </exp>
-            <pv trig="true">loc://chann</pv>
-          </rule>
-        </rules>
+        <rules />
         <trace_2_y_pv />
         <trace_0_trace_type>0</trace_0_trace_type>
         <axis_1_grid_color>
@@ -6540,7 +6509,7 @@ $(trace_0_y_pv_value)</tooltip>
         <trace_1_name>FWD-pha</trace_1_name>
         <trace_0_point_size>4</trace_0_point_size>
         <show_legend>true</show_legend>
-        <y>438</y>
+        <y>450</y>
         <x>10</x>
         <visible>true</visible>
         <axis_1_visible>true</axis_1_visible>
@@ -6707,7 +6676,7 @@ $(trace_0_y_pv_value)</tooltip>
         </border_color>
         <transparent>true</transparent>
         <show_scrollbar>false</show_scrollbar>
-        <y>733</y>
+        <y>745</y>
         <actions hook="false" />
         <foreground_color>
           <color red="192" green="192" blue="192" />
@@ -7053,7 +7022,7 @@ $(pv_value)</tooltip>
         </border_color>
         <transparent>true</transparent>
         <show_scrollbar>false</show_scrollbar>
-        <y>734</y>
+        <y>746</y>
         <actions hook="false" />
         <foreground_color>
           <color red="192" green="192" blue="192" />
@@ -8109,66 +8078,6 @@ $(pv_value)</tooltip>
         <scripts />
         <height>25</height>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <name>CH1</name>
-        <pv_name />
-        <background_color>
-          <color red="240" green="240" blue="240" />
-        </background_color>
-        <foreground_color>
-          <color red="0" green="0" blue="0" />
-        </foreground_color>
-        <widget_type>Action Button</widget_type>
-        <enabled>true</enabled>
-        <text>1</text>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <font>
-          <opifont.name>Default</opifont.name>
-        </font>
-        <width>25</width>
-        <push_action_index>0</push_action_index>
-        <border_style>0</border_style>
-        <image />
-        <rules>
-          <rule name="Change Background Color" prop_id="background_color" out_exp="false">
-            <exp bool_exp="pvStr0 == &quot;1&quot;">
-              <value>
-                <color red="0" green="220" blue="0" />
-              </value>
-            </exp>
-            <pv trig="true">loc://chann</pv>
-          </rule>
-        </rules>
-        <toggle_button>false</toggle_button>
-        <border_width>1</border_width>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <y>5</y>
-        <actions hook="false">
-          <action type="OPEN_DISPLAY">
-            <path>front.opi</path>
-            <macros>
-              <include_parent_macros>true</include_parent_macros>
-              <CH>1</CH>
-            </macros>
-            <replace>1</replace>
-            <description />
-          </action>
-          <action type="EXECUTE_JAVASCRIPT">
-            <path>button_color.js</path>
-            <description />
-          </action>
-        </actions>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <x>318</x>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <visible>true</visible>
-        <scripts />
-        <height>25</height>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <name>CH2</name>
         <pv_name />
         <background_color>
@@ -8338,6 +8247,53 @@ $(pv_value)</tooltip>
         <wrap_words>true</wrap_words>
         <tooltip />
         <x>145</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <scripts />
+        <height>25</height>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <name>CH2</name>
+        <pv_name />
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <widget_type>Action Button</widget_type>
+        <enabled>true</enabled>
+        <text>1</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name>Default</opifont.name>
+        </font>
+        <width>25</width>
+        <push_action_index>0</push_action_index>
+        <border_style>0</border_style>
+        <image />
+        <rules />
+        <toggle_button>false</toggle_button>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>5</y>
+        <actions hook="false">
+          <action type="OPEN_DISPLAY">
+            <path>front.opi</path>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+              <CH>1</CH>
+            </macros>
+            <replace>1</replace>
+            <description />
+          </action>
+        </actions>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>317</x>
       </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0">
@@ -8735,6 +8691,43 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
         <x>229</x>
       </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0">
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>103</height>
+      <name>Label</name>
+      <transparent>true</transparent>
+      <show_scrollbar>false</show_scrollbar>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <widget_type>Label</widget_type>
+      <enabled>true</enabled>
+      <text>First Time Use:
+1. Click anywhere on the GUI in the editor and set the value of TS in the Macros section at the top right of the Properties window.
+2. Press green go button in the top right of Eclipse. Now select the channel of interest (1,2,3,4) using the bottons in the top center.</text>
+      <font>
+        <fontdata fontName="Sans" height="9" style="0" />
+      </font>
+      <width>320</width>
+      <border_style>0</border_style>
+      <rules />
+      <border_width>1</border_width>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <horizontal_alignment>1</horizontal_alignment>
+      <actions hook="false" />
+      <y>810</y>
+      <wrap_words>true</wrap_words>
+      <tooltip />
+      <x>685</x>
     </widget>
   </widget>
 </display>
