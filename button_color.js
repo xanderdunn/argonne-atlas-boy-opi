@@ -1,12 +1,18 @@
 importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
-importPackage(Packages.org.csstudio.platform.data);
-// Set the color of the button to green
-widget.setPropertyValue("background_color","Green");
-// Set loc://chann to the current channel value
-pvs[0].setValue(1);	
-// Reopen the current opi to change the macro
-// Not sure how to use this function.  
-// Also, perhaps not a good idea because we will have to have 4 .js files,
-//  one for each channel number because we have to set the channel # in function
-// openOPI(org.csstudio.opibuilder.editparts.AbstractBaseEditPart widgetController, "utilities.opi", 0, null) 
-          Open an OPI.
+
+var GREEN = ColorFontUtil.getColorFromRGB(0,255,0);
+
+// Reset all buttons to default
+//display.getWidget("actionBtn1").setPropertyValue("background_color",DEFAULT,true);
+//display.getWidget("actionBtn2").setPropertyValue("background_color",DEFAULT,true);
+//display.getWidget("actionBtn3").setPropertyValue("background_color",DEFAULT,true);
+//display.getWidget("actionBtn4").setPropertyValue("background_color",DEFAULT,true);
+
+// Set color of clicked button
+display.getWidget("CH1").setPropertyValue("background_color",GREEN,true);
+
+// Put other actions to execute here...
+//widget.executeAction(0);
+
+// Closest we can get to macro expansion inside scripts?
+//var macroValue = widget.getMacroValue("m1"); //get the macro value of "m1"
