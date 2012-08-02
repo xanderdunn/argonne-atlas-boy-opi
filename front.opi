@@ -7493,10 +7493,15 @@ $(pv_value)</tooltip>
         <trace_count>4</trace_count>
         <trace_2_y_pv_value />
         <axis_0_show_grid>true</axis_0_show_grid>
+        <axis_2_log_scale>false</axis_2_log_scale>
         <axis_0_log_scale>false</axis_0_log_scale>
         <trace_3_point_size>4</trace_3_point_size>
-        <trace_3_y_axis_index>1</trace_3_y_axis_index>
+        <trace_3_y_axis_index>2</trace_3_y_axis_index>
         <trace_1_name>FWD-ampl</trace_1_name>
+        <axis_2_grid_color>
+          <color red="200" green="200" blue="200" />
+        </axis_2_grid_color>
+        <axis_2_minimum>0.0</axis_2_minimum>
         <trace_0_point_size>4</trace_0_point_size>
         <show_legend>true</show_legend>
         <y>48</y>
@@ -7512,7 +7517,9 @@ $(pv_value)</tooltip>
           <fontdata fontName="Arial" height="9" style="1" />
         </axis_1_title_font>
         <border_width>1</border_width>
+        <axis_2_left_bottom_side>true</axis_2_left_bottom_side>
         <trace_2_x_axis_index>0</trace_2_x_axis_index>
+        <axis_2_show_grid>true</axis_2_show_grid>
         <trace_3_name>REF-ampl</trace_3_name>
         <axis_0_axis_color>
           <color red="0" green="0" blue="0" />
@@ -7530,12 +7537,13 @@ $(pv_value)</tooltip>
         </axis_0_grid_color>
         <trace_2_line_width>1</trace_2_line_width>
         <trace_1_line_width>1</trace_1_line_width>
-        <trace_2_y_axis_index>1</trace_2_y_axis_index>
+        <trace_2_y_axis_index>2</trace_2_y_axis_index>
         <axis_0_auto_scale_threshold>0.0</axis_0_auto_scale_threshold>
         <trace_2_trace_type>0</trace_2_trace_type>
         <trace_0_name>CAV-ampl</trace_0_name>
         <trace_1_anti_alias>true</trace_1_anti_alias>
         <trace_3_x_pv></trace_3_x_pv>
+        <axis_2_maximum>100.0</axis_2_maximum>
         <trace_0_update_mode>3</trace_0_update_mode>
         <trace_1_buffer_size>100</trace_1_buffer_size>
         <axis_0_axis_title>Time (sec)</axis_0_axis_title>
@@ -7551,7 +7559,8 @@ $(pv_value)</tooltip>
         </foreground_color>
         <trace_1_update_mode>0</trace_1_update_mode>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <axis_1_axis_title>Cav / Ref</axis_1_axis_title>
+        <axis_1_axis_title>CAV, FWD</axis_1_axis_title>
+        <axis_2_y_axis>true</axis_2_y_axis>
         <trace_3_update_mode>0</trace_3_update_mode>
         <axis_0_maximum>100.0</axis_0_maximum>
         <axis_0_scale_font>
@@ -7567,12 +7576,14 @@ $(pv_value)</tooltip>
         <trace_1_plot_mode>0</trace_1_plot_mode>
         <axis_1_log_scale>false</axis_1_log_scale>
         <trace_1_point_style>0</trace_1_point_style>
+        <axis_2_auto_scale_threshold>0.0</axis_2_auto_scale_threshold>
         <trace_2_plot_mode>0</trace_2_plot_mode>
         <title_font>
           <fontdata fontName="Arial" height="12" style="1" />
         </title_font>
         <trace_3_buffer_size>100</trace_3_buffer_size>
         <axis_1_dash_grid_line>true</axis_1_dash_grid_line>
+        <axis_2_dash_grid_line>true</axis_2_dash_grid_line>
         <axis_0_visible>true</axis_0_visible>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <trace_1_x_pv_value />
@@ -7591,22 +7602,27 @@ $(pv_value)</tooltip>
         <trigger_pv_value />
         <trace_1_x_pv></trace_1_x_pv>
         <show_plot_area_border>false</show_plot_area_border>
+        <axis_2_axis_title>REV, REF</axis_2_axis_title>
         <widget_type>XY Graph</widget_type>
         <enabled>true</enabled>
         <width>418</width>
         <trace_0_buffer_size>100</trace_0_buffer_size>
         <trigger_pv></trigger_pv>
-        <axis_count>2</axis_count>
+        <axis_count>3</axis_count>
         <trace_2_name>REV-ampl</trace_2_name>
         <transparent>false</transparent>
         <trace_2_anti_alias>true</trace_2_anti_alias>
         <axis_0_dash_grid_line>true</axis_0_dash_grid_line>
         <trace_2_visible>true</trace_2_visible>
         <trace_0_x_axis_index>0</trace_0_x_axis_index>
+        <axis_2_time_format>0</axis_2_time_format>
         <trace_0_point_style>0</trace_0_point_style>
         <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
         <border_alarm_sensitive>true</border_alarm_sensitive>
+        <axis_2_title_font>
+          <fontdata fontName="Arial" height="9" style="1" />
+        </axis_2_title_font>
         <trace_1_x_axis_index>0</trace_1_x_axis_index>
         <trace_0_y_axis_index>1</trace_0_y_axis_index>
         <trace_3_visible>true</trace_3_visible>
@@ -7622,10 +7638,18 @@ $(trace_0_y_pv_value)</tooltip>
         <trace_2_point_style>0</trace_2_point_style>
         <title></title>
         <trace_1_y_pv>$(TS)LLRF4:STATS0:S$(FWD)_mean_ampl</trace_1_y_pv>
+        <axis_2_auto_scale>true</axis_2_auto_scale>
         <pv_name></pv_name>
         <axis_1_minimum>0.0</axis_1_minimum>
+        <axis_2_axis_color>
+          <color red="0" green="0" blue="0" />
+        </axis_2_axis_color>
         <trace_3_plot_mode>0</trace_3_plot_mode>
         <trace_0_visible>true</trace_0_visible>
+        <axis_2_scale_font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </axis_2_scale_font>
+        <axis_2_scale_format></axis_2_scale_format>
         <axis_0_minimum>0.0</axis_0_minimum>
         <border_color>
           <color red="0" green="128" blue="255" />
@@ -7643,6 +7667,7 @@ $(trace_0_y_pv_value)</tooltip>
           <color red="0" green="128" blue="255" />
         </trace_2_trace_color>
         <pv_value />
+        <axis_2_visible>true</axis_2_visible>
         <trace_1_y_axis_index>1</trace_1_y_axis_index>
         <trace_3_anti_alias>true</trace_3_anti_alias>
         <scale_options>
@@ -7663,12 +7688,30 @@ $(trace_0_y_pv_value)</tooltip>
           </rule>
           <rule name="FWD_Visibility" prop_id="trace_1_visible" out_exp="false">
             <exp bool_exp="pvInt0 == 0">
-              <value>true</value>
-            </exp>
-            <exp bool_exp="pvInt0 == 1">
               <value>false</value>
             </exp>
+            <exp bool_exp="pvInt0 == 1">
+              <value>true</value>
+            </exp>
             <pv trig="true">loc://FWDAmp</pv>
+          </rule>
+          <rule name="REV_Visibility" prop_id="trace_2_visible" out_exp="false">
+            <exp bool_exp="pvInt0 == 0">
+              <value>false</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 1">
+              <value>true</value>
+            </exp>
+            <pv trig="true">loc://REVAmp</pv>
+          </rule>
+          <rule name="REF Visbility" prop_id="trace_3_visible" out_exp="false">
+            <exp bool_exp="pvInt0 == 0">
+              <value>false</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 1">
+              <value>true</value>
+            </exp>
+            <pv trig="true">loc://REFAmp</pv>
           </rule>
         </rules>
         <trace_2_y_pv>$(TS)LLRF4:STATS0:S$(REV)_mean_ampl</trace_2_y_pv>
@@ -7694,10 +7737,15 @@ $(trace_0_y_pv_value)</tooltip>
         <trace_count>4</trace_count>
         <trace_2_y_pv_value />
         <axis_0_show_grid>true</axis_0_show_grid>
+        <axis_2_log_scale>false</axis_2_log_scale>
         <axis_0_log_scale>false</axis_0_log_scale>
         <trace_3_point_size>4</trace_3_point_size>
-        <trace_3_y_axis_index>1</trace_3_y_axis_index>
+        <trace_3_y_axis_index>2</trace_3_y_axis_index>
         <trace_1_name>FWD-pha  </trace_1_name>
+        <axis_2_grid_color>
+          <color red="200" green="200" blue="200" />
+        </axis_2_grid_color>
+        <axis_2_minimum>0.0</axis_2_minimum>
         <trace_0_point_size>4</trace_0_point_size>
         <show_legend>true</show_legend>
         <y>450</y>
@@ -7713,7 +7761,9 @@ $(trace_0_y_pv_value)</tooltip>
           <fontdata fontName="Arial" height="9" style="1" />
         </axis_1_title_font>
         <border_width>1</border_width>
+        <axis_2_left_bottom_side>true</axis_2_left_bottom_side>
         <trace_2_x_axis_index>0</trace_2_x_axis_index>
+        <axis_2_show_grid>true</axis_2_show_grid>
         <trace_3_name>REF-pha  </trace_3_name>
         <axis_0_axis_color>
           <color red="0" green="0" blue="0" />
@@ -7731,12 +7781,13 @@ $(trace_0_y_pv_value)</tooltip>
         </axis_0_grid_color>
         <trace_2_line_width>1</trace_2_line_width>
         <trace_1_line_width>1</trace_1_line_width>
-        <trace_2_y_axis_index>1</trace_2_y_axis_index>
+        <trace_2_y_axis_index>2</trace_2_y_axis_index>
         <axis_0_auto_scale_threshold>0.0</axis_0_auto_scale_threshold>
         <trace_2_trace_type>0</trace_2_trace_type>
         <trace_0_name>CAV-pha   </trace_0_name>
         <trace_1_anti_alias>true</trace_1_anti_alias>
         <trace_3_x_pv></trace_3_x_pv>
+        <axis_2_maximum>100.0</axis_2_maximum>
         <trace_0_update_mode>0</trace_0_update_mode>
         <trace_1_buffer_size>100</trace_1_buffer_size>
         <axis_0_axis_title>Time (sec)</axis_0_axis_title>
@@ -7752,7 +7803,8 @@ $(trace_0_y_pv_value)</tooltip>
         </foreground_color>
         <trace_1_update_mode>3</trace_1_update_mode>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <axis_1_axis_title>FWD / REV</axis_1_axis_title>
+        <axis_1_axis_title>CAV, FWD</axis_1_axis_title>
+        <axis_2_y_axis>true</axis_2_y_axis>
         <trace_3_update_mode>0</trace_3_update_mode>
         <axis_0_maximum>100.0</axis_0_maximum>
         <axis_0_scale_font>
@@ -7768,12 +7820,14 @@ $(trace_0_y_pv_value)</tooltip>
         <trace_1_plot_mode>0</trace_1_plot_mode>
         <axis_1_log_scale>false</axis_1_log_scale>
         <trace_1_point_style>0</trace_1_point_style>
+        <axis_2_auto_scale_threshold>0.0</axis_2_auto_scale_threshold>
         <trace_2_plot_mode>0</trace_2_plot_mode>
         <title_font>
           <fontdata fontName="Arial" height="12" style="1" />
         </title_font>
         <trace_3_buffer_size>100</trace_3_buffer_size>
         <axis_1_dash_grid_line>true</axis_1_dash_grid_line>
+        <axis_2_dash_grid_line>true</axis_2_dash_grid_line>
         <axis_0_visible>true</axis_0_visible>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <trace_1_x_pv_value />
@@ -7792,22 +7846,27 @@ $(trace_0_y_pv_value)</tooltip>
         <trigger_pv_value />
         <trace_1_x_pv></trace_1_x_pv>
         <show_plot_area_border>false</show_plot_area_border>
+        <axis_2_axis_title>REV, REF</axis_2_axis_title>
         <widget_type>XY Graph</widget_type>
         <enabled>true</enabled>
         <width>418</width>
         <trace_0_buffer_size>100</trace_0_buffer_size>
         <trigger_pv></trigger_pv>
-        <axis_count>2</axis_count>
+        <axis_count>3</axis_count>
         <trace_2_name>REV-pha  </trace_2_name>
         <transparent>false</transparent>
         <trace_2_anti_alias>true</trace_2_anti_alias>
         <axis_0_dash_grid_line>true</axis_0_dash_grid_line>
         <trace_2_visible>true</trace_2_visible>
         <trace_0_x_axis_index>0</trace_0_x_axis_index>
+        <axis_2_time_format>0</axis_2_time_format>
         <trace_0_point_style>0</trace_0_point_style>
         <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
         <border_alarm_sensitive>true</border_alarm_sensitive>
+        <axis_2_title_font>
+          <fontdata fontName="Arial" height="9" style="1" />
+        </axis_2_title_font>
         <trace_1_x_axis_index>0</trace_1_x_axis_index>
         <trace_0_y_axis_index>1</trace_0_y_axis_index>
         <trace_3_visible>true</trace_3_visible>
@@ -7823,10 +7882,18 @@ $(trace_0_y_pv_value)</tooltip>
         <trace_2_point_style>0</trace_2_point_style>
         <title></title>
         <trace_1_y_pv>$(TS)LLRF4:STATS0:S$(FWD)_mean_phase</trace_1_y_pv>
+        <axis_2_auto_scale>true</axis_2_auto_scale>
         <pv_name></pv_name>
         <axis_1_minimum>0.0</axis_1_minimum>
+        <axis_2_axis_color>
+          <color red="0" green="0" blue="0" />
+        </axis_2_axis_color>
         <trace_3_plot_mode>0</trace_3_plot_mode>
         <trace_0_visible>true</trace_0_visible>
+        <axis_2_scale_font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </axis_2_scale_font>
+        <axis_2_scale_format></axis_2_scale_format>
         <axis_0_minimum>0.0</axis_0_minimum>
         <border_color>
           <color red="0" green="128" blue="255" />
@@ -7844,6 +7911,7 @@ $(trace_0_y_pv_value)</tooltip>
           <color red="0" green="128" blue="255" />
         </trace_2_trace_color>
         <pv_value />
+        <axis_2_visible>true</axis_2_visible>
         <trace_1_y_axis_index>1</trace_1_y_axis_index>
         <trace_3_anti_alias>true</trace_3_anti_alias>
         <scale_options>
@@ -7852,7 +7920,44 @@ $(trace_0_y_pv_value)</tooltip>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <trace_1_concatenate_data>true</trace_1_concatenate_data>
-        <rules />
+        <rules>
+          <rule name="CAV Visibility" prop_id="trace_0_visible" out_exp="false">
+            <exp bool_exp="pvInt0 == 0">
+              <value>false</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 1">
+              <value>true</value>
+            </exp>
+            <pv trig="true">loc://CAVPha</pv>
+          </rule>
+          <rule name="FWD Visibility" prop_id="trace_1_visible" out_exp="false">
+            <exp bool_exp="pvInt0 == 0">
+              <value>false</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 1">
+              <value>true</value>
+            </exp>
+            <pv trig="true">loc://FWDPha</pv>
+          </rule>
+          <rule name="REV Visibility" prop_id="trace_2_visible" out_exp="false">
+            <exp bool_exp="pvInt0 == 0">
+              <value>false</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 1">
+              <value>true</value>
+            </exp>
+            <pv trig="true">loc://REVPha</pv>
+          </rule>
+          <rule name="REF Visibility" prop_id="trace_3_visible" out_exp="false">
+            <exp bool_exp="pvInt0 == 0">
+              <value>false</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 1">
+              <value>true</value>
+            </exp>
+            <pv trig="true">loc://REFPha</pv>
+          </rule>
+        </rules>
         <trace_2_y_pv>$(TS)LLRF4:STATS0:S$(REV)_mean_phase</trace_2_y_pv>
         <trace_0_y_pv_value />
         <trace_0_trace_type>0</trace_0_trace_type>
@@ -8912,13 +9017,13 @@ $(pv_value)</tooltip>
         <width>410</width>
         <border_style>0</border_style>
         <rules />
-        <lock_children>false</lock_children>
+        <lock_children>true</lock_children>
         <border_width>1</border_width>
         <border_color>
           <color red="0" green="128" blue="255" />
         </border_color>
         <actions hook="false" hook_all="false" />
-        <y>744</y>
+        <y>754</y>
         <tooltip></tooltip>
         <x>0</x>
         <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0">
@@ -9916,7 +10021,7 @@ $(pv_value)</tooltip>
           <height_scalable>false</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
-        <pv_name>loc://FWDAmp(0)</pv_name>
+        <pv_name>loc://FWDAmp(1)</pv_name>
         <background_color>
           <color red="240" green="240" blue="240" />
         </background_color>
@@ -9959,7 +10064,7 @@ $(pv_value)</tooltip>
           <height_scalable>false</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
-        <pv_name>loc://CAVAmp(0)</pv_name>
+        <pv_name>loc://CAVAmp(1)</pv_name>
         <background_color>
           <color red="240" green="240" blue="240" />
         </background_color>
@@ -10002,7 +10107,7 @@ $(pv_value)</tooltip>
           <height_scalable>false</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
-        <pv_name>loc://REVAmp(0)</pv_name>
+        <pv_name>loc://REVAmp(1)</pv_name>
         <background_color>
           <color red="240" green="240" blue="240" />
         </background_color>
@@ -10045,7 +10150,7 @@ $(pv_value)</tooltip>
           <height_scalable>false</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
-        <pv_name>loc://REFAmp(0)</pv_name>
+        <pv_name>loc://REFAmp(1)</pv_name>
         <background_color>
           <color red="240" green="240" blue="240" />
         </background_color>
@@ -10070,6 +10175,178 @@ $(pv_value)</tooltip>
         </border_color>
         <actions hook="false" hook_all="false" />
         <y>329</y>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>352</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0">
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>4c537674:138e782a135:-5eeb</wuid>
+        <auto_size>false</auto_size>
+        <scripts />
+        <height>20</height>
+        <name>Check Box</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name>loc://CAVPha(1)</pv_name>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="0" green="0" blue="255" />
+        </foreground_color>
+        <widget_type>Check Box</widget_type>
+        <enabled>true</enabled>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>15</width>
+        <border_style>0</border_style>
+        <label></label>
+        <rules />
+        <pv_value />
+        <bit>0</bit>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <actions hook="false" hook_all="false" />
+        <y>734</y>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>78</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0">
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>4c537674:138e782a135:-5ee4</wuid>
+        <auto_size>false</auto_size>
+        <scripts />
+        <height>20</height>
+        <name>Check Box_1</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name>loc://FWDPha(1)</pv_name>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="0" green="0" blue="255" />
+        </foreground_color>
+        <widget_type>Check Box</widget_type>
+        <enabled>true</enabled>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>15</width>
+        <border_style>0</border_style>
+        <label></label>
+        <rules />
+        <pv_value />
+        <bit>0</bit>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <actions hook="false" hook_all="false" />
+        <y>734</y>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>162</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0">
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>4c537674:138e782a135:-5edd</wuid>
+        <auto_size>false</auto_size>
+        <scripts />
+        <height>20</height>
+        <name>Check Box_2</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name>loc://REVPha(1)</pv_name>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="0" green="0" blue="255" />
+        </foreground_color>
+        <widget_type>Check Box</widget_type>
+        <enabled>true</enabled>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>15</width>
+        <border_style>0</border_style>
+        <label></label>
+        <rules />
+        <pv_value />
+        <bit>0</bit>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <actions hook="false" hook_all="false" />
+        <y>734</y>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>258</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0">
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>4c537674:138e782a135:-5ed6</wuid>
+        <auto_size>false</auto_size>
+        <scripts />
+        <height>20</height>
+        <name>Check Box_3</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>false</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name>loc://REFPha(1)</pv_name>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="0" green="0" blue="255" />
+        </foreground_color>
+        <widget_type>Check Box</widget_type>
+        <enabled>true</enabled>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>15</width>
+        <border_style>0</border_style>
+        <label></label>
+        <rules />
+        <pv_value />
+        <bit>0</bit>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <actions hook="false" hook_all="false" />
+        <y>734</y>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
         <x>352</x>
@@ -10589,57 +10866,6 @@ $(pv_value)</tooltip>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>685</x>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0">
-      <border_alarm_sensitive>true</border_alarm_sensitive>
-      <visible>true</visible>
-      <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
-      <wuid>4c537674:138e782a135:-6e8a</wuid>
-      <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
-      <scripts />
-      <height>20</height>
-      <name>Text Update</name>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
-      <transparent>false</transparent>
-      <pv_name>loc://CAVAmpl</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <widget_type>Text Update</widget_type>
-      <enabled>true</enabled>
-      <text></text>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>100</width>
-      <border_style>0</border_style>
-      <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <horizontal_alignment>0</horizontal_alignment>
-      <actions hook="false" hook_all="false" />
-      <y>22</y>
-      <wrap_words>false</wrap_words>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <x>752</x>
     </widget>
   </widget>
 </display>
