@@ -8,7 +8,7 @@
   <boy_version>3.1.1.20120723</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
-  <height>600</height>
+  <height>960</height>
   <name></name>
   <snap_to_geometry>true</snap_to_geometry>
   <show_grid>true</show_grid>
@@ -20,7 +20,7 @@
   </foreground_color>
   <widget_type>Display</widget_type>
   <show_close_button>true</show_close_button>
-  <width>800</width>
+  <width>1000</width>
   <rules />
   <show_edit_range>true</show_edit_range>
   <grid_space>6</grid_space>
@@ -64,7 +64,7 @@
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>1009</width>
+    <width>1005</width>
     <border_style>0</border_style>
     <rules />
     <lock_children>false</lock_children>
@@ -86,7 +86,7 @@
       <height>151</height>
       <name>Interlock</name>
       <scale_options>
-        <width_scalable>true</width_scalable>
+        <width_scalable>false</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
@@ -106,7 +106,7 @@
       <width>320</width>
       <border_style>0</border_style>
       <rules />
-      <lock_children>false</lock_children>
+      <lock_children>true</lock_children>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -1026,7 +1026,7 @@ $(pv_value)</tooltip>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <alpha>255</alpha>
         <scale_options>
-          <width_scalable>true</width_scalable>
+          <width_scalable>false</width_scalable>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
@@ -1075,7 +1075,7 @@ $(pv_value)</tooltip>
         <height>21</height>
         <name>Label_68</name>
         <scale_options>
-          <width_scalable>true</width_scalable>
+          <width_scalable>false</width_scalable>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
@@ -1117,7 +1117,7 @@ $(pv_value)</tooltip>
         <height>439</height>
         <name>Set 2</name>
         <scale_options>
-          <width_scalable>true</width_scalable>
+          <width_scalable>false</width_scalable>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
@@ -3181,7 +3181,7 @@ $(pv_value)</tooltip>
         <height>179</height>
         <name>Set 1</name>
         <scale_options>
-          <width_scalable>true</width_scalable>
+          <width_scalable>false</width_scalable>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
@@ -4067,7 +4067,7 @@ $(pv_value)</tooltip>
         <height>279</height>
         <name>Set 3</name>
         <scale_options>
-          <width_scalable>true</width_scalable>
+          <width_scalable>false</width_scalable>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
@@ -5608,7 +5608,7 @@ $(pv_value)</tooltip>
       <height>265</height>
       <name>RF Manual Controls</name>
       <scale_options>
-        <width_scalable>true</width_scalable>
+        <width_scalable>false</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
@@ -5628,7 +5628,7 @@ $(pv_value)</tooltip>
       <width>320</width>
       <border_style>0</border_style>
       <rules />
-      <lock_children>false</lock_children>
+      <lock_children>true</lock_children>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -6502,7 +6502,7 @@ $(pv_value)</tooltip>
       <height>79</height>
       <name>Data Dump</name>
       <scale_options>
-        <width_scalable>true</width_scalable>
+        <width_scalable>false</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
@@ -6522,7 +6522,7 @@ $(pv_value)</tooltip>
       <width>320</width>
       <border_style>0</border_style>
       <rules />
-      <lock_children>false</lock_children>
+      <lock_children>true</lock_children>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -6878,7 +6878,7 @@ $(pv_value)</tooltip>
       <height>109</height>
       <name>Power Auto Scan</name>
       <scale_options>
-        <width_scalable>true</width_scalable>
+        <width_scalable>false</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
@@ -6898,7 +6898,7 @@ $(pv_value)</tooltip>
       <width>320</width>
       <border_style>0</border_style>
       <rules />
-      <lock_children>false</lock_children>
+      <lock_children>true</lock_children>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -7370,7 +7370,7 @@ $(pv_value)</tooltip>
       <width>440</width>
       <border_style>0</border_style>
       <rules />
-      <lock_children>false</lock_children>
+      <lock_children>true</lock_children>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -10415,7 +10415,7 @@ $(pv_value)</tooltip>
       <height>121</height>
       <name>Frequency Auto Scan</name>
       <scale_options>
-        <width_scalable>true</width_scalable>
+        <width_scalable>false</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
@@ -10435,7 +10435,7 @@ $(pv_value)</tooltip>
       <width>320</width>
       <border_style>0</border_style>
       <rules />
-      <lock_children>false</lock_children>
+      <lock_children>true</lock_children>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -10884,9 +10884,9 @@ $(pv_value)</tooltip>
       <auto_size>false</auto_size>
       <scripts />
       <height>103</height>
-      <name>Label</name>
+      <name>HelpInfo</name>
       <scale_options>
-        <width_scalable>true</width_scalable>
+        <width_scalable>false</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
