@@ -5413,7 +5413,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>440</width>
+      <width>451</width>
       <border_style>0</border_style>
       <rules />
       <lock_children>true</lock_children>
@@ -5425,97 +5425,10 @@ $(pv_value)</tooltip>
       <y>0</y>
       <tooltip></tooltip>
       <x>235</x>
-      <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0">
+      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
         <visible>true</visible>
-        <actions_from_pv>false</actions_from_pv>
-        <wuid>7b0e122e:138e31abd8a:-7eb1</wuid>
-        <scripts />
-        <height>38</height>
-        <name>Menu Button_1</name>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <transparent>false</transparent>
-        <pv_name></pv_name>
-        <background_color>
-          <color red="240" green="240" blue="240" />
-        </background_color>
-        <foreground_color>
-          <color red="128" green="128" blue="128" />
-        </foreground_color>
-        <widget_type>Menu Button</widget_type>
-        <enabled>true</enabled>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <font>
-          <fontdata fontName="Arial Narrow" height="12" style="1" />
-        </font>
-        <width>120</width>
-        <border_style>6</border_style>
-        <label>EXPERT</label>
-        <rules />
-        <pv_value />
-        <border_width>1</border_width>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <y>0</y>
-        <actions hook="false" hook_all="false" />
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <x>0</x>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0">
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <visible>true</visible>
-        <actions_from_pv>false</actions_from_pv>
-        <wuid>7b0e122e:138e31abd8a:-7eb0</wuid>
-        <scripts />
-        <height>38</height>
-        <name>Menu Button_2</name>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <transparent>false</transparent>
-        <pv_name></pv_name>
-        <background_color>
-          <color red="240" green="240" blue="240" />
-        </background_color>
-        <foreground_color>
-          <color red="128" green="128" blue="128" />
-        </foreground_color>
-        <widget_type>Menu Button</widget_type>
-        <enabled>true</enabled>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <font>
-          <fontdata fontName="Arial Narrow" height="12" style="1" />
-        </font>
-        <width>127</width>
-        <border_style>6</border_style>
-        <label>DATA BUFFER</label>
-        <rules />
-        <pv_value />
-        <border_width>1</border_width>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <y>0</y>
-        <actions hook="false" hook_all="false" />
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <x>119</x>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0">
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <visible>true</visible>
-        <actions_from_pv>false</actions_from_pv>
-        <wuid>7b0e122e:138e31abd8a:-7eaf</wuid>
+        <wuid>2baa2408:138eceaffac:-7c2e</wuid>
         <scripts />
         <height>38</height>
         <name>Menu Button_3</name>
@@ -5525,7 +5438,6 @@ $(pv_value)</tooltip>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
-        <transparent>false</transparent>
         <pv_name></pv_name>
         <background_color>
           <color red="240" green="240" blue="240" />
@@ -5533,32 +5445,43 @@ $(pv_value)</tooltip>
         <foreground_color>
           <color red="128" green="128" blue="128" />
         </foreground_color>
-        <widget_type>Menu Button</widget_type>
+        <widget_type>Action Button</widget_type>
         <enabled>true</enabled>
+        <text>SEL MODE</text>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <font>
           <fontdata fontName="Arial Narrow" height="12" style="1" />
         </font>
-        <width>120</width>
+        <width>119</width>
         <border_style>6</border_style>
-        <label>SEL MODE</label>
+        <push_action_index>0</push_action_index>
+        <image></image>
         <rules />
         <pv_value />
+        <toggle_button>false</toggle_button>
         <border_width>1</border_width>
         <border_color>
           <color red="0" green="128" blue="255" />
         </border_color>
         <y>0</y>
-        <actions hook="false" hook_all="false" />
+        <actions hook="false" hook_all="false">
+          <action type="OPEN_DISPLAY">
+            <path>sel_mode.opi</path>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+            </macros>
+            <replace>0</replace>
+            <description></description>
+          </action>
+        </actions>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>245</x>
+        <x>251</x>
       </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0">
+      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
         <visible>true</visible>
-        <actions_from_pv>false</actions_from_pv>
-        <wuid>7b0e122e:138e31abd8a:-7eae</wuid>
+        <wuid>2baa2408:138eceaffac:-7b15</wuid>
         <scripts />
         <height>38</height>
         <name>Menu Button_4</name>
@@ -5568,7 +5491,6 @@ $(pv_value)</tooltip>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
-        <transparent>false</transparent>
         <pv_name></pv_name>
         <background_color>
           <color red="240" green="240" blue="240" />
@@ -5576,17 +5498,20 @@ $(pv_value)</tooltip>
         <foreground_color>
           <color red="128" green="128" blue="128" />
         </foreground_color>
-        <widget_type>Menu Button</widget_type>
+        <widget_type>Action Button</widget_type>
         <enabled>true</enabled>
+        <text>XGUI</text>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <font>
           <fontdata fontName="Arial Narrow" height="12" style="1" />
         </font>
-        <width>76</width>
+        <width>75</width>
         <border_style>6</border_style>
-        <label>XGUI</label>
+        <push_action_index>0</push_action_index>
+        <image></image>
         <rules />
         <pv_value />
+        <toggle_button>false</toggle_button>
         <border_width>1</border_width>
         <border_color>
           <color red="0" green="128" blue="255" />
@@ -5595,7 +5520,95 @@ $(pv_value)</tooltip>
         <actions hook="false" hook_all="false" />
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>364</x>
+        <x>370</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>2baa2408:138eceaffac:-7ae0</wuid>
+        <scripts />
+        <height>38</height>
+        <name>Menu Button_2</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name></pv_name>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="128" green="128" blue="128" />
+        </foreground_color>
+        <widget_type>Action Button</widget_type>
+        <enabled>true</enabled>
+        <text>DATA BUFFER</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <fontdata fontName="Arial Narrow" height="12" style="1" />
+        </font>
+        <width>133</width>
+        <border_style>6</border_style>
+        <push_action_index>0</push_action_index>
+        <image></image>
+        <rules />
+        <pv_value />
+        <toggle_button>false</toggle_button>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>0</y>
+        <actions hook="false" hook_all="false" />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>118</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>2baa2408:138eceaffac:-7aab</wuid>
+        <scripts />
+        <height>38</height>
+        <name>Menu Button_1</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name></pv_name>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="128" green="128" blue="128" />
+        </foreground_color>
+        <widget_type>Action Button</widget_type>
+        <enabled>true</enabled>
+        <text>EXPERT</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <fontdata fontName="Arial Narrow" height="12" style="1" />
+        </font>
+        <width>119</width>
+        <border_style>6</border_style>
+        <push_action_index>0</push_action_index>
+        <image></image>
+        <rules />
+        <pv_value />
+        <toggle_button>false</toggle_button>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>0</y>
+        <actions hook="false" hook_all="false" />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>0</x>
       </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0">
@@ -7370,7 +7383,7 @@ $(pv_value)</tooltip>
       <width>440</width>
       <border_style>0</border_style>
       <rules />
-      <lock_children>true</lock_children>
+      <lock_children>false</lock_children>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -7997,7 +8010,7 @@ $(trace_0_y_pv_value)</tooltip>
         <width>427</width>
         <border_style>0</border_style>
         <rules />
-        <lock_children>false</lock_children>
+        <lock_children>true</lock_children>
         <border_width>1</border_width>
         <border_color>
           <color red="0" green="128" blue="255" />
@@ -9017,7 +9030,7 @@ $(pv_value)</tooltip>
         <width>410</width>
         <border_style>0</border_style>
         <rules />
-        <lock_children>false</lock_children>
+        <lock_children>true</lock_children>
         <border_width>1</border_width>
         <border_color>
           <color red="0" green="128" blue="255" />
