@@ -1,0 +1,5 @@
+- Speak to Pete
+- Get it set up on the remoate machine
+- Fix the integral sign on the image
+- EXPERT screen
+- XGUI screen
