@@ -37,8 +37,8 @@
       <include_parent_macros>true</include_parent_macros>
       <TS></TS>
       <CAV>1</CAV>
-      <FWD>2</FWD>
-      <REF>3</REF>
+      <FWD>3</FWD>
+      <REF>2</REF>
       <REV>4</REV>
     </macros>
     <visible>true</visible>
@@ -10922,9 +10922,9 @@ $(pv_value)</tooltip>
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
-      <text>First Time Use:
-1. Click anywhere on the GUI in the editor and set the value of TS in the Macros section at the top right of the Properties window.\n
-2. Press the green go button in the top right of Eclipse. Now select the channel of interest (1,2,3,4) using the bottons in the top center.</text>
+      <text>First Time Use: 
+1. Click anywhere on the GUI in the editor and set the value of TS in the Macros section at the top right of the Properties window.
+2. /n iyfg</text>
       <font>
         <fontdata fontName="Sans" height="9" style="0" />
       </font>

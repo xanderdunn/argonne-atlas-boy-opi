@@ -65,7 +65,7 @@
     <rules />
     <crop_bottom>0</crop_bottom>
     <border_width>1</border_width>
-    <image_file>path2.png</image_file>
+    <image_file>images/path2.png</image_file>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
