@@ -1,5 +1,7 @@
 importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
 
+// Useful functions.  Might need in future.
+
 // Get a PV value as a string
 var chann = PVUtil.getString(pvs[0]); //get the PV value
 
