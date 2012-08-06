@@ -1,0 +1,32 @@
+.. $Id: index.rst 870 2012-06-05 19:55:16Z jemian $
+
+Welcome to cssboydeployment's documentation!
+============================================
+
+Purpose
+---------
+
+APS beam lines will deploy this software expecting to 
+use standard screens from the APS, as well as 
+locally-produced screens.  Each beam line will need to 
+install identical customizations at several beam line 
+workstations.   The APS will need occasionally to update 
+the suite of standard screens.
+
+
+Contents:
+
+.. toctree::
+   :maxdepth: 2
+   
+   plans
+   instructions
+
+
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`search`
+
