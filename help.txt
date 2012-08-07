@@ -1,0 +1,6 @@
+- Change axes?
+- First time use
+- Developers are working on auto-scaling
+- Developers are working on starting CSS BOY from command line
+- Take screenshots.  Take graph shots.
+- OPI Editor vs. OPI Runtime
