@@ -29,3 +29,6 @@ fixed in the next version of CSS BOY (> 3.1.1).
 - 9 August 2012: CSS BOY screens can not be started from the commandline.
 This is a limitation caused by the Eclipse framework, but there are
 plausible workarounds.  Developers are working on this.
+
+Instructions for Setting Up synApps Eclipse Project
+http://subversion.xray.aps.anl.gov/admin_bcdaext/cssboy_deployment/
