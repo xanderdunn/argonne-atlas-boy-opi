@@ -1,6 +1,31 @@
-- Change axes?
-- First time use
-- Developers are working on auto-scaling
-- Developers are working on starting CSS BOY from command line
-- Take screenshots.  Take graph shots.
-- OPI Editor vs. OPI Runtime
+OPI Runtime vs. OPI Editor
+Just like MEDM, CSS BOY has an execute mode and an edit mode.
+To switch between them, right click on an OPI in the left-hand Navigator
+pane and choose Open With --> OPI Edtior or OPI Runtime.
+
+First time use
+You will need to set the "TS" macro so that it can properlly find your EPICS
+server.  Open front.opi in Editor mode and click anywhere on the background.
+This should select the widget "root Group."  At the top of the Properties
+pane on the right, click on the Value of the Macros entry.  In the box
+that appears, set the correct value of the TS variable.
+
+Change the axes on a strip chart
+Sometimes you will want to change the axes labeling or the upper and lower
+bounds on the axes while you are running the display.  To do this, click the
+hammer and spanner icon at the top left of the strip chart.  Click the axes
+tab, select the axis you want, and edit its options.  
+
+Take screenshots or graph shots
+On Linux, you can probably take a full screenshot just be pressing the
+Print Screen keyboard key.  
+Either way, you can save an image of any given strip chart in CSS BOY
+by pressing the camera icon at the top right of any strip chart.  
+
+Known Issues
+- 9 August 2012: When a given trace on the front.opi screen is hidden, 
+the graph does not correctly ignore it when autoscaling.  This will be
+fixed in the next version of CSS BOY (> 3.1.1).  
+- 9 August 2012: CSS BOY screens can not be started from the commandline.
+This is a limitation caused by the Eclipse framework, but there are
+plausible workarounds.  Developers are working on this.
