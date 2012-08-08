@@ -2458,7 +2458,7 @@ $(pv_value)</tooltip>
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
-      <text>en_slowadc</text>
+      <text>max1820_mux_ctl</text>
       <font>
         <fontdata fontName="Arial Narrow" height="9" style="0" />
       </font>
@@ -2499,7 +2499,7 @@ $(pv_value)</tooltip>
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
-      <text>en_pin</text>
+      <text>dac_reconfig</text>
       <font>
         <fontdata fontName="Arial Narrow" height="9" style="0" />
       </font>
@@ -2540,7 +2540,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:en_dallas_bo</pv_name>
+      <pv_name>$(TS)LLRF4:DRV0:max1820_sync_enable_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -2600,7 +2600,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:en_slowadc_bo</pv_name>
+      <pv_name>$(TS)LLRF4:DRV0:max1820_mux_ctl_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -2660,7 +2660,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:en_pin_bo</pv_name>
+      <pv_name>$(TS)LLRF4:DRV0:dac_reconfig_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -3467,7 +3467,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <wuid>2baa2408:138eceaffac:-6f80</wuid>
     <scripts />
-    <height>835</height>
+    <height>853</height>
     <name>controls</name>
     <scale_options>
       <width_scalable>false</width_scalable>
@@ -4027,7 +4027,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>240</y>
+      <y>259</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -4068,7 +4068,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>260</y>
+      <y>279</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -4109,7 +4109,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>280</y>
+      <y>299</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -4150,7 +4150,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>300</y>
+      <y>319</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -4191,7 +4191,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>320</y>
+      <y>339</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -4232,7 +4232,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>340</y>
+      <y>359</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -4273,7 +4273,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>360</y>
+      <y>379</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -4314,7 +4314,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>380</y>
+      <y>399</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -4355,7 +4355,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>400</y>
+      <y>419</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -4396,7 +4396,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>420</y>
+      <y>439</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -5111,7 +5111,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>239</y>
+      <y>258</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -5166,7 +5166,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>259</y>
+      <y>278</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -5221,7 +5221,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>279</y>
+      <y>298</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -5276,7 +5276,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>299</y>
+      <y>318</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -5331,7 +5331,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>319</y>
+      <y>338</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -5386,7 +5386,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>339</y>
+      <y>358</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -5441,7 +5441,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>359</y>
+      <y>378</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -5496,7 +5496,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>379</y>
+      <y>398</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -5551,7 +5551,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>399</y>
+      <y>418</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -5606,7 +5606,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>419</y>
+      <y>438</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -6230,7 +6230,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>239</y>
+      <y>258</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -6278,7 +6278,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>259</y>
+      <y>278</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -6326,7 +6326,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>279</y>
+      <y>298</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -6374,7 +6374,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>299</y>
+      <y>318</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -6422,7 +6422,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>319</y>
+      <y>338</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -6470,7 +6470,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>339</y>
+      <y>358</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -6518,7 +6518,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>359</y>
+      <y>378</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -6566,7 +6566,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>379</y>
+      <y>398</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -6614,7 +6614,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>399</y>
+      <y>418</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -6662,7 +6662,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>419</y>
+      <y>438</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -6703,7 +6703,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>440</y>
+      <y>459</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -6731,7 +6731,7 @@ $(pv_value)</tooltip>
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
-      <text>max1820_divset</text>
+      <text>max1820_div_ctl</text>
       <font>
         <fontdata fontName="Arial Narrow" height="9" style="0" />
       </font>
@@ -6744,7 +6744,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>460</y>
+      <y>479</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -6772,7 +6772,7 @@ $(pv_value)</tooltip>
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
-      <text>mcp_3208_divset</text>
+      <text>mcp3208_divset</text>
       <font>
         <fontdata fontName="Arial Narrow" height="9" style="0" />
       </font>
@@ -6785,7 +6785,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>480</y>
+      <y>499</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -6813,7 +6813,7 @@ $(pv_value)</tooltip>
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
-      <text>mcp_3208_trigset</text>
+      <text>mcp3208_trigset</text>
       <font>
         <fontdata fontName="Arial Narrow" height="9" style="0" />
       </font>
@@ -6826,7 +6826,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>500</y>
+      <y>519</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -6867,7 +6867,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>520</y>
+      <y>539</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -6908,7 +6908,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>540</y>
+      <y>559</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -6949,7 +6949,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>560</y>
+      <y>579</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -7004,7 +7004,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>559</y>
+      <y>578</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -7059,7 +7059,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>539</y>
+      <y>558</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -7114,7 +7114,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>519</y>
+      <y>538</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -7169,7 +7169,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>499</y>
+      <y>518</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -7224,7 +7224,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>479</y>
+      <y>498</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -7279,7 +7279,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>459</y>
+      <y>478</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -7334,7 +7334,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>439</y>
+      <y>458</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -7382,7 +7382,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>439</y>
+      <y>458</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -7430,7 +7430,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>459</y>
+      <y>478</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -7478,7 +7478,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>479</y>
+      <y>498</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -7526,7 +7526,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>499</y>
+      <y>518</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -7574,7 +7574,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>519</y>
+      <y>538</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -7622,7 +7622,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>539</y>
+      <y>558</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -7670,7 +7670,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>559</y>
+      <y>578</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -7718,7 +7718,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>684</y>
+      <y>703</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -7773,7 +7773,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>684</y>
+      <y>703</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -7821,7 +7821,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>704</y>
+      <y>723</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -7869,7 +7869,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>606</y>
+      <y>625</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -7910,7 +7910,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>607</y>
+      <y>626</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -7965,7 +7965,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>626</y>
+      <y>645</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -8006,7 +8006,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>742</y>
+      <y>761</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -8047,7 +8047,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>685</y>
+      <y>704</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -8095,7 +8095,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>779</y>
+      <y>798</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -8136,7 +8136,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>627</y>
+      <y>646</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -8177,7 +8177,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>647</y>
+      <y>666</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -8218,7 +8218,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>761</y>
+      <y>780</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -8273,7 +8273,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>646</y>
+      <y>665</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -8314,7 +8314,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>722</y>
+      <y>741</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -8355,7 +8355,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>705</y>
+      <y>724</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -8403,7 +8403,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>646</y>
+      <y>665</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -8451,7 +8451,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>741</y>
+      <y>760</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -8492,7 +8492,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>665</y>
+      <y>684</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -8547,7 +8547,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>721</y>
+      <y>740</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -8602,7 +8602,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>606</y>
+      <y>625</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -8643,7 +8643,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>780</y>
+      <y>799</y>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>0</x>
@@ -8698,7 +8698,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>760</y>
+      <y>779</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -8746,7 +8746,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>664</y>
+      <y>683</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -8794,7 +8794,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>760</y>
+      <y>779</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -8849,7 +8849,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>779</y>
+      <y>798</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -8897,7 +8897,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>721</y>
+      <y>740</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -8945,7 +8945,7 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>626</y>
+      <y>645</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>210</x>
@@ -9000,7 +9000,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>704</y>
+      <y>723</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -9055,7 +9055,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>741</y>
+      <y>760</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -9108,7 +9108,7 @@ $(pv_value)</tooltip>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
-      <y>802</y>
+      <y>821</y>
       <actions hook="false" hook_all="false" />
       <x>33</x>
       <tooltip>$(pv_name)
@@ -9164,7 +9164,7 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>664</y>
+      <y>683</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>120</x>
@@ -9190,8 +9190,8 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>true</keep_wh_ratio>
       </scale_options>
       <points>
-        <point x="97" y="594" />
-        <point x="276" y="594" />
+        <point x="97" y="613" />
+        <point x="276" y="613" />
       </points>
       <transparent>false</transparent>
       <pv_name></pv_name>
@@ -9219,10 +9219,154 @@ $(pv_value)</tooltip>
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>594</y>
+      <y>613</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>97</x>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0">
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <wuid>-5551dad0:13902c2c307:-75ad</wuid>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>17</height>
+      <name>Label_89</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <transparent>true</transparent>
+      <show_scrollbar>false</show_scrollbar>
+      <background_color>
+        <color red="226" green="226" blue="226" />
+      </background_color>
+      <foreground_color>
+        <color red="40" green="40" blue="40" />
+      </foreground_color>
+      <widget_type>Label</widget_type>
+      <enabled>true</enabled>
+      <text>chirp_power</text>
+      <font>
+        <fontdata fontName="Arial Narrow" height="9" style="0" />
+      </font>
+      <width>115</width>
+      <border_style>0</border_style>
+      <rules />
+      <border_width>1</border_width>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <horizontal_alignment>2</horizontal_alignment>
+      <actions hook="false" hook_all="false" />
+      <y>239</y>
+      <wrap_words>true</wrap_words>
+      <tooltip></tooltip>
+      <x>0</x>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+      <visible>true</visible>
+      <minimum>-1.7976931348623157E308</minimum>
+      <vertical_alignment>1</vertical_alignment>
+      <show_units>true</show_units>
+      <multiline_input>false</multiline_input>
+      <wuid>-5551dad0:13902c2c307:-75ac</wuid>
+      <auto_size>false</auto_size>
+      <rotation_angle>0.0</rotation_angle>
+      <scripts />
+      <height>19</height>
+      <name>Text Update_21</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <format_type>0</format_type>
+      <precision_from_pv>true</precision_from_pv>
+      <transparent>false</transparent>
+      <selector_type>0</selector_type>
+      <pv_name>$(TS)LLRF4:chirp_power_ao</pv_name>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <precision>0</precision>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <rules />
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <limits_from_pv>false</limits_from_pv>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <horizontal_alignment>0</horizontal_alignment>
+      <actions hook="false" hook_all="false" />
+      <y>239</y>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <x>120</x>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.scrollbar" version="1.0">
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+      <visible>true</visible>
+      <minimum>-1.7976931348623157E308</minimum>
+      <wuid>-5551dad0:13902c2c307:-75ab</wuid>
+      <show_value_tip>true</show_value_tip>
+      <bar_length>10.0</bar_length>
+      <scripts />
+      <height>20</height>
+      <name>Text Update_21</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <page_increment>10.0</page_increment>
+      <pv_name>$(TS)LLRF4:chirp_power_ao</pv_name>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <widget_type>Scrollbar</widget_type>
+      <enabled>true</enabled>
+      <step_increment>1.0</step_increment>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>120</width>
+      <border_style>0</border_style>
+      <rules />
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <horizontal>true</horizontal>
+      <limits_from_pv>true</limits_from_pv>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <actions hook="false" hook_all="false" />
+      <y>239</y>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <x>210</x>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0">
