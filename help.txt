@@ -10,6 +10,13 @@ This should select the widget "root Group."  At the top of the Properties
 pane on the right, click on the Value of the Macros entry.  In the box
 that appears, set the correct value of the TS variable.
 
+Autoscale/Rescale
+Pressing the Rescale button will alter that specific y-axis so that the y-axis
+max is the current larger value + some offset, while the y-axis min is the
+current smaller value - some offset.  
+To set it back to autoscale, where all the data are within visible range, press
+the autoscale button on the left side at the top of the XYGraph.
+
 Change the axes on a strip chart
 Sometimes you will want to change the axes labeling or the upper and lower
 bounds on the axes while you are running the display.  To do this, click the
@@ -29,6 +36,10 @@ fixed in the next version of CSS BOY (> 3.1.1).
 - 9 August 2012: CSS BOY screens can not be started from the commandline.
 This is a limitation caused by the Eclipse framework, but there are
 plausible workarounds.  Developers are working on this.
+- 9 August 2012: Running CSS BOY using Sun Java causes various problems,
+including a performance drag.  If you have Sun Java installed, make sure
+Eclipse is using openJDK by forcing it on the command-line:
+./css -vm /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/bin/java
 
 Instructions for Setting Up synApps Eclipse Project
 http://subversion.xray.aps.anl.gov/admin_bcdaext/cssboy_deployment/

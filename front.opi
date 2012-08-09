@@ -7378,7 +7378,7 @@ $(pv_value)</tooltip>
       <visible>true</visible>
       <wuid>7b0e122e:138e31abd8a:-7e88</wuid>
       <scripts />
-      <height>841</height>
+      <height>907</height>
       <name>Strip Charts</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -7422,7 +7422,7 @@ $(pv_value)</tooltip>
           <color red="255" green="255" blue="255" />
         </bg_gradient_color>
         <scripts />
-        <height>841</height>
+        <height>907</height>
         <anti_alias>true</anti_alias>
         <corner_height>16</corner_height>
         <name>Rounded Rectangle</name>
@@ -7686,7 +7686,18 @@ $(trace_0_y_pv_value)</tooltip>
           <color red="0" green="128" blue="255" />
         </border_color>
         <trace_3_update_delay>100</trace_3_update_delay>
-        <scripts />
+        <scripts>
+          <path pathString="rescale_1.js" checkConnect="true" sfe="false" seoe="false">
+            <pv trig="true">loc://rescale1</pv>
+            <pv trig="false">$(TS)LLRF4:STATS0:S$(CAV)_mean_ampl</pv>
+            <pv trig="false">$(TS)LLRF4:STATS0:S$(FWD)_mean_ampl</pv>
+          </path>
+          <path pathString="rescale_2.js" checkConnect="true" sfe="false" seoe="false">
+            <pv trig="true">loc://rescale2</pv>
+            <pv trig="false">$(TS)LLRF4:STATS0:S$(REV)_mean_ampl</pv>
+            <pv trig="false">$(TS)LLRF4:STATS0:S$(REF)_mean_ampl</pv>
+          </path>
+        </scripts>
         <trace_0_anti_alias>true</trace_0_anti_alias>
         <background_color>
           <color red="240" green="240" blue="240" />
@@ -7744,6 +7755,24 @@ $(trace_0_y_pv_value)</tooltip>
             </exp>
             <pv trig="true">loc://REFAmp</pv>
           </rule>
+          <rule name="axis_2_autoscale" prop_id="axis_2_auto_scale" out_exp="false">
+            <exp bool_exp="pvInt0 == 1">
+              <value>true</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 0">
+              <value>false</value>
+            </exp>
+            <pv trig="true">loc://autoscale_1</pv>
+          </rule>
+          <rule name="axis_1_autoscale" prop_id="axis_1_auto_scale" out_exp="false">
+            <exp bool_exp="pvInt0 == 1">
+              <value>true</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 0">
+              <value>false</value>
+            </exp>
+            <pv trig="true">loc://autoscale_1</pv>
+          </rule>
         </rules>
         <trace_2_y_pv>$(TS)LLRF4:STATS0:S$(REV)_mean_ampl</trace_2_y_pv>
         <trace_0_y_pv_value />
@@ -7779,8 +7808,8 @@ $(trace_0_y_pv_value)</tooltip>
         <axis_2_minimum>0.0</axis_2_minimum>
         <trace_0_point_size>4</trace_0_point_size>
         <show_legend>true</show_legend>
-        <y>450</y>
-        <x>10</x>
+        <y>474</y>
+        <x>9</x>
         <visible>true</visible>
         <trace_0_x_pv_value />
         <axis_1_visible>true</axis_1_visible>
@@ -7800,7 +7829,7 @@ $(trace_0_y_pv_value)</tooltip>
           <color red="0" green="0" blue="0" />
         </axis_0_axis_color>
         <axis_1_scale_format></axis_1_scale_format>
-        <name>Bottom Graph</name>
+        <name>BottomGraph</name>
         <axis_1_auto_scale_threshold>0.0</axis_1_auto_scale_threshold>
         <trace_0_line_width>1</trace_0_line_width>
         <trace_2_x_pv_value />
@@ -7930,7 +7959,18 @@ $(trace_0_y_pv_value)</tooltip>
           <color red="0" green="128" blue="255" />
         </border_color>
         <trace_3_update_delay>100</trace_3_update_delay>
-        <scripts />
+        <scripts>
+          <path pathString="rescale_3.js" checkConnect="true" sfe="false" seoe="false">
+            <pv trig="true">loc://rescale3</pv>
+            <pv trig="true">$(TS)LLRF4:STATS0:S$(CAV)_mean_phase</pv>
+            <pv trig="true">$(TS)LLRF4:STATS0:S$(FWD)_mean_phase</pv>
+          </path>
+          <path pathString="rescale_4.js" checkConnect="true" sfe="false" seoe="false">
+            <pv trig="true">loc://rescale4</pv>
+            <pv trig="true">$(TS)LLRF4:STATS0:S$(REV)_mean_phase</pv>
+            <pv trig="true">$(TS)LLRF4:STATS0:S$(REF)_mean_phase</pv>
+          </path>
+        </scripts>
         <trace_0_anti_alias>true</trace_0_anti_alias>
         <background_color>
           <color red="240" green="240" blue="240" />
@@ -7988,6 +8028,24 @@ $(trace_0_y_pv_value)</tooltip>
             </exp>
             <pv trig="true">loc://REFPha</pv>
           </rule>
+          <rule name="axis_1_autoscale" prop_id="axis_1_auto_scale" out_exp="false">
+            <exp bool_exp="pvInt0 == 1">
+              <value>true</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 0">
+              <value>false</value>
+            </exp>
+            <pv trig="true">loc://autoscale_2</pv>
+          </rule>
+          <rule name="axis_2_autoscale" prop_id="axis_2_auto_scale" out_exp="false">
+            <exp bool_exp="pvInt0 == 0">
+              <value>false</value>
+            </exp>
+            <exp bool_exp="pvInt0 == 1">
+              <value>true</value>
+            </exp>
+            <pv trig="true">loc://autoscale_2</pv>
+          </rule>
         </rules>
         <trace_2_y_pv>$(TS)LLRF4:STATS0:S$(REV)_mean_phase</trace_2_y_pv>
         <trace_0_y_pv_value />
@@ -8028,7 +8086,7 @@ $(trace_0_y_pv_value)</tooltip>
         <width>481</width>
         <border_style>0</border_style>
         <rules />
-        <lock_children>false</lock_children>
+        <lock_children>true</lock_children>
         <border_width>1</border_width>
         <border_color>
           <color red="0" green="128" blue="255" />
@@ -9048,15 +9106,15 @@ $(pv_value)</tooltip>
         <width>481</width>
         <border_style>0</border_style>
         <rules />
-        <lock_children>false</lock_children>
+        <lock_children>true</lock_children>
         <border_width>1</border_width>
         <border_color>
           <color red="0" green="128" blue="255" />
         </border_color>
         <actions hook="false" hook_all="false" />
-        <y>754</y>
+        <y>778</y>
         <tooltip></tooltip>
-        <x>0</x>
+        <x>-1</x>
         <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0">
           <visible>true</visible>
           <vertical_alignment>1</vertical_alignment>
@@ -10248,10 +10306,10 @@ $(pv_value)</tooltip>
           <color red="0" green="128" blue="255" />
         </border_color>
         <actions hook="false" hook_all="false" />
-        <y>734</y>
+        <y>758</y>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>91</x>
+        <x>90</x>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0">
         <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -10291,10 +10349,10 @@ $(pv_value)</tooltip>
           <color red="0" green="128" blue="255" />
         </border_color>
         <actions hook="false" hook_all="false" />
-        <y>734</y>
+        <y>758</y>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>190</x>
+        <x>189</x>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0">
         <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -10334,10 +10392,10 @@ $(pv_value)</tooltip>
           <color red="0" green="128" blue="255" />
         </border_color>
         <actions hook="false" hook_all="false" />
-        <y>735</y>
+        <y>759</y>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>293</x>
+        <x>292</x>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0">
         <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -10377,10 +10435,10 @@ $(pv_value)</tooltip>
           <color red="0" green="128" blue="255" />
         </border_color>
         <actions hook="false" hook_all="false" />
-        <y>734</y>
+        <y>758</y>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>388</x>
+        <x>387</x>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -10483,6 +10541,210 @@ $(pv_value)</tooltip>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
         <x>234</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>20d46de:1390c23e211:-7f1b</wuid>
+        <scripts />
+        <height>25</height>
+        <name>rescale1</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name>loc://rescale1</pv_name>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <widget_type>Action Button</widget_type>
+        <enabled>true</enabled>
+        <text>Rescale</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>65</width>
+        <border_style>0</border_style>
+        <push_action_index>0</push_action_index>
+        <image></image>
+        <rules />
+        <pv_value />
+        <toggle_button>false</toggle_button>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>432</y>
+        <actions hook="false" hook_all="false">
+          <action type="WRITE_PV">
+            <pv_name>loc://rescale1</pv_name>
+            <value>1</value>
+            <timeout>10</timeout>
+            <description></description>
+          </action>
+        </actions>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>120</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>20d46de:1390c23e211:-7d49</wuid>
+        <scripts />
+        <height>25</height>
+        <name>rescale2</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name>loc://rescale2</pv_name>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <widget_type>Action Button</widget_type>
+        <enabled>true</enabled>
+        <text>Rescale</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>65</width>
+        <border_style>0</border_style>
+        <push_action_index>0</push_action_index>
+        <image></image>
+        <rules />
+        <pv_value />
+        <toggle_button>false</toggle_button>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>432</y>
+        <actions hook="false" hook_all="false">
+          <action type="WRITE_PV">
+            <pv_name>loc://rescale2</pv_name>
+            <value>1</value>
+            <timeout>10</timeout>
+            <description></description>
+          </action>
+        </actions>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>323</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>20d46de:1390c23e211:-7d42</wuid>
+        <scripts />
+        <height>25</height>
+        <name>rescale3</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name>loc://rescale3</pv_name>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <widget_type>Action Button</widget_type>
+        <enabled>true</enabled>
+        <text>Rescale</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>65</width>
+        <border_style>0</border_style>
+        <push_action_index>0</push_action_index>
+        <image></image>
+        <rules />
+        <pv_value />
+        <toggle_button>false</toggle_button>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>864</y>
+        <actions hook="false" hook_all="false">
+          <action type="WRITE_PV">
+            <pv_name>loc://rescale3</pv_name>
+            <value>1</value>
+            <timeout>10</timeout>
+            <description></description>
+          </action>
+        </actions>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>120</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>20d46de:1390c23e211:-7d3b</wuid>
+        <scripts />
+        <height>25</height>
+        <name>rescale4</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name>loc://rescale4</pv_name>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <widget_type>Action Button</widget_type>
+        <enabled>true</enabled>
+        <text>Rescale</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>65</width>
+        <border_style>0</border_style>
+        <push_action_index>0</push_action_index>
+        <image></image>
+        <rules />
+        <pv_value />
+        <toggle_button>false</toggle_button>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>864</y>
+        <actions hook="false" hook_all="false">
+          <action type="WRITE_PV">
+            <pv_name>loc://rescale4</pv_name>
+            <value>1</value>
+            <timeout>10</timeout>
+            <description></description>
+          </action>
+        </actions>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>318</x>
       </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0">
