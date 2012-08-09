@@ -7755,24 +7755,6 @@ $(trace_0_y_pv_value)</tooltip>
             </exp>
             <pv trig="true">loc://REFAmp</pv>
           </rule>
-          <rule name="axis_2_autoscale" prop_id="axis_2_auto_scale" out_exp="false">
-            <exp bool_exp="pvInt0 == 1">
-              <value>true</value>
-            </exp>
-            <exp bool_exp="pvInt0 == 0">
-              <value>false</value>
-            </exp>
-            <pv trig="true">loc://autoscale_1</pv>
-          </rule>
-          <rule name="axis_1_autoscale" prop_id="axis_1_auto_scale" out_exp="false">
-            <exp bool_exp="pvInt0 == 1">
-              <value>true</value>
-            </exp>
-            <exp bool_exp="pvInt0 == 0">
-              <value>false</value>
-            </exp>
-            <pv trig="true">loc://autoscale_1</pv>
-          </rule>
         </rules>
         <trace_2_y_pv>$(TS)LLRF4:STATS0:S$(REV)_mean_ampl</trace_2_y_pv>
         <trace_0_y_pv_value />
@@ -8027,24 +8009,6 @@ $(trace_0_y_pv_value)</tooltip>
               <value>true</value>
             </exp>
             <pv trig="true">loc://REFPha</pv>
-          </rule>
-          <rule name="axis_1_autoscale" prop_id="axis_1_auto_scale" out_exp="false">
-            <exp bool_exp="pvInt0 == 1">
-              <value>true</value>
-            </exp>
-            <exp bool_exp="pvInt0 == 0">
-              <value>false</value>
-            </exp>
-            <pv trig="true">loc://autoscale_2</pv>
-          </rule>
-          <rule name="axis_2_autoscale" prop_id="axis_2_auto_scale" out_exp="false">
-            <exp bool_exp="pvInt0 == 0">
-              <value>false</value>
-            </exp>
-            <exp bool_exp="pvInt0 == 1">
-              <value>true</value>
-            </exp>
-            <pv trig="true">loc://autoscale_2</pv>
           </rule>
         </rules>
         <trace_2_y_pv>$(TS)LLRF4:STATS0:S$(REV)_mean_phase</trace_2_y_pv>
