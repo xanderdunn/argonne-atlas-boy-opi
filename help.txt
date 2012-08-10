@@ -43,3 +43,8 @@ Eclipse is using openJDK by forcing it on the command-line:
 
 Instructions for Setting Up synApps Eclipse Project
 http://subversion.xray.aps.anl.gov/admin_bcdaext/cssboy_deployment/
+
+TODO:
+- 10 August 2012: Rewrite the rescale JavaScripts into a single Python
+script which uses a function call.  This will greatly reduce code
+duplication.

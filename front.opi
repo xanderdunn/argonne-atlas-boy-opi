@@ -5413,7 +5413,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>451</width>
+      <width>372</width>
       <border_style>0</border_style>
       <rules />
       <lock_children>false</lock_children>
@@ -5477,59 +5477,6 @@ $(pv_value)</tooltip>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
         <x>251</x>
-      </widget>
-      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
-        <border_alarm_sensitive>false</border_alarm_sensitive>
-        <visible>true</visible>
-        <wuid>2baa2408:138eceaffac:-7b15</wuid>
-        <scripts />
-        <height>38</height>
-        <name>Menu Button_4</name>
-        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-        <scale_options>
-          <width_scalable>true</width_scalable>
-          <height_scalable>true</height_scalable>
-          <keep_wh_ratio>false</keep_wh_ratio>
-        </scale_options>
-        <pv_name></pv_name>
-        <background_color>
-          <color red="240" green="240" blue="240" />
-        </background_color>
-        <foreground_color>
-          <color red="0" green="0" blue="0" />
-        </foreground_color>
-        <widget_type>Action Button</widget_type>
-        <enabled>false</enabled>
-        <text>XGUI</text>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-        <font>
-          <fontdata fontName="Arial Narrow" height="12" style="1" />
-        </font>
-        <width>75</width>
-        <border_style>6</border_style>
-        <push_action_index>0</push_action_index>
-        <image></image>
-        <rules />
-        <pv_value />
-        <toggle_button>false</toggle_button>
-        <border_width>1</border_width>
-        <border_color>
-          <color red="0" green="128" blue="255" />
-        </border_color>
-        <y>0</y>
-        <actions hook="false" hook_all="false">
-          <action type="OPEN_DISPLAY">
-            <path>xgui.opi</path>
-            <macros>
-              <include_parent_macros>true</include_parent_macros>
-            </macros>
-            <replace>1</replace>
-            <description></description>
-          </action>
-        </actions>
-        <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-        <x>370</x>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -7691,11 +7638,13 @@ $(trace_0_y_pv_value)</tooltip>
             <pv trig="true">loc://rescale1</pv>
             <pv trig="false">$(TS)LLRF4:STATS0:S$(CAV)_mean_ampl</pv>
             <pv trig="false">$(TS)LLRF4:STATS0:S$(FWD)_mean_ampl</pv>
+            <pv trig="false">loc://offset1</pv>
           </path>
           <path pathString="rescale_2.js" checkConnect="true" sfe="false" seoe="false">
             <pv trig="true">loc://rescale2</pv>
             <pv trig="false">$(TS)LLRF4:STATS0:S$(REV)_mean_ampl</pv>
             <pv trig="false">$(TS)LLRF4:STATS0:S$(REF)_mean_ampl</pv>
+            <pv trig="false">loc://offset2</pv>
           </path>
         </scripts>
         <trace_0_anti_alias>true</trace_0_anti_alias>
@@ -7944,13 +7893,15 @@ $(trace_0_y_pv_value)</tooltip>
         <scripts>
           <path pathString="rescale_3.js" checkConnect="true" sfe="false" seoe="false">
             <pv trig="true">loc://rescale3</pv>
-            <pv trig="true">$(TS)LLRF4:STATS0:S$(CAV)_mean_phase</pv>
-            <pv trig="true">$(TS)LLRF4:STATS0:S$(FWD)_mean_phase</pv>
+            <pv trig="false">$(TS)LLRF4:STATS0:S$(CAV)_mean_phase</pv>
+            <pv trig="false">$(TS)LLRF4:STATS0:S$(FWD)_mean_phase</pv>
+            <pv trig="false">loc://offset3</pv>
           </path>
           <path pathString="rescale_4.js" checkConnect="true" sfe="false" seoe="false">
             <pv trig="true">loc://rescale4</pv>
-            <pv trig="true">$(TS)LLRF4:STATS0:S$(REV)_mean_phase</pv>
-            <pv trig="true">$(TS)LLRF4:STATS0:S$(REF)_mean_phase</pv>
+            <pv trig="false">$(TS)LLRF4:STATS0:S$(REV)_mean_phase</pv>
+            <pv trig="false">$(TS)LLRF4:STATS0:S$(REF)_mean_phase</pv>
+            <pv trig="false">loc://offset4</pv>
           </path>
         </scripts>
         <trace_0_anti_alias>true</trace_0_anti_alias>
@@ -10544,7 +10495,7 @@ $(pv_value)</tooltip>
         <border_color>
           <color red="0" green="128" blue="255" />
         </border_color>
-        <y>432</y>
+        <y>435</y>
         <actions hook="false" hook_all="false">
           <action type="WRITE_PV">
             <pv_name>loc://rescale1</pv_name>
@@ -10555,7 +10506,7 @@ $(pv_value)</tooltip>
         </actions>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>120</x>
+        <x>80</x>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -10595,7 +10546,7 @@ $(pv_value)</tooltip>
         <border_color>
           <color red="0" green="128" blue="255" />
         </border_color>
-        <y>432</y>
+        <y>435</y>
         <actions hook="false" hook_all="false">
           <action type="WRITE_PV">
             <pv_name>loc://rescale2</pv_name>
@@ -10606,7 +10557,7 @@ $(pv_value)</tooltip>
         </actions>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>323</x>
+        <x>276</x>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -10657,7 +10608,7 @@ $(pv_value)</tooltip>
         </actions>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>120</x>
+        <x>80</x>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -10708,7 +10659,223 @@ $(pv_value)</tooltip>
         </actions>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>318</x>
+        <x>276</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <read_only>false</read_only>
+        <visible>true</visible>
+        <minimum>-Infinity</minimum>
+        <show_units>false</show_units>
+        <multiline_input>false</multiline_input>
+        <wuid>5321f133:1391105beff:-7c23</wuid>
+        <show_native_border>false</show_native_border>
+        <auto_size>false</auto_size>
+        <scripts />
+        <height>25</height>
+        <password_input>false</password_input>
+        <name>offset1</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <format_type>0</format_type>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <precision_from_pv>false</precision_from_pv>
+        <pv_name>loc://offset1(7.0)</pv_name>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <enabled>true</enabled>
+        <widget_type>Text</widget_type>
+        <text></text>
+        <precision>1</precision>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>70</width>
+        <border_style>0</border_style>
+        <rules />
+        <pv_value />
+        <maximum>Infinity</maximum>
+        <border_width>1</border_width>
+        <limits_from_pv>false</limits_from_pv>
+        <horizontal_alignment>0</horizontal_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>435</y>
+        <actions hook="false" hook_all="false" />
+        <x>155</x>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <read_only>false</read_only>
+        <visible>true</visible>
+        <minimum>-1.7976931348623157E308</minimum>
+        <show_units>false</show_units>
+        <multiline_input>false</multiline_input>
+        <wuid>5321f133:1391105beff:-74de</wuid>
+        <show_native_border>false</show_native_border>
+        <auto_size>false</auto_size>
+        <scripts />
+        <height>25</height>
+        <password_input>false</password_input>
+        <name>offset3</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <format_type>0</format_type>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <precision_from_pv>false</precision_from_pv>
+        <pv_name>loc://offset3(7.0)</pv_name>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <enabled>true</enabled>
+        <widget_type>Text</widget_type>
+        <text></text>
+        <precision>1</precision>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>70</width>
+        <border_style>0</border_style>
+        <rules />
+        <pv_value />
+        <maximum>1.7976931348623157E308</maximum>
+        <border_width>1</border_width>
+        <limits_from_pv>false</limits_from_pv>
+        <horizontal_alignment>0</horizontal_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>864</y>
+        <actions hook="false" hook_all="false" />
+        <x>155</x>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <read_only>false</read_only>
+        <visible>true</visible>
+        <minimum>-1.7976931348623157E308</minimum>
+        <show_units>false</show_units>
+        <multiline_input>false</multiline_input>
+        <wuid>5321f133:1391105beff:-74d7</wuid>
+        <show_native_border>false</show_native_border>
+        <auto_size>false</auto_size>
+        <scripts />
+        <height>25</height>
+        <password_input>false</password_input>
+        <name>offset4</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <format_type>0</format_type>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <precision_from_pv>false</precision_from_pv>
+        <pv_name>loc://offset4(2.0)</pv_name>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <enabled>true</enabled>
+        <widget_type>Text</widget_type>
+        <text></text>
+        <precision>1</precision>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>70</width>
+        <border_style>0</border_style>
+        <rules />
+        <pv_value />
+        <maximum>1.7976931348623157E308</maximum>
+        <border_width>1</border_width>
+        <limits_from_pv>false</limits_from_pv>
+        <horizontal_alignment>0</horizontal_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>864</y>
+        <actions hook="false" hook_all="false" />
+        <x>354</x>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <read_only>false</read_only>
+        <visible>true</visible>
+        <minimum>-1.7976931348623157E308</minimum>
+        <show_units>false</show_units>
+        <multiline_input>false</multiline_input>
+        <wuid>5321f133:1391105beff:-74e5</wuid>
+        <show_native_border>false</show_native_border>
+        <auto_size>false</auto_size>
+        <scripts />
+        <height>25</height>
+        <password_input>false</password_input>
+        <name>offset2</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <format_type>0</format_type>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <precision_from_pv>false</precision_from_pv>
+        <pv_name>loc://offset2(0.3)</pv_name>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <enabled>true</enabled>
+        <widget_type>Text</widget_type>
+        <text></text>
+        <precision>1</precision>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>70</width>
+        <border_style>0</border_style>
+        <rules />
+        <pv_value />
+        <maximum>1.7976931348623157E308</maximum>
+        <border_width>1</border_width>
+        <limits_from_pv>false</limits_from_pv>
+        <horizontal_alignment>0</horizontal_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>435</y>
+        <actions hook="false" hook_all="false" />
+        <x>354</x>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
       </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0">

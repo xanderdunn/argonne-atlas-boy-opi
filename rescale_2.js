@@ -1,6 +1,14 @@
 importPackage(Packages.org.csstudio.opibuilder.scriptUtil);
 
+// pvs[0] = loc://rescale2
+// pvs[1] = $(TS)LLRF4:STATS0:S$(REV)_mean_ampl
+// pvs[2] = $(TS)LLRF4:STATS0:S$(REF)_mean_ampl
+// pvs[3] = loc://offset2
+
 if (PVUtil.getLong(pvs[0]) == 1) {
+	
+	var offset = PVUtil.getDouble(pvs[3])
+	
 	// Get the graph widget and turn off autoscale
 	display.getWidget("TopGraph").setPropertyValue("axis_2_auto_scale", "0");
 	
@@ -21,8 +29,8 @@ if (PVUtil.getLong(pvs[0]) == 1) {
 		}
 	
 	// Do math and convert to string
-	var max = greater + (greater/100) + ''
-	var min = lesser - (lesser/100) + ''
+	var max = greater + offset + ''
+	var min = lesser - offset + ''
 	
 	// Set the max value of the y-axis
 	display.getWidget("TopGraph").setPropertyValue("axis_2_maximum", max);
