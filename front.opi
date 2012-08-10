@@ -43,7 +43,18 @@
     </macros>
     <visible>true</visible>
     <wuid>7b0e122e:138e31abd8a:-7f26</wuid>
-    <scripts />
+    <scripts>
+      <path pathString="scan.py" checkConnect="true" sfe="false" seoe="false">
+        <pv trig="true">loc://scan</pv>
+        <pv trig="false">loc://startfreq</pv>
+        <pv trig="false">loc://stopfreq</pv>
+        <pv trig="false">loc://stepfreq</pv>
+        <pv trig="false">loc://startpwr</pv>
+        <pv trig="false">loc://stoppwr</pv>
+        <pv trig="false">loc://steppwr</pv>
+        <pv trig="false">loc://stepint</pv>
+      </path>
+    </scripts>
     <height>949</height>
     <name>root Group</name>
     <scale_options>
