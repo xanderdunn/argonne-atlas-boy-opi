@@ -5416,7 +5416,7 @@ $(pv_value)</tooltip>
       <width>372</width>
       <border_style>0</border_style>
       <rules />
-      <lock_children>false</lock_children>
+      <lock_children>true</lock_children>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -5424,7 +5424,7 @@ $(pv_value)</tooltip>
       <actions hook="false" hook_all="false" />
       <y>0</y>
       <tooltip></tooltip>
-      <x>235</x>
+      <x>306</x>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
         <visible>true</visible>
@@ -7324,7 +7324,23 @@ $(pv_value)</tooltip>
       </macros>
       <visible>true</visible>
       <wuid>7b0e122e:138e31abd8a:-7e88</wuid>
-      <scripts />
+      <scripts>
+        <path pathString="rescale.py" checkConnect="true" sfe="false" seoe="false">
+          <pv trig="true">loc://rescale</pv>
+          <pv trig="false">$(TS)LLRF4:STATS0:S$(CAV)_mean_ampl</pv>
+          <pv trig="false">$(TS)LLRF4:STATS0:S$(FWD)_mean_ampl</pv>
+          <pv trig="false">$(TS)LLRF4:STATS0:S$(REV)_mean_ampl</pv>
+          <pv trig="false">$(TS)LLRF4:STATS0:S$(REF)_mean_ampl</pv>
+          <pv trig="false">$(TS)LLRF4:STATS0:S$(CAV)_mean_phase</pv>
+          <pv trig="false">$(TS)LLRF4:STATS0:S$(FWD)_mean_phase</pv>
+          <pv trig="false">$(TS)LLRF4:STATS0:S$(REV)_mean_phase</pv>
+          <pv trig="false">$(TS)LLRF4:STATS0:S$(REF)_mean_phase</pv>
+          <pv trig="false">loc://offset1</pv>
+          <pv trig="false">loc://offset2</pv>
+          <pv trig="false">loc://offset3</pv>
+          <pv trig="false">loc://offset4</pv>
+        </path>
+      </scripts>
       <height>907</height>
       <name>Strip Charts</name>
       <scale_options>
@@ -7633,20 +7649,7 @@ $(trace_0_y_pv_value)</tooltip>
           <color red="0" green="128" blue="255" />
         </border_color>
         <trace_3_update_delay>100</trace_3_update_delay>
-        <scripts>
-          <path pathString="rescale_1.js" checkConnect="true" sfe="false" seoe="false">
-            <pv trig="true">loc://rescale1</pv>
-            <pv trig="false">$(TS)LLRF4:STATS0:S$(CAV)_mean_ampl</pv>
-            <pv trig="false">$(TS)LLRF4:STATS0:S$(FWD)_mean_ampl</pv>
-            <pv trig="false">loc://offset1</pv>
-          </path>
-          <path pathString="rescale_2.js" checkConnect="true" sfe="false" seoe="false">
-            <pv trig="true">loc://rescale2</pv>
-            <pv trig="false">$(TS)LLRF4:STATS0:S$(REV)_mean_ampl</pv>
-            <pv trig="false">$(TS)LLRF4:STATS0:S$(REF)_mean_ampl</pv>
-            <pv trig="false">loc://offset2</pv>
-          </path>
-        </scripts>
+        <scripts />
         <trace_0_anti_alias>true</trace_0_anti_alias>
         <background_color>
           <color red="240" green="240" blue="240" />
@@ -7890,20 +7893,7 @@ $(trace_0_y_pv_value)</tooltip>
           <color red="0" green="128" blue="255" />
         </border_color>
         <trace_3_update_delay>100</trace_3_update_delay>
-        <scripts>
-          <path pathString="rescale_3.js" checkConnect="true" sfe="false" seoe="false">
-            <pv trig="true">loc://rescale3</pv>
-            <pv trig="false">$(TS)LLRF4:STATS0:S$(CAV)_mean_phase</pv>
-            <pv trig="false">$(TS)LLRF4:STATS0:S$(FWD)_mean_phase</pv>
-            <pv trig="false">loc://offset3</pv>
-          </path>
-          <path pathString="rescale_4.js" checkConnect="true" sfe="false" seoe="false">
-            <pv trig="true">loc://rescale4</pv>
-            <pv trig="false">$(TS)LLRF4:STATS0:S$(REV)_mean_phase</pv>
-            <pv trig="false">$(TS)LLRF4:STATS0:S$(REF)_mean_phase</pv>
-            <pv trig="false">loc://offset4</pv>
-          </path>
-        </scripts>
+        <scripts />
         <trace_0_anti_alias>true</trace_0_anti_alias>
         <background_color>
           <color red="240" green="240" blue="240" />
@@ -10470,7 +10460,7 @@ $(pv_value)</tooltip>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
-        <pv_name>loc://rescale1</pv_name>
+        <pv_name>loc://rescale</pv_name>
         <background_color>
           <color red="240" green="240" blue="240" />
         </background_color>
@@ -10498,7 +10488,7 @@ $(pv_value)</tooltip>
         <y>435</y>
         <actions hook="false" hook_all="false">
           <action type="WRITE_PV">
-            <pv_name>loc://rescale1</pv_name>
+            <pv_name>loc://rescale</pv_name>
             <value>1</value>
             <timeout>10</timeout>
             <description></description>
@@ -10521,7 +10511,7 @@ $(pv_value)</tooltip>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
-        <pv_name>loc://rescale2</pv_name>
+        <pv_name>loc://rescale</pv_name>
         <background_color>
           <color red="240" green="240" blue="240" />
         </background_color>
@@ -10549,8 +10539,8 @@ $(pv_value)</tooltip>
         <y>435</y>
         <actions hook="false" hook_all="false">
           <action type="WRITE_PV">
-            <pv_name>loc://rescale2</pv_name>
-            <value>1</value>
+            <pv_name>loc://rescale</pv_name>
+            <value>2</value>
             <timeout>10</timeout>
             <description></description>
           </action>
@@ -10572,7 +10562,7 @@ $(pv_value)</tooltip>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
-        <pv_name>loc://rescale3</pv_name>
+        <pv_name>loc://rescale</pv_name>
         <background_color>
           <color red="240" green="240" blue="240" />
         </background_color>
@@ -10600,8 +10590,8 @@ $(pv_value)</tooltip>
         <y>864</y>
         <actions hook="false" hook_all="false">
           <action type="WRITE_PV">
-            <pv_name>loc://rescale3</pv_name>
-            <value>1</value>
+            <pv_name>loc://rescale</pv_name>
+            <value>3</value>
             <timeout>10</timeout>
             <description></description>
           </action>
@@ -10623,7 +10613,7 @@ $(pv_value)</tooltip>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
-        <pv_name>loc://rescale4</pv_name>
+        <pv_name>loc://rescale</pv_name>
         <background_color>
           <color red="240" green="240" blue="240" />
         </background_color>
@@ -10651,8 +10641,8 @@ $(pv_value)</tooltip>
         <y>864</y>
         <actions hook="false" hook_all="false">
           <action type="WRITE_PV">
-            <pv_name>loc://rescale4</pv_name>
-            <value>1</value>
+            <pv_name>loc://rescale</pv_name>
+            <value>4</value>
             <timeout>10</timeout>
             <description></description>
           </action>
@@ -10665,14 +10655,14 @@ $(pv_value)</tooltip>
         <border_alarm_sensitive>false</border_alarm_sensitive>
         <read_only>false</read_only>
         <visible>true</visible>
-        <minimum>-Infinity</minimum>
+        <minimum>-1.7976931348623157E308</minimum>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>5321f133:1391105beff:-7c23</wuid>
         <show_native_border>false</show_native_border>
         <auto_size>false</auto_size>
         <scripts />
-        <height>25</height>
+        <height>20</height>
         <password_input>false</password_input>
         <name>offset1</name>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -10702,14 +10692,14 @@ $(pv_value)</tooltip>
         <border_style>0</border_style>
         <rules />
         <pv_value />
-        <maximum>Infinity</maximum>
+        <maximum>1.7976931348623157E308</maximum>
         <border_width>1</border_width>
         <limits_from_pv>false</limits_from_pv>
         <horizontal_alignment>0</horizontal_alignment>
         <border_color>
           <color red="0" green="128" blue="255" />
         </border_color>
-        <y>435</y>
+        <y>437</y>
         <actions hook="false" hook_all="false" />
         <x>155</x>
         <tooltip>$(pv_name)
@@ -10726,7 +10716,7 @@ $(pv_value)</tooltip>
         <show_native_border>false</show_native_border>
         <auto_size>false</auto_size>
         <scripts />
-        <height>25</height>
+        <height>20</height>
         <password_input>false</password_input>
         <name>offset3</name>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -10763,7 +10753,7 @@ $(pv_value)</tooltip>
         <border_color>
           <color red="0" green="128" blue="255" />
         </border_color>
-        <y>864</y>
+        <y>867</y>
         <actions hook="false" hook_all="false" />
         <x>155</x>
         <tooltip>$(pv_name)
@@ -10780,7 +10770,7 @@ $(pv_value)</tooltip>
         <show_native_border>false</show_native_border>
         <auto_size>false</auto_size>
         <scripts />
-        <height>25</height>
+        <height>20</height>
         <password_input>false</password_input>
         <name>offset4</name>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -10817,7 +10807,7 @@ $(pv_value)</tooltip>
         <border_color>
           <color red="0" green="128" blue="255" />
         </border_color>
-        <y>864</y>
+        <y>867</y>
         <actions hook="false" hook_all="false" />
         <x>354</x>
         <tooltip>$(pv_name)
@@ -10834,7 +10824,7 @@ $(pv_value)</tooltip>
         <show_native_border>false</show_native_border>
         <auto_size>false</auto_size>
         <scripts />
-        <height>25</height>
+        <height>20</height>
         <password_input>false</password_input>
         <name>offset2</name>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -10871,7 +10861,7 @@ $(pv_value)</tooltip>
         <border_color>
           <color red="0" green="128" blue="255" />
         </border_color>
-        <y>435</y>
+        <y>437</y>
         <actions hook="false" hook_all="false" />
         <x>354</x>
         <tooltip>$(pv_name)

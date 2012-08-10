@@ -1,9 +1,9 @@
-OPI Runtime vs. OPI Editor
+!! OPI Runtime vs. OPI Editor
 Just like MEDM, CSS BOY has an execute mode and an edit mode.
 To switch between them, right click on an OPI in the left-hand Navigator
 pane and choose Open With --> OPI Edtior or OPI Runtime.
 
-First time use
+!! First time use
 You will need to set the "TS" macro so that it can properlly find your EPICS
 server.  Open front.opi in Editor mode and click anywhere on the background.
 This should select the widget "root Group."  At the top of the Properties
@@ -11,11 +11,14 @@ pane on the right, click on the Value of the Macros entry.  In the box
 that appears, set the correct value of the TS variable.
 
 Autoscale/Rescale
-Pressing the Rescale button will alter that specific y-axis so that the y-axis
-max is the current larger value + some offset, while the y-axis min is the
-current smaller value - some offset.  
-To set it back to autoscale, where all the data are within visible range, press
-the autoscale button on the left side at the top of the XYGraph.
+Pressing the Rescale button will disable autosaclea nd alter that specific
+y-axis so that the y-axis max is the current larger value + you given 
+offset, while the y-axis min is the current smaller value - your given 
+offset.  
+!! Make sure to press Enter after typing a new offset value.  Otherwise,
+!! it will not take effect.
+To set it back to autoscale, where all the data are within visible range,
+press the autoscale button on the left side at the top of the XYGraph.
 
 Change the axes on a strip chart
 Sometimes you will want to change the axes labeling or the upper and lower
@@ -43,8 +46,3 @@ Eclipse is using openJDK by forcing it on the command-line:
 
 Instructions for Setting Up synApps Eclipse Project
 http://subversion.xray.aps.anl.gov/admin_bcdaext/cssboy_deployment/
-
-TODO:
-- 10 August 2012: Rewrite the rescale JavaScripts into a single Python
-script which uses a function call.  This will greatly reduce code
-duplication.
