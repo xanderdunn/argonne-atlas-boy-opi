@@ -11,7 +11,7 @@ import sys
 # pvs[6] = loc://steppwr
 # pvs[7] = loc://stepint1
 # pvs[8] = loc://stepint2
-# Need to be changed to actual hardware PVs:
+# TODO: Need to be changed to actual hardware PVs:
 # pvs[9] = loc://freq = PV that controls the device frequency
 # pvs10] = loc://pwr = PV that controls the device power
 
@@ -21,8 +21,7 @@ def main():
     if (scan == 1):
         start = PVUtil.getDouble(pvs[1])
         stop = PVUtil.getDouble(pvs[2])
-        # Convert to GHz:
-        step = PVUtil.getDouble(pvs[3])/1000
+        step = PVUtil.getDouble(pvs[3])/1000 # Convert to GHz
         stepint = PVUtil.getDouble(pvs[7])
     # Power Scan
     else:
@@ -51,6 +50,8 @@ def main():
         pvs[9].setValue(start)
     elif (scan == 2):
         pvs[10].setValue(start)
+    
+    # time.sleep(10)
     
 if __name__ == '__main__':
     main()

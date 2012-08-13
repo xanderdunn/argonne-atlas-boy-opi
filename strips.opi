@@ -8,7 +8,7 @@
   <boy_version>3.1.1.20120723</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
-  <height>505</height>
+  <height>530</height>
   <name></name>
   <snap_to_geometry>true</snap_to_geometry>
   <show_grid>true</show_grid>
@@ -39,7 +39,7 @@
     <visible>true</visible>
     <wuid>-24973549:138e842d46a:-5584</wuid>
     <scripts />
-    <height>500</height>
+    <height>525</height>
     <name>root</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -83,7 +83,7 @@
         <color red="255" green="255" blue="255" />
       </bg_gradient_color>
       <scripts />
-      <height>500</height>
+      <height>525</height>
       <anti_alias>true</anti_alias>
       <corner_height>16</corner_height>
       <name>Rounded Rectangle</name>
@@ -151,8 +151,8 @@ $(pv_value)</tooltip>
       <axis_2_minimum>0.0</axis_2_minimum>
       <trace_0_point_size>4</trace_0_point_size>
       <show_legend>true</show_legend>
-      <y>251</y>
-      <x>5</x>
+      <y>281</y>
+      <x>8</x>
       <visible>true</visible>
       <trace_0_x_pv_value />
       <axis_1_visible>true</axis_1_visible>
@@ -316,8 +316,8 @@ $(trace_0_y_pv_value)</tooltip>
       <axis_2_minimum>0.0</axis_2_minimum>
       <trace_0_point_size>4</trace_0_point_size>
       <show_legend>true</show_legend>
-      <y>6</y>
-      <x>5</x>
+      <y>36</y>
+      <x>8</x>
       <visible>true</visible>
       <trace_0_x_pv_value />
       <axis_1_visible>true</axis_1_visible>
@@ -481,8 +481,8 @@ $(trace_0_y_pv_value)</tooltip>
       <axis_2_minimum>0.0</axis_2_minimum>
       <trace_0_point_size>4</trace_0_point_size>
       <show_legend>true</show_legend>
-      <y>6</y>
-      <x>411</x>
+      <y>36</y>
+      <x>414</x>
       <visible>true</visible>
       <trace_0_x_pv_value />
       <axis_1_visible>true</axis_1_visible>
@@ -646,8 +646,8 @@ $(trace_0_y_pv_value)</tooltip>
       <axis_2_minimum>0.0</axis_2_minimum>
       <trace_0_point_size>4</trace_0_point_size>
       <show_legend>true</show_legend>
-      <y>251</y>
-      <x>411</x>
+      <y>281</y>
+      <x>414</x>
       <visible>true</visible>
       <trace_0_x_pv_value />
       <axis_1_visible>true</axis_1_visible>
@@ -789,6 +789,60 @@ $(trace_0_y_pv_value)</tooltip>
         <color red="200" green="200" blue="200" />
       </axis_1_grid_color>
       <trace_0_update_delay>0</trace_0_update_delay>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <read_only>true</read_only>
+      <visible>true</visible>
+      <minimum>-Infinity</minimum>
+      <show_units>false</show_units>
+      <multiline_input>false</multiline_input>
+      <wuid>-637a4965:1392191f1a6:-6ce9</wuid>
+      <show_native_border>false</show_native_border>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>25</height>
+      <password_input>false</password_input>
+      <name>Text</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <format_type>0</format_type>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <precision_from_pv>false</precision_from_pv>
+      <pv_name></pv_name>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <background_color>
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Text</widget_type>
+      <text>Strip Charts</text>
+      <precision>0</precision>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <font>
+        <fontdata fontName="Sans" height="12" style="1" />
+      </font>
+      <width>115</width>
+      <border_style>0</border_style>
+      <rules />
+      <pv_value />
+      <maximum>Infinity</maximum>
+      <border_width>1</border_width>
+      <limits_from_pv>false</limits_from_pv>
+      <horizontal_alignment>0</horizontal_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <y>6</y>
+      <actions hook="false" hook_all="false" />
+      <x>351</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
     </widget>
   </widget>
 </display>

@@ -5407,7 +5407,7 @@ $(pv_value)</tooltip>
       <visible>true</visible>
       <wuid>7b0e122e:138e31abd8a:-7eb2</wuid>
       <scripts />
-      <height>38</height>
+      <height>39</height>
       <name>Screen Buttons</name>
       <scale_options>
         <width_scalable>false</width_scalable>
@@ -5427,7 +5427,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>547</width>
+      <width>650</width>
       <border_style>0</border_style>
       <rules />
       <lock_children>true</lock_children>
@@ -5466,7 +5466,7 @@ $(pv_value)</tooltip>
         <font>
           <fontdata fontName="Arial Narrow" height="12" style="1" />
         </font>
-        <width>119</width>
+        <width>118</width>
         <border_style>0</border_style>
         <push_action_index>0</push_action_index>
         <image></image>
@@ -5490,7 +5490,7 @@ $(pv_value)</tooltip>
         </actions>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>348</x>
+        <x>347</x>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -5519,7 +5519,7 @@ $(pv_value)</tooltip>
         <font>
           <fontdata fontName="Arial Narrow" height="12" style="1" />
         </font>
-        <width>147</width>
+        <width>146</width>
         <border_style>0</border_style>
         <push_action_index>0</push_action_index>
         <image></image>
@@ -5572,7 +5572,7 @@ $(pv_value)</tooltip>
         <font>
           <fontdata fontName="Arial Narrow" height="12" style="1" />
         </font>
-        <width>79</width>
+        <width>78</width>
         <border_style>0</border_style>
         <push_action_index>0</push_action_index>
         <image></image>
@@ -5596,7 +5596,7 @@ $(pv_value)</tooltip>
         </actions>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>270</x>
+        <x>269</x>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -5625,7 +5625,7 @@ $(pv_value)</tooltip>
         <font>
           <fontdata fontName="Arial Narrow" height="12" style="1" />
         </font>
-        <width>125</width>
+        <width>124</width>
         <border_style>0</border_style>
         <push_action_index>0</push_action_index>
         <image></image>
@@ -5649,7 +5649,7 @@ $(pv_value)</tooltip>
         </actions>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>146</x>
+        <x>145</x>
       </widget>
       <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -5678,7 +5678,7 @@ $(pv_value)</tooltip>
         <font>
           <fontdata fontName="Arial Narrow" height="12" style="1" />
         </font>
-        <width>79</width>
+        <width>78</width>
         <border_style>0</border_style>
         <push_action_index>0</push_action_index>
         <image></image>
@@ -5698,7 +5698,56 @@ $(pv_value)</tooltip>
         </actions>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <x>466</x>
+        <x>465</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>-637a4965:1392191f1a6:-6def</wuid>
+        <scripts />
+        <height>38</height>
+        <name>Expert</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name></pv_name>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <widget_type>Action Button</widget_type>
+        <enabled>true</enabled>
+        <text>LOG BOOK</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <fontdata fontName="Arial Narrow" height="12" style="1" />
+        </font>
+        <width>107</width>
+        <border_style>0</border_style>
+        <push_action_index>0</push_action_index>
+        <image></image>
+        <rules />
+        <pv_value />
+        <toggle_button>false</toggle_button>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>0</y>
+        <actions hook="false" hook_all="false">
+          <action type="OPEN_WEBPAGE">
+            <hyperlink>https://www5.aps.anl.gov/elogs/aps-u/ATLAS+Teststand/</hyperlink>
+            <description></description>
+          </action>
+        </actions>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>542</x>
       </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0">
@@ -5731,7 +5780,7 @@ $(pv_value)</tooltip>
       <width>320</width>
       <border_style>0</border_style>
       <rules />
-      <lock_children>true</lock_children>
+      <lock_children>false</lock_children>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -11143,7 +11192,7 @@ $(pv_value)</tooltip>
       <width>320</width>
       <border_style>0</border_style>
       <rules />
-      <lock_children>false</lock_children>
+      <lock_children>true</lock_children>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
