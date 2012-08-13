@@ -4,7 +4,7 @@
   <macros>
     <include_parent_macros>true</include_parent_macros>
   </macros>
-  <wuid>-24973549:138e842d46a:-79c2</wuid>
+  <wuid>54c4d926:13912472211:-79ec</wuid>
   <boy_version>3.1.1.20120723</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
@@ -25,7 +25,7 @@
   <show_edit_range>true</show_edit_range>
   <grid_space>6</grid_space>
   <auto_scale_widgets>
-    <auto_scale_widgets>true</auto_scale_widgets>
+    <auto_scale_widgets>false</auto_scale_widgets>
     <min_width>-1</min_width>
     <min_height>-1</min_height>
   </auto_scale_widgets>
@@ -37,7 +37,7 @@
       <include_parent_macros>true</include_parent_macros>
     </macros>
     <visible>true</visible>
-    <wuid>-24973549:138e842d46a:-5584</wuid>
+    <wuid>54c4d926:13912472211:-7530</wuid>
     <scripts />
     <height>500</height>
     <name>root</name>

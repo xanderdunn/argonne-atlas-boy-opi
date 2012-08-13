@@ -1,5 +1,6 @@
 from org.csstudio.opibuilder.scriptUtil import PVUtil
 import time
+import sys
 
 # pvs[0] = loc://scan = Is this a power scan or freq scan?
 # pvs[1] = loc://startfreq
@@ -8,9 +9,11 @@ import time
 # pvs[4] = loc://startpwr
 # pvs[5] = loc://stoppwr
 # pvs[6] = loc://steppwr
-# pvs[7] = loc://stepint
-# pvs[8] = = PV that controls the device frequency
-# pvs[9] = = PV that controls the device power
+# pvs[7] = loc://stepint1
+# pvs[8] = loc://stepint2
+# Need to be changed to actual hardware PVs:
+# pvs[9] = loc://freq = PV that controls the device frequency
+# pvs10] = loc://pwr = PV that controls the device power
 
 def main():
     scan = PVUtil.getLong(pvs[0])
@@ -18,28 +21,36 @@ def main():
     if (scan == 1):
         start = PVUtil.getDouble(pvs[1])
         stop = PVUtil.getDouble(pvs[2])
-        step = PVUtil.getDouble(pvs[3])
-        curr = PVUtil.getDouble(pvs[8])
+        # Convert to GHz:
+        step = PVUtil.getDouble(pvs[3])/1000
+        stepint = PVUtil.getDouble(pvs[7])
     # Power Scan
-    elif (scan == 2):
+    else:
         start = PVUtil.getDouble(pvs[4])
         stop = PVUtil.getDouble(pvs[5])
         step = PVUtil.getDouble(pvs[6])
-        curr = PVUtil.getDouble(pvs[9])
+        stepint = PVUtil.getDouble(pvs[8])
 
-    stepint = PVUtil.getDouble(pvs[7])
+    # Set initial current state
+    curr = start
+    # Step until reach stop
     while (curr < stop):
-        curr = curr + step
         # Set the device to achieve this value
         if (scan == 1):
-            pvs[8].setValue(curr)
-        elif (scan == 2):
             pvs[9].setValue(curr)
+        elif (scan == 2):
+            pvs[10].setValue(curr)
+        curr = curr + step
         # Wait stepint seconds before next scan
         time.sleep(stepint)
     
     # Reset the scan indicator to 0
     pvs[0].setValue(0)
+    # Reset the starting position
+    if (scan == 1):
+        pvs[9].setValue(start)
+    elif (scan == 2):
+        pvs[10].setValue(start)
     
 if __name__ == '__main__':
     main()
