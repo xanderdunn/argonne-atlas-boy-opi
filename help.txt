@@ -30,13 +30,13 @@ Take screenshots or graph shots
 On Linux, you can probably take a full screenshot just be pressing the
 Print Screen keyboard key.  
 Either way, you can save an image of any given strip chart in CSS BOY
-by pressing the camera icon at the top right of any strip chart.  
+by pressing the camera icon at the top right of the strip chart.  
 
 Known Issues
 - 9 August 2012: When a given trace on the front.opi screen is hidden, 
 the graph does not correctly ignore it when autoscaling.  This will be
 fixed in the next version of CSS BOY (> 3.1.1).  
-- 9 August 2012: CSS BOY screens can not be started from the commandline.
+- 9 August 2012: CSS BOY screens can not be started from the command-line.
 This is a limitation caused by the Eclipse framework, but there are
 plausible workarounds.  Developers are working on this.
 - 9 August 2012: Running CSS BOY using Sun Java causes various problems,

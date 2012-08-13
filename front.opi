@@ -58,7 +58,7 @@
         <pv trig="false">loc://pwr</pv>
       </path>
     </scripts>
-    <height>1171</height>
+    <height>961</height>
     <name>root Group</name>
     <scale_options>
       <width_scalable>true</width_scalable>
