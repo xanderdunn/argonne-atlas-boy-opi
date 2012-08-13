@@ -8,7 +8,7 @@
   <boy_version>3.1.1.20120723</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
-  <height>505</height>
+  <height>510</height>
   <name></name>
   <snap_to_geometry>true</snap_to_geometry>
   <show_grid>true</show_grid>
@@ -20,12 +20,12 @@
   </foreground_color>
   <widget_type>Display</widget_type>
   <show_close_button>true</show_close_button>
-  <width>825</width>
+  <width>830</width>
   <rules />
   <show_edit_range>true</show_edit_range>
   <grid_space>6</grid_space>
   <auto_scale_widgets>
-    <auto_scale_widgets>false</auto_scale_widgets>
+    <auto_scale_widgets>true</auto_scale_widgets>
     <min_width>-1</min_width>
     <min_height>-1</min_height>
   </auto_scale_widgets>
@@ -62,15 +62,15 @@
     <width>820</width>
     <border_style>0</border_style>
     <rules />
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
     <actions hook="false" hook_all="false" />
-    <y>0</y>
+    <y>5</y>
     <tooltip></tooltip>
-    <x>0</x>
+    <x>5</x>
     <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
       <visible>true</visible>
@@ -216,7 +216,7 @@ $(pv_value)</tooltip>
       <trace_1_x_pv_value />
       <axis_0_scale_format></axis_0_scale_format>
       <trace_0_x_pv></trace_0_x_pv>
-      <trace_0_y_pv>$(TS)LLRF4:STATS0:S$(REV)_mean_ampl</trace_0_y_pv>
+      <trace_0_y_pv>$(TS)LLRF4:DRV0:w5</trace_0_y_pv>
       <axis_0_title_font>
         <fontdata fontName="Arial" height="9" style="1" />
       </axis_0_title_font>
@@ -254,7 +254,7 @@ $(trace_0_y_pv_value)</tooltip>
         <color red="255" green="255" blue="255" />
       </plot_area_background_color>
       <title></title>
-      <trace_1_y_pv>$(TS)LLRF4:STATS0:S$(REV)_mean_phase</trace_1_y_pv>
+      <trace_1_y_pv>$(TS)LLRF4:DRV0:w6</trace_1_y_pv>
       <axis_2_auto_scale>true</axis_2_auto_scale>
       <pv_name></pv_name>
       <axis_1_minimum>0.0</axis_1_minimum>
@@ -381,7 +381,7 @@ $(trace_0_y_pv_value)</tooltip>
       <trace_1_x_pv_value />
       <axis_0_scale_format></axis_0_scale_format>
       <trace_0_x_pv></trace_0_x_pv>
-      <trace_0_y_pv>$(TS)LLRF4:STATS0:S$(CAV)_mean_ampl</trace_0_y_pv>
+      <trace_0_y_pv>$(TS)LLRF4:DRV0:w1</trace_0_y_pv>
       <axis_0_title_font>
         <fontdata fontName="Arial" height="9" style="1" />
       </axis_0_title_font>
@@ -419,7 +419,7 @@ $(trace_0_y_pv_value)</tooltip>
         <color red="255" green="255" blue="255" />
       </plot_area_background_color>
       <title></title>
-      <trace_1_y_pv>$(TS)LLRF4:STATS0:S$(CAV)_mean_phase</trace_1_y_pv>
+      <trace_1_y_pv>$(TS)LLRF4:DRV0:w2</trace_1_y_pv>
       <axis_2_auto_scale>true</axis_2_auto_scale>
       <pv_name></pv_name>
       <axis_1_minimum>0.0</axis_1_minimum>
@@ -546,7 +546,7 @@ $(trace_0_y_pv_value)</tooltip>
       <trace_1_x_pv_value />
       <axis_0_scale_format></axis_0_scale_format>
       <trace_0_x_pv></trace_0_x_pv>
-      <trace_0_y_pv>$(TS)LLRF4:STATS0:S$(FWD)_mean_ampl</trace_0_y_pv>
+      <trace_0_y_pv>$(TS)LLRF4:DRV0:w3</trace_0_y_pv>
       <axis_0_title_font>
         <fontdata fontName="Arial" height="9" style="1" />
       </axis_0_title_font>
@@ -584,7 +584,7 @@ $(trace_0_y_pv_value)</tooltip>
         <color red="255" green="255" blue="255" />
       </plot_area_background_color>
       <title></title>
-      <trace_1_y_pv>$(TS)LLRF4:STATS0:S$(FWD)_mean_phase</trace_1_y_pv>
+      <trace_1_y_pv>$(TS)LLRF4:DRV0:w4</trace_1_y_pv>
       <axis_2_auto_scale>true</axis_2_auto_scale>
       <pv_name></pv_name>
       <axis_1_minimum>0.0</axis_1_minimum>
@@ -711,7 +711,7 @@ $(trace_0_y_pv_value)</tooltip>
       <trace_1_x_pv_value />
       <axis_0_scale_format></axis_0_scale_format>
       <trace_0_x_pv></trace_0_x_pv>
-      <trace_0_y_pv>$(TS)LLRF4:STATS0:S$(CAV)_mean_ampl</trace_0_y_pv>
+      <trace_0_y_pv>$(TS)LLRF4:DRV0:w7</trace_0_y_pv>
       <axis_0_title_font>
         <fontdata fontName="Arial" height="9" style="1" />
       </axis_0_title_font>
@@ -749,7 +749,7 @@ $(trace_0_y_pv_value)</tooltip>
         <color red="255" green="255" blue="255" />
       </plot_area_background_color>
       <title></title>
-      <trace_1_y_pv>$(TS)LLRF4:STATS0:S$(CAV)_mean_phase</trace_1_y_pv>
+      <trace_1_y_pv>$(TS)LLRF4:DRV0:w8</trace_1_y_pv>
       <axis_2_auto_scale>true</axis_2_auto_scale>
       <pv_name></pv_name>
       <axis_1_minimum>0.0</axis_1_minimum>
