@@ -8567,7 +8567,7 @@ $(pv_value)</tooltip>
         <color red="40" green="40" blue="40" />
       </foreground_color>
       <background_color>
-        <color name="Gray Background" red="240" green="240" blue="240" />
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
@@ -8620,7 +8620,7 @@ $(pv_value)</tooltip>
         <color red="40" green="40" blue="40" />
       </foreground_color>
       <background_color>
-        <color name="Gray Background" red="240" green="240" blue="240" />
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
@@ -8673,7 +8673,7 @@ $(pv_value)</tooltip>
         <color red="40" green="40" blue="40" />
       </foreground_color>
       <background_color>
-        <color name="Gray Background" red="240" green="240" blue="240" />
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
@@ -8726,7 +8726,7 @@ $(pv_value)</tooltip>
         <color red="40" green="40" blue="40" />
       </foreground_color>
       <background_color>
-        <color name="Gray Background" red="240" green="240" blue="240" />
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
@@ -8779,7 +8779,7 @@ $(pv_value)</tooltip>
         <color red="40" green="40" blue="40" />
       </foreground_color>
       <background_color>
-        <color name="Gray Background" red="240" green="240" blue="240" />
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
@@ -8832,7 +8832,7 @@ $(pv_value)</tooltip>
         <color red="40" green="40" blue="40" />
       </foreground_color>
       <background_color>
-        <color name="Gray Background" red="240" green="240" blue="240" />
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
@@ -8885,7 +8885,7 @@ $(pv_value)</tooltip>
         <color red="40" green="40" blue="40" />
       </foreground_color>
       <background_color>
-        <color name="Gray Background" red="240" green="240" blue="240" />
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
@@ -8938,7 +8938,7 @@ $(pv_value)</tooltip>
         <color red="40" green="40" blue="40" />
       </foreground_color>
       <background_color>
-        <color name="Gray Background" red="240" green="240" blue="240" />
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
@@ -8991,7 +8991,7 @@ $(pv_value)</tooltip>
         <color red="40" green="40" blue="40" />
       </foreground_color>
       <background_color>
-        <color name="Gray Background" red="240" green="240" blue="240" />
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
@@ -9044,7 +9044,7 @@ $(pv_value)</tooltip>
         <color red="40" green="40" blue="40" />
       </foreground_color>
       <background_color>
-        <color name="Gray Background" red="240" green="240" blue="240" />
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
@@ -9097,7 +9097,7 @@ $(pv_value)</tooltip>
         <color red="40" green="40" blue="40" />
       </foreground_color>
       <background_color>
-        <color name="Gray Background" red="240" green="240" blue="240" />
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
@@ -9150,7 +9150,7 @@ $(pv_value)</tooltip>
         <color red="40" green="40" blue="40" />
       </foreground_color>
       <background_color>
-        <color name="Gray Background" red="240" green="240" blue="240" />
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
@@ -9242,7 +9242,7 @@ $(pv_value)</tooltip>
           <color red="0" green="0" blue="0" />
         </foreground_color>
         <background_color>
-          <color name="Gray Background" red="240" green="240" blue="240" />
+          <color name="Dark Gray Border" red="190" green="190" blue="190" />
         </background_color>
         <enabled>true</enabled>
         <widget_type>Text</widget_type>
@@ -9585,7 +9585,7 @@ $(pv_value)</tooltip>
             <color red="40" green="40" blue="40" />
           </foreground_color>
           <background_color>
-            <color name="Gray Background" red="240" green="240" blue="240" />
+            <color name="Dark Gray Border" red="190" green="190" blue="190" />
           </background_color>
           <enabled>true</enabled>
           <widget_type>Text</widget_type>
@@ -9638,7 +9638,7 @@ $(pv_value)</tooltip>
             <color red="40" green="40" blue="40" />
           </foreground_color>
           <background_color>
-            <color name="Gray Background" red="240" green="240" blue="240" />
+            <color name="Dark Gray Border" red="190" green="190" blue="190" />
           </background_color>
           <enabled>true</enabled>
           <widget_type>Text</widget_type>
@@ -9691,7 +9691,7 @@ $(pv_value)</tooltip>
             <color red="40" green="40" blue="40" />
           </foreground_color>
           <background_color>
-            <color name="Gray Background" red="240" green="240" blue="240" />
+            <color name="Dark Gray Border" red="190" green="190" blue="190" />
           </background_color>
           <enabled>true</enabled>
           <widget_type>Text</widget_type>
@@ -9744,7 +9744,7 @@ $(pv_value)</tooltip>
             <color red="40" green="40" blue="40" />
           </foreground_color>
           <background_color>
-            <color name="Gray Background" red="240" green="240" blue="240" />
+            <color name="Dark Gray Border" red="190" green="190" blue="190" />
           </background_color>
           <enabled>true</enabled>
           <widget_type>Text</widget_type>

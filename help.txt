@@ -11,7 +11,7 @@ pane on the right, click on the Value of the Macros entry.  In the box
 that appears, set the correct value of the TS variable.
 
 Autoscale/Rescale
-Pressing the Rescale button will disable autosaclea nd alter that specific
+Pressing the Rescale button will disable autosacle and alter that specific
 y-axis so that the y-axis max is the current larger value + you given 
 offset, while the y-axis min is the current smaller value - your given 
 offset.  
@@ -32,10 +32,17 @@ Print Screen keyboard key.
 Either way, you can save an image of any given strip chart in CSS BOY
 by pressing the camera icon at the top right of the strip chart.  
 
+Web Browser Settings
+By default, Eclipse will open the Log Book link in its internal browser.
+This will cause problems with looking at files on secured servers.
+To change Eclipse so that it opens the link in an external browser,
+go to Edit --> Preferences --> General --> We Browser --> Use external
+web browser.
+
 Known Issues
 - 9 August 2012: When a given trace on the front.opi screen is hidden, 
 the graph does not correctly ignore it when autoscaling.  This will be
-fixed in the next version of CSS BOY (> 3.1.1).  
+fixed in the upcoming1 version of CSS BOY (> 3.1.1).  
 - 9 August 2012: CSS BOY screens can not be started from the command-line.
 This is a limitation caused by the Eclipse framework, but there are
 plausible workarounds.  Developers are working on this.

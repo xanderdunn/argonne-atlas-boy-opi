@@ -8,7 +8,7 @@
   <boy_version>3.1.1.20120723</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
-  <height>510</height>
+  <height>530</height>
   <name></name>
   <snap_to_geometry>true</snap_to_geometry>
   <show_grid>true</show_grid>
@@ -39,14 +39,14 @@
     <visible>true</visible>
     <wuid>54c4d926:13912472211:-7530</wuid>
     <scripts />
-    <height>500</height>
+    <height>526</height>
     <name>root</name>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <show_scrollbar>false</show_scrollbar>
     <background_color>
       <color red="240" green="240" blue="240" />
@@ -59,7 +59,7 @@
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>820</width>
+    <width>819</width>
     <border_style>0</border_style>
     <rules />
     <lock_children>false</lock_children>
@@ -68,9 +68,9 @@
       <color red="0" green="128" blue="255" />
     </border_color>
     <actions hook="false" hook_all="false" />
-    <y>5</y>
+    <y>0</y>
     <tooltip></tooltip>
-    <x>5</x>
+    <x>0</x>
     <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
       <visible>true</visible>
@@ -83,7 +83,7 @@
         <color red="255" green="255" blue="255" />
       </bg_gradient_color>
       <scripts />
-      <height>500</height>
+      <height>525</height>
       <anti_alias>true</anti_alias>
       <corner_height>16</corner_height>
       <name>Rounded Rectangle</name>
@@ -134,7 +134,7 @@ $(pv_value)</tooltip>
       <trace_1_visible>true</trace_1_visible>
       <trace_1_trace_type>0</trace_1_trace_type>
       <trace_0_trace_color>
-        <color red="0" green="200" blue="0" />
+        <color red="255" green="0" blue="0" />
       </trace_0_trace_color>
       <axis_0_auto_scale>true</axis_0_auto_scale>
       <axis_1_time_format>0</axis_1_time_format>
@@ -151,8 +151,8 @@ $(pv_value)</tooltip>
       <axis_2_minimum>0.0</axis_2_minimum>
       <trace_0_point_size>4</trace_0_point_size>
       <show_legend>true</show_legend>
-      <y>251</y>
-      <x>5</x>
+      <y>281</y>
+      <x>6</x>
       <visible>true</visible>
       <trace_0_x_pv_value />
       <axis_1_visible>true</axis_1_visible>
@@ -316,8 +316,8 @@ $(trace_0_y_pv_value)</tooltip>
       <axis_2_minimum>0.0</axis_2_minimum>
       <trace_0_point_size>4</trace_0_point_size>
       <show_legend>true</show_legend>
-      <y>6</y>
-      <x>5</x>
+      <y>36</y>
+      <x>6</x>
       <visible>true</visible>
       <trace_0_x_pv_value />
       <axis_1_visible>true</axis_1_visible>
@@ -366,7 +366,7 @@ $(trace_0_y_pv_value)</tooltip>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </axis_0_scale_font>
       <trace_1_y_pv_value />
-      <axis_0_time_format>3</axis_0_time_format>
+      <axis_0_time_format>8</axis_0_time_format>
       <trace_1_plot_mode>0</trace_1_plot_mode>
       <axis_1_log_scale>false</axis_1_log_scale>
       <trace_1_point_style>0</trace_1_point_style>
@@ -464,7 +464,7 @@ $(trace_0_y_pv_value)</tooltip>
       <trace_1_visible>true</trace_1_visible>
       <trace_1_trace_type>0</trace_1_trace_type>
       <trace_0_trace_color>
-        <color red="255" green="0" blue="0" />
+        <color red="255" green="128" blue="255" />
       </trace_0_trace_color>
       <axis_0_auto_scale>true</axis_0_auto_scale>
       <axis_1_time_format>0</axis_1_time_format>
@@ -481,8 +481,8 @@ $(trace_0_y_pv_value)</tooltip>
       <axis_2_minimum>0.0</axis_2_minimum>
       <trace_0_point_size>4</trace_0_point_size>
       <show_legend>true</show_legend>
-      <y>6</y>
-      <x>411</x>
+      <y>36</y>
+      <x>412</x>
       <visible>true</visible>
       <trace_0_x_pv_value />
       <axis_1_visible>true</axis_1_visible>
@@ -629,7 +629,7 @@ $(trace_0_y_pv_value)</tooltip>
       <trace_1_visible>true</trace_1_visible>
       <trace_1_trace_type>0</trace_1_trace_type>
       <trace_0_trace_color>
-        <color red="255" green="128" blue="255" />
+        <color red="0" green="200" blue="0" />
       </trace_0_trace_color>
       <axis_0_auto_scale>true</axis_0_auto_scale>
       <axis_1_time_format>0</axis_1_time_format>
@@ -646,8 +646,8 @@ $(trace_0_y_pv_value)</tooltip>
       <axis_2_minimum>0.0</axis_2_minimum>
       <trace_0_point_size>4</trace_0_point_size>
       <show_legend>true</show_legend>
-      <y>251</y>
-      <x>411</x>
+      <y>281</y>
+      <x>412</x>
       <visible>true</visible>
       <trace_0_x_pv_value />
       <axis_1_visible>true</axis_1_visible>
@@ -789,6 +789,60 @@ $(trace_0_y_pv_value)</tooltip>
         <color red="200" green="200" blue="200" />
       </axis_1_grid_color>
       <trace_0_update_delay>0</trace_0_update_delay>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <read_only>true</read_only>
+      <visible>true</visible>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>false</show_units>
+      <multiline_input>false</multiline_input>
+      <wuid>bef14dd:1392576b534:-7b62</wuid>
+      <show_native_border>false</show_native_border>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>25</height>
+      <password_input>false</password_input>
+      <name>Text</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <format_type>0</format_type>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <precision_from_pv>false</precision_from_pv>
+      <pv_name></pv_name>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <background_color>
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Text</widget_type>
+      <text>I,Q Waveforms</text>
+      <precision>0</precision>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <font>
+        <fontdata fontName="Sans" height="12" style="1" />
+      </font>
+      <width>139</width>
+      <border_style>0</border_style>
+      <rules />
+      <pv_value />
+      <maximum>1.7976931348623157E308</maximum>
+      <border_width>1</border_width>
+      <limits_from_pv>false</limits_from_pv>
+      <horizontal_alignment>0</horizontal_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <y>7</y>
+      <actions hook="false" hook_all="false" />
+      <x>339</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
     </widget>
   </widget>
 </display>

@@ -46,7 +46,7 @@
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <show_scrollbar>false</show_scrollbar>
     <background_color>
       <color red="240" green="240" blue="240" />
@@ -62,7 +62,7 @@
     <width>820</width>
     <border_style>0</border_style>
     <rules />
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
@@ -794,7 +794,7 @@ $(trace_0_y_pv_value)</tooltip>
       <border_alarm_sensitive>false</border_alarm_sensitive>
       <read_only>true</read_only>
       <visible>true</visible>
-      <minimum>-Infinity</minimum>
+      <minimum>-1.7976931348623157E308</minimum>
       <show_units>false</show_units>
       <multiline_input>false</multiline_input>
       <wuid>-637a4965:1392191f1a6:-6ce9</wuid>
@@ -831,7 +831,7 @@ $(trace_0_y_pv_value)</tooltip>
       <border_style>0</border_style>
       <rules />
       <pv_value />
-      <maximum>Infinity</maximum>
+      <maximum>1.7976931348623157E308</maximum>
       <border_width>1</border_width>
       <limits_from_pv>false</limits_from_pv>
       <horizontal_alignment>0</horizontal_alignment>
@@ -844,5 +844,45 @@ $(trace_0_y_pv_value)</tooltip>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     </widget>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.NativeButton" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>bef14dd:1392576b534:-7998</wuid>
+    <scripts />
+    <height>25</height>
+    <name>Button</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name></pv_name>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <widget_type>Button</widget_type>
+    <enabled>true</enabled>
+    <text>X, Y Waveform</text>
+    <font>
+      <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+    </font>
+    <width>108</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <image></image>
+    <rules />
+    <pv_value />
+    <toggle_button>false</toggle_button>
+    <border_width>1</border_width>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>587</y>
+    <actions hook="false" hook_all="false" />
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>385</x>
   </widget>
 </display>
