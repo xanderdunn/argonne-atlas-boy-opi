@@ -55,6 +55,8 @@ plausible workarounds.  Developers are working on this.
 including a performance drag.  If you have Sun Java installed, make sure
 Eclipse is using openJDK by forcing it on the command-line:
 ./css -vm /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/bin/java
+- 14 August 2012: Do not use scan.py.  It is broken and will cause CSS BOY
+to crash.
 
 Instructions for Setting Up synApps Eclipse Project
 http://subversion.xray.aps.anl.gov/admin_bcdaext/cssboy_deployment/
