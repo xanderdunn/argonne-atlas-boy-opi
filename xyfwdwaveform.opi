@@ -36,7 +36,7 @@
     <trace_1_visible>true</trace_1_visible>
     <trace_1_trace_type>0</trace_1_trace_type>
     <trace_0_trace_color>
-      <color red="0" green="0" blue="255" />
+      <color red="255" green="0" blue="0" />
     </trace_0_trace_color>
     <axis_0_auto_scale>true</axis_0_auto_scale>
     <axis_1_time_format>0</axis_1_time_format>
@@ -46,7 +46,7 @@
     <axis_0_show_grid>true</axis_0_show_grid>
     <axis_2_log_scale>false</axis_2_log_scale>
     <axis_0_log_scale>false</axis_0_log_scale>
-    <trace_1_name>CAV-pha</trace_1_name>
+    <trace_1_name>FWD-pha</trace_1_name>
     <axis_2_grid_color>
       <color red="200" green="200" blue="200" />
     </axis_2_grid_color>
@@ -81,7 +81,7 @@
     </axis_0_grid_color>
     <trace_1_line_width>1</trace_1_line_width>
     <axis_0_auto_scale_threshold>0.0</axis_0_auto_scale_threshold>
-    <trace_0_name>CAV-ampl</trace_0_name>
+    <trace_0_name>FWD-ampl</trace_0_name>
     <trace_1_anti_alias>true</trace_1_anti_alias>
     <axis_2_maximum>100.0</axis_2_maximum>
     <trace_0_update_mode>3</trace_0_update_mode>
@@ -96,7 +96,7 @@
     </foreground_color>
     <trace_1_update_mode>3</trace_1_update_mode>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <axis_1_axis_title>CAV-ampl</axis_1_axis_title>
+    <axis_1_axis_title>FWD-ampl</axis_1_axis_title>
     <axis_2_y_axis>true</axis_2_y_axis>
     <axis_0_maximum>100.0</axis_0_maximum>
     <axis_0_scale_font>
@@ -118,7 +118,7 @@
     <trace_1_x_pv_value />
     <axis_0_scale_format></axis_0_scale_format>
     <trace_0_x_pv></trace_0_x_pv>
-    <trace_0_y_pv>$(TS)LLRF4:STATS0:S$(CAV)_ampl_wf</trace_0_y_pv>
+    <trace_0_y_pv>$(TS)LLRF4:STATS0:S$(FWD)_ampl_wf</trace_0_y_pv>
     <axis_0_title_font>
       <fontdata fontName="Arial" height="9" style="1" />
     </axis_0_title_font>
@@ -128,7 +128,7 @@
     <trigger_pv_value />
     <trace_1_x_pv></trace_1_x_pv>
     <show_plot_area_border>false</show_plot_area_border>
-    <axis_2_axis_title>CAV-pha</axis_2_axis_title>
+    <axis_2_axis_title>FWD-pha</axis_2_axis_title>
     <widget_type>XY Graph</widget_type>
     <enabled>true</enabled>
     <width>398</width>
@@ -156,7 +156,7 @@ $(trace_0_y_pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </plot_area_background_color>
     <title></title>
-    <trace_1_y_pv>$(TS)LLRF4:STATS0:S$(CAV)_phase_wf</trace_1_y_pv>
+    <trace_1_y_pv>$(TS)LLRF4:STATS0:S$(FWD)_phase_wf</trace_1_y_pv>
     <axis_2_auto_scale>true</axis_2_auto_scale>
     <pv_name></pv_name>
     <axis_1_minimum>0.0</axis_1_minimum>
@@ -201,7 +201,7 @@ $(trace_0_y_pv_value)</tooltip>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <read_only>true</read_only>
     <visible>true</visible>
-    <minimum>-Infinity</minimum>
+    <minimum>-1.7976931348623157E308</minimum>
     <show_units>false</show_units>
     <multiline_input>false</multiline_input>
     <wuid>1af02831:13925a0d761:-7b73</wuid>
@@ -228,17 +228,17 @@ $(trace_0_y_pv_value)</tooltip>
     </background_color>
     <enabled>true</enabled>
     <widget_type>Text</widget_type>
-    <text>CAV Waveform</text>
+    <text>FWD Waveform</text>
     <precision>0</precision>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>100</width>
+    <width>110</width>
     <border_style>0</border_style>
     <rules />
     <pv_value />
-    <maximum>Infinity</maximum>
+    <maximum>1.7976931348623157E308</maximum>
     <border_width>1</border_width>
     <limits_from_pv>false</limits_from_pv>
     <horizontal_alignment>0</horizontal_alignment>

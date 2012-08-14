@@ -39,6 +39,11 @@ To change Eclipse so that it opens the link in an external browser,
 go to Edit --> Preferences --> General --> We Browser --> Use external
 web browser.
 
+Open in New Window
+By default, all screens will open in a new tab.  If you want to open a given
+screen in a new window, then right click on the button that opens it and choose
+Open in New Window.
+
 Known Issues
 - 9 August 2012: When a given trace on the front.opi screen is hidden, 
 the graph does not correctly ignore it when autoscaling.  This will be

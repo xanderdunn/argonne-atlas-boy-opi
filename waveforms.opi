@@ -184,7 +184,7 @@ $(pv_value)</tooltip>
       <axis_2_maximum>100.0</axis_2_maximum>
       <trace_0_update_mode>3</trace_0_update_mode>
       <trace_1_buffer_size>100</trace_1_buffer_size>
-      <axis_0_axis_title>time (sec)</axis_0_axis_title>
+      <axis_0_axis_title></axis_0_axis_title>
       <wuid>-24973549:138e842d46a:-78bb</wuid>
       <axis_1_axis_color>
         <color red="0" green="0" blue="0" />
@@ -201,7 +201,7 @@ $(pv_value)</tooltip>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </axis_0_scale_font>
       <trace_1_y_pv_value />
-      <axis_0_time_format>3</axis_0_time_format>
+      <axis_0_time_format>0</axis_0_time_format>
       <trace_1_plot_mode>0</trace_1_plot_mode>
       <axis_1_log_scale>false</axis_1_log_scale>
       <trace_1_point_style>0</trace_1_point_style>
@@ -348,8 +348,8 @@ $(trace_0_y_pv_value)</tooltip>
       <trace_1_anti_alias>true</trace_1_anti_alias>
       <axis_2_maximum>100.0</axis_2_maximum>
       <trace_0_update_mode>3</trace_0_update_mode>
-      <trace_1_buffer_size>100</trace_1_buffer_size>
-      <axis_0_axis_title>time (sec)</axis_0_axis_title>
+      <trace_1_buffer_size>1000</trace_1_buffer_size>
+      <axis_0_axis_title></axis_0_axis_title>
       <wuid>-24973549:138e842d46a:-79bd</wuid>
       <axis_1_axis_color>
         <color red="0" green="0" blue="0" />
@@ -366,7 +366,7 @@ $(trace_0_y_pv_value)</tooltip>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </axis_0_scale_font>
       <trace_1_y_pv_value />
-      <axis_0_time_format>8</axis_0_time_format>
+      <axis_0_time_format>0</axis_0_time_format>
       <trace_1_plot_mode>0</trace_1_plot_mode>
       <axis_1_log_scale>false</axis_1_log_scale>
       <trace_1_point_style>0</trace_1_point_style>
@@ -395,7 +395,7 @@ $(trace_0_y_pv_value)</tooltip>
       <widget_type>XY Graph</widget_type>
       <enabled>true</enabled>
       <width>398</width>
-      <trace_0_buffer_size>100</trace_0_buffer_size>
+      <trace_0_buffer_size>1000</trace_0_buffer_size>
       <trigger_pv></trigger_pv>
       <axis_count>3</axis_count>
       <transparent>false</transparent>
@@ -514,7 +514,7 @@ $(trace_0_y_pv_value)</tooltip>
       <axis_2_maximum>100.0</axis_2_maximum>
       <trace_0_update_mode>3</trace_0_update_mode>
       <trace_1_buffer_size>100</trace_1_buffer_size>
-      <axis_0_axis_title>time (sec)</axis_0_axis_title>
+      <axis_0_axis_title></axis_0_axis_title>
       <wuid>-24973549:138e842d46a:-78c5</wuid>
       <axis_1_axis_color>
         <color red="0" green="0" blue="0" />
@@ -531,7 +531,7 @@ $(trace_0_y_pv_value)</tooltip>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </axis_0_scale_font>
       <trace_1_y_pv_value />
-      <axis_0_time_format>3</axis_0_time_format>
+      <axis_0_time_format>0</axis_0_time_format>
       <trace_1_plot_mode>0</trace_1_plot_mode>
       <axis_1_log_scale>false</axis_1_log_scale>
       <trace_1_point_style>0</trace_1_point_style>
@@ -679,7 +679,7 @@ $(trace_0_y_pv_value)</tooltip>
       <axis_2_maximum>100.0</axis_2_maximum>
       <trace_0_update_mode>3</trace_0_update_mode>
       <trace_1_buffer_size>100</trace_1_buffer_size>
-      <axis_0_axis_title>time (sec)</axis_0_axis_title>
+      <axis_0_axis_title></axis_0_axis_title>
       <wuid>-24973549:138e842d46a:-78b4</wuid>
       <axis_1_axis_color>
         <color red="0" green="0" blue="0" />
@@ -696,7 +696,7 @@ $(trace_0_y_pv_value)</tooltip>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </axis_0_scale_font>
       <trace_1_y_pv_value />
-      <axis_0_time_format>3</axis_0_time_format>
+      <axis_0_time_format>0</axis_0_time_format>
       <trace_1_plot_mode>0</trace_1_plot_mode>
       <axis_1_log_scale>false</axis_1_log_scale>
       <trace_1_point_style>0</trace_1_point_style>

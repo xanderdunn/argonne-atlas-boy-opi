@@ -8,7 +8,7 @@
   <boy_version>3.1.1.20120723</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
-  <height>530</height>
+  <height>575</height>
   <name></name>
   <snap_to_geometry>true</snap_to_geometry>
   <show_grid>true</show_grid>
@@ -39,7 +39,7 @@
     <visible>true</visible>
     <wuid>-24973549:138e842d46a:-5584</wuid>
     <scripts />
-    <height>525</height>
+    <height>570</height>
     <name>root</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -83,7 +83,7 @@
         <color red="255" green="255" blue="255" />
       </bg_gradient_color>
       <scripts />
-      <height>525</height>
+      <height>570</height>
       <anti_alias>true</anti_alias>
       <corner_height>16</corner_height>
       <name>Rounded Rectangle</name>
@@ -151,7 +151,7 @@ $(pv_value)</tooltip>
       <axis_2_minimum>0.0</axis_2_minimum>
       <trace_0_point_size>4</trace_0_point_size>
       <show_legend>true</show_legend>
-      <y>281</y>
+      <y>321</y>
       <x>8</x>
       <visible>true</visible>
       <trace_0_x_pv_value />
@@ -316,7 +316,7 @@ $(trace_0_y_pv_value)</tooltip>
       <axis_2_minimum>0.0</axis_2_minimum>
       <trace_0_point_size>4</trace_0_point_size>
       <show_legend>true</show_legend>
-      <y>36</y>
+      <y>48</y>
       <x>8</x>
       <visible>true</visible>
       <trace_0_x_pv_value />
@@ -481,7 +481,7 @@ $(trace_0_y_pv_value)</tooltip>
       <axis_2_minimum>0.0</axis_2_minimum>
       <trace_0_point_size>4</trace_0_point_size>
       <show_legend>true</show_legend>
-      <y>36</y>
+      <y>48</y>
       <x>414</x>
       <visible>true</visible>
       <trace_0_x_pv_value />
@@ -646,7 +646,7 @@ $(trace_0_y_pv_value)</tooltip>
       <axis_2_minimum>0.0</axis_2_minimum>
       <trace_0_point_size>4</trace_0_point_size>
       <show_legend>true</show_legend>
-      <y>281</y>
+      <y>321</y>
       <x>414</x>
       <visible>true</visible>
       <trace_0_x_pv_value />
@@ -844,45 +844,183 @@ $(trace_0_y_pv_value)</tooltip>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     </widget>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.NativeButton" version="1.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
-    <wuid>bef14dd:1392576b534:-7998</wuid>
-    <scripts />
-    <height>25</height>
-    <name>Button</name>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <pv_name></pv_name>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <widget_type>Button</widget_type>
-    <enabled>true</enabled>
-    <text>X, Y Waveform</text>
-    <font>
-      <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>108</width>
-    <border_style>0</border_style>
-    <push_action_index>0</push_action_index>
-    <image></image>
-    <rules />
-    <pv_value />
-    <toggle_button>false</toggle_button>
-    <border_width>1</border_width>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <y>587</y>
-    <actions hook="false" hook_all="false" />
-    <tooltip>$(pv_name)
+    <widget typeId="org.csstudio.opibuilder.widgets.NativeButton" version="1.0">
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <wuid>bef14dd:1392576b534:-7998</wuid>
+      <scripts />
+      <height>25</height>
+      <name>Button</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <pv_name></pv_name>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <widget_type>Button</widget_type>
+      <enabled>true</enabled>
+      <text>CAV X, Y Waveform</text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>139</width>
+      <border_style>0</border_style>
+      <push_action_index>0</push_action_index>
+      <image></image>
+      <rules />
+      <pv_value />
+      <toggle_button>false</toggle_button>
+      <border_width>1</border_width>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <y>18</y>
+      <actions hook="false" hook_all="false">
+        <action type="OPEN_DISPLAY">
+          <path>xycavwaveform.opi</path>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+          </macros>
+          <replace>1</replace>
+          <description></description>
+        </action>
+      </actions>
+      <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>385</x>
+      <x>144</x>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.NativeButton" version="1.0">
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <wuid>1af02831:13925a0d761:-7c1e</wuid>
+      <scripts />
+      <height>25</height>
+      <name>Button_1</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <pv_name></pv_name>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <widget_type>Button</widget_type>
+      <enabled>true</enabled>
+      <text>REV X, Y Waveform</text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>139</width>
+      <border_style>0</border_style>
+      <push_action_index>0</push_action_index>
+      <image></image>
+      <rules />
+      <pv_value />
+      <toggle_button>false</toggle_button>
+      <border_width>1</border_width>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <y>294</y>
+      <actions hook="false" hook_all="false" />
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <x>132</x>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.NativeButton" version="1.0">
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <wuid>1af02831:13925a0d761:-7c17</wuid>
+      <scripts />
+      <height>25</height>
+      <name>Button_2</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <pv_name></pv_name>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <widget_type>Button</widget_type>
+      <enabled>true</enabled>
+      <text>REF X, Y Waveform</text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>139</width>
+      <border_style>0</border_style>
+      <push_action_index>0</push_action_index>
+      <image></image>
+      <rules />
+      <pv_value />
+      <toggle_button>false</toggle_button>
+      <border_width>1</border_width>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <y>294</y>
+      <actions hook="false" hook_all="false" />
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <x>543</x>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.NativeButton" version="1.0">
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <wuid>1af02831:13925a0d761:-7c25</wuid>
+      <scripts />
+      <height>25</height>
+      <name>Button</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <scale_options>
+        <width_scalable>false</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <pv_name></pv_name>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <widget_type>Button</widget_type>
+      <enabled>true</enabled>
+      <text>FWD X, Y Waveform</text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>145</width>
+      <border_style>0</border_style>
+      <push_action_index>0</push_action_index>
+      <image></image>
+      <rules />
+      <pv_value />
+      <toggle_button>false</toggle_button>
+      <border_width>1</border_width>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <y>18</y>
+      <actions hook="false" hook_all="false">
+        <action type="OPEN_DISPLAY">
+          <path>xyfwdwaveform.opi</path>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+          </macros>
+          <replace>0</replace>
+          <description></description>
+        </action>
+      </actions>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <x>552</x>
+    </widget>
   </widget>
 </display>
