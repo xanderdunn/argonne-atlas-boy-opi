@@ -317,7 +317,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:in_phase_set_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:in_phase_set_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -372,7 +372,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:out_amp_set_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:out_amp_set_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -427,7 +427,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:out_phase_set_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:out_phase_set_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -482,7 +482,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:in_amp_set_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:in_amp_set_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -531,7 +531,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:in_amp_set_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:in_amp_set_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -579,7 +579,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:in_phase_set_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:in_phase_set_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -627,7 +627,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:out_amp_set_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:out_amp_set_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -675,7 +675,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:out_phase_set_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:out_phase_set_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -865,7 +865,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:wave_samp_per_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_samp_per_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -920,7 +920,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:wave_shift_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_shift_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -969,7 +969,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:wave_samp_per_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_samp_per_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1017,7 +1017,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:wave_shift_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_shift_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1112,7 +1112,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:close_loop_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:close_loop_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -1500,7 +1500,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:int_ena_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:int_ena_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -1560,7 +1560,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:chirp_sel_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:chirp_sel_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -1620,7 +1620,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:cw_sel_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:cw_sel_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -1680,7 +1680,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:gdr_sel_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:gdr_sel_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -1740,7 +1740,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:no_mag_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:no_mag_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -1800,7 +1800,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:notch_en_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:notch_en_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -1860,7 +1860,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:ref_phase_lock_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:ref_phase_lock_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -1920,7 +1920,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:ref_phase_reset_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:ref_phase_reset_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -2021,7 +2021,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:chirp_density_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:chirp_density_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2070,7 +2070,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:chirp_density_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:chirp_density_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2165,7 +2165,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:chirp_power_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):chirp_power_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2214,7 +2214,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:chirp_power_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):chirp_power_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2309,7 +2309,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:amp_set_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:amp_set_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2358,7 +2358,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:amp_set_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:amp_set_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2453,7 +2453,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:pha_set_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:pha_set_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2502,7 +2502,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:pha_set_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:pha_set_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2597,7 +2597,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:amp_prop_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:amp_prop_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2646,7 +2646,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:pha_prop_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:pha_prop_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2694,7 +2694,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:amp_prop_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:amp_prop_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2789,7 +2789,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:pha_prop_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:pha_prop_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2885,7 +2885,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:amp_freq_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:amp_freq_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2934,7 +2934,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:amp_freq_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:amp_freq_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3029,7 +3029,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:pha_freq_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:pha_freq_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3078,7 +3078,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:pha_freq_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:pha_freq_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3173,7 +3173,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:pha_kick_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:pha_kick_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3222,7 +3222,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:pha_kick_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:pha_kick_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3498,7 +3498,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:ddsa_modulo_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:ddsa_modulo_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3553,7 +3553,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:ddsa_phstep_l_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:ddsa_phstep_l_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3608,7 +3608,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:ddsa_phstep_h_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:ddsa_phstep_h_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3657,7 +3657,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:ddsa_phstep_h_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:ddsa_phstep_h_ao</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -3705,7 +3705,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:ddsa_phstep_l_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:ddsa_phstep_l_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3753,7 +3753,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:ddsa_modulo_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:ddsa_modulo_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3902,7 +3902,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:xsel_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:xsel_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3951,7 +3951,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:xsel_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:xsel_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -4046,7 +4046,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:ch_keep_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:ch_keep_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -4095,7 +4095,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:ch_keep_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:ch_keep_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -4190,7 +4190,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:tpat_speed_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:tpat_speed_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -4239,7 +4239,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:tpat_speed_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:tpat_speed_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -4457,7 +4457,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:en_adc0_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:en_adc0_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -4517,7 +4517,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:en_adc1_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:en_adc1_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -4577,7 +4577,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:en_adc2_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:en_adc2_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -4637,7 +4637,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:en_adc3_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:en_adc3_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -4779,7 +4779,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:en_dac_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:en_dac_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -4839,7 +4839,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:en_slowadc_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:en_slowadc_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -5039,7 +5039,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:show_test_cnt_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:show_test_cnt_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -5107,7 +5107,7 @@ $(pv_value)</tooltip>
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
-      <text>L0:LLRF4/usrp = defined at the board level, do NOT touch</text>
+      <text>L0:$(LLRF)/usrp = defined at the board level, do NOT touch</text>
       <precision>0</precision>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
@@ -5317,7 +5317,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:reset_rx_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:reset_rx_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -5377,7 +5377,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:reset_tx_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:reset_tx_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -5437,7 +5437,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:enable_rx_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:enable_rx_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -5497,7 +5497,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:enable_tx_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:enable_tx_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -5598,7 +5598,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:ad95xx_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:ad95xx_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -5647,7 +5647,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:ad95xx_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:ad95xx_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -5742,7 +5742,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:src_sel_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:src_sel_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -5791,7 +5791,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:src_sel_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:src_sel_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -5886,7 +5886,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:dbg_sel_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:dbg_sel_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -5935,7 +5935,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:dbg_sel_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:dbg_sel_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -6112,7 +6112,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:max1820_sync_enable_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:max1820_sync_enable_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -6172,7 +6172,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:max1820_mux_ctl_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:max1820_mux_ctl_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -6232,7 +6232,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:dac_reconfig_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:dac_reconfig_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -6333,7 +6333,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:max1820_div_ctl_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:max1820_div_ctl_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -6382,7 +6382,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:max1820_div_ctl_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:max1820_div_ctl_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -6477,7 +6477,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:mcp3208_divset_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp3208_divset_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -6526,7 +6526,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:mcp3208_divset_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp3208_divset_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -6703,7 +6703,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:mcp3208_lothresh_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp3208_lothresh_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -6758,7 +6758,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:mcp3208_lochan_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp3208_lochan_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -6813,7 +6813,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:mcp3208_trigset_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp3208_trigset_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -6862,7 +6862,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:mcp3208_trigset_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp3208_trigset_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -6910,7 +6910,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:mcp3208_lochan_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp3208_lochan_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7005,7 +7005,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:vhf_tuner_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:vhf_tuner_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7054,7 +7054,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:vhf_tuner_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:vhf_tuner_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7102,7 +7102,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:mcp3208_lothresh_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp3208_lothresh_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7252,7 +7252,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_1</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_1</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7296,7 +7296,7 @@ $(pv_value)</tooltip>
         <height_scalable>false</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_1_mb</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_1_mb</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7361,7 +7361,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_2</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_2</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7405,7 +7405,7 @@ $(pv_value)</tooltip>
         <height_scalable>false</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_2_mb</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_2_mb</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7470,7 +7470,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_3</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_3</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7514,7 +7514,7 @@ $(pv_value)</tooltip>
         <height_scalable>false</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_3_mb</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_3_mb</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7579,7 +7579,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_4</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_4</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7623,7 +7623,7 @@ $(pv_value)</tooltip>
         <height_scalable>false</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_4_mb</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_4_mb</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7688,7 +7688,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_5</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_5</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7732,7 +7732,7 @@ $(pv_value)</tooltip>
         <height_scalable>false</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_5_mb</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_5_mb</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7797,7 +7797,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_6</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_6</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7841,7 +7841,7 @@ $(pv_value)</tooltip>
         <height_scalable>false</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_6_mb</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_6_mb</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7906,7 +7906,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_7</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_7</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -7950,7 +7950,7 @@ $(pv_value)</tooltip>
         <height_scalable>false</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_7_mb</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_7_mb</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -8015,7 +8015,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_8</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_8</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -8059,7 +8059,7 @@ $(pv_value)</tooltip>
         <height_scalable>false</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_8_mb</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_8_mb</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -8124,7 +8124,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_9</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_9</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -8168,7 +8168,7 @@ $(pv_value)</tooltip>
         <height_scalable>false</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_9_mb</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_9_mb</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -8233,7 +8233,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_10</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_10</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -8277,7 +8277,7 @@ $(pv_value)</tooltip>
         <height_scalable>false</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_10_mb</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_10_mb</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -8342,7 +8342,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_11</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_11</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -8386,7 +8386,7 @@ $(pv_value)</tooltip>
         <height_scalable>false</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_11_mb</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_11_mb</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -8451,7 +8451,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_12</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_12</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -8495,7 +8495,7 @@ $(pv_value)</tooltip>
         <height_scalable>false</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name>$(TS)LLRF4:DRV0:wave_sel_12_mb</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:wave_sel_12_mb</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -9282,7 +9282,7 @@ $(pv_value)</tooltip>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
-        <pv_name>$(TS)LLRF4:DRV0:decimation</pv_name>
+        <pv_name>$(TS)$(LLRF):DRV0:decimation</pv_name>
         <background_color>
           <color red="255" green="255" blue="255" />
         </background_color>
@@ -9374,7 +9374,7 @@ $(pv_value)</tooltip>
           <format_type>2</format_type>
           <precision_from_pv>false</precision_from_pv>
           <transparent>false</transparent>
-          <pv_name>$(TS)LLRF4:DRV0:AvgBlockTime_RBV</pv_name>
+          <pv_name>$(TS)$(LLRF):DRV0:AvgBlockTime_RBV</pv_name>
           <background_color>
             <color red="255" green="255" blue="255" />
           </background_color>
@@ -9425,7 +9425,7 @@ $(pv_value)</tooltip>
           <format_type>2</format_type>
           <precision_from_pv>false</precision_from_pv>
           <transparent>false</transparent>
-          <pv_name>$(TS)LLRF4:DRV0:AvgChapterTime_RBV</pv_name>
+          <pv_name>$(TS)$(LLRF):DRV0:AvgChapterTime_RBV</pv_name>
           <background_color>
             <color red="255" green="255" blue="255" />
           </background_color>
@@ -9476,7 +9476,7 @@ $(pv_value)</tooltip>
           <format_type>2</format_type>
           <precision_from_pv>false</precision_from_pv>
           <transparent>false</transparent>
-          <pv_name>$(TS)LLRF4:DRV0:AvgPageTime_RBV</pv_name>
+          <pv_name>$(TS)$(LLRF):DRV0:AvgPageTime_RBV</pv_name>
           <background_color>
             <color red="255" green="255" blue="255" />
           </background_color>
@@ -9527,7 +9527,7 @@ $(pv_value)</tooltip>
           <format_type>2</format_type>
           <precision_from_pv>false</precision_from_pv>
           <transparent>false</transparent>
-          <pv_name>$(TS)LLRF4:DRV0:AvgLineTime_RBV</pv_name>
+          <pv_name>$(TS)$(LLRF):DRV0:AvgLineTime_RBV</pv_name>
           <background_color>
             <color red="255" green="255" blue="255" />
           </background_color>
@@ -9935,7 +9935,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:resync_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:resync_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -10036,7 +10036,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:en_pin_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:en_pin_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -10134,7 +10134,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:frequency</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:frequency</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -10226,7 +10226,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:adc1_min</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:adc1_min</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -10318,7 +10318,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:adc1_max</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:adc1_max</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -10410,7 +10410,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:adc2_min</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:adc2_min</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -10502,7 +10502,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:adc2_max</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:adc2_max</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -10594,7 +10594,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:adc3_min</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:adc3_min</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -10686,7 +10686,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:adc3_max</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:adc3_max</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -10778,7 +10778,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:adc4_min</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:adc4_min</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -10870,7 +10870,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:adc4_max</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:adc4_max</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -10962,7 +10962,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:sel_freq</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:sel_freq</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -11054,7 +11054,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:sel_freq_errs</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:sel_freq_errs</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -11146,7 +11146,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:rf_zeros</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:rf_zeros</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -11238,7 +11238,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:yscale</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:yscale</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -11330,7 +11330,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:lo_power</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:lo_power</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -11422,7 +11422,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:circle_count</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:circle_count</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -11473,7 +11473,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:circle_wrap</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:circle_wrap</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -11565,7 +11565,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:circle_fault</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:circle_fault</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -11616,7 +11616,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:circle_addr</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:circle_addr</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -11790,7 +11790,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:laser_freq</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:laser_freq</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -11882,7 +11882,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:rf_permit</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:rf_permit</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -11974,7 +11974,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:rf_master</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:rf_master</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -12066,7 +12066,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:rf_on</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:rf_on</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -12158,7 +12158,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:phase_ref</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:phase_ref</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -12250,7 +12250,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:time1</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:time1</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -12342,7 +12342,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:time2</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:time2</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -12434,7 +12434,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:freq_Hz</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:freq_Hz</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -12526,7 +12526,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:time3</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:time3</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -12618,7 +12618,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:mcp_2</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp_2</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -12710,7 +12710,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:timestamp1</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:timestamp1</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -12802,7 +12802,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:timestamp2</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:timestamp2</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -12894,7 +12894,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:core_current</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:core_current</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -12986,7 +12986,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:mcp_1</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp_1</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -13078,7 +13078,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:ai_1</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:ai_1</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -13170,7 +13170,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:n_a</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:n_a</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -13262,7 +13262,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:mcp_3</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp_3</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -13354,7 +13354,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:mcp_6</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp_6</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -13446,7 +13446,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:mcp_4</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp_4</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -13538,7 +13538,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:ai_2</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:ai_2</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -13630,7 +13630,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:dac_loopback</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:dac_loopback</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -13722,7 +13722,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:mcp_5</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp_5</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -13814,7 +13814,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:5V</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:5V</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -13906,7 +13906,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:checksum</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:checksum</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -13998,7 +13998,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:mcp_7</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp_7</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -14090,7 +14090,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:na</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:na</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -14182,7 +14182,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:mcp_8</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:mcp_8</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -14274,7 +14274,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:J20</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:J20</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -14366,7 +14366,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:page_id_f</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:page_id_f</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -14458,7 +14458,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:page_id_0</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:page_id_0</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -14553,7 +14553,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:en_dallas_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:en_dallas_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -15091,7 +15091,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:phase_ref0</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:phase_ref0</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -15183,7 +15183,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:dac1_min</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:dac1_min</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -15275,7 +15275,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:dac1_max</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:dac1_max</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -15367,7 +15367,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:amp_ok</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:amp_ok</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -15459,7 +15459,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:rf_permit1</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:rf_permit1</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -15551,7 +15551,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:phase_track</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:phase_track</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -15643,7 +15643,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:rf_permit2</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:rf_permit2</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -15735,7 +15735,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:dallas_id_20</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:dallas_id_20</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -15827,7 +15827,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:config_data</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:config_data</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -15919,7 +15919,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:buf_discarded</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:buf_discarded</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -16011,7 +16011,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:time4</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:time4</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -16103,7 +16103,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:dallas_id_28</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:dallas_id_28</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -16195,7 +16195,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:dallas_id_24</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:dallas_id_24</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -16287,7 +16287,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:dallas_id_3c</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:dallas_id_3c</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -16379,7 +16379,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:dallas_id_2c</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:dallas_id_2c</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -16471,7 +16471,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:dallas_id_30</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:dallas_id_30</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -16563,7 +16563,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:dallas_id_38</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:dallas_id_38</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -16655,7 +16655,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
-      <pv_name>$(TS)LLRF4:DRV0:dallas_id_34</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:dallas_id_34</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -16703,7 +16703,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:gdr_pole_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:gdr_pole_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -16757,7 +16757,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:gdr_pole_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:gdr_pole_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -16806,7 +16806,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:gdr_setx_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:gdr_setx_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -16854,7 +16854,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:cal_out_amp_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:cal_out_amp_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -16949,7 +16949,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:gdr_gainp_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:gdr_gainp_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -17080,7 +17080,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:track_bw_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:track_bw_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -17257,7 +17257,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:gdr_gainx_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:gdr_gainx_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -17388,7 +17388,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:gdr_gainx_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:gdr_gainx_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -17436,7 +17436,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:sel2_phase_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:sel2_phase_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -17531,7 +17531,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:gdr_sety_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:gdr_sety_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -17586,7 +17586,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:cal_out_amp_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:cal_out_amp_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -17682,7 +17682,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:sel2_phstep_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:sel2_phstep_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -17731,7 +17731,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:gdr_gainy_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:gdr_gainy_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -17779,7 +17779,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:sel2_phstep_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:sel2_phstep_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -17833,7 +17833,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:track_bw_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:track_bw_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -17882,7 +17882,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:gdr_sety_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:gdr_sety_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -17930,7 +17930,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <page_increment>10.0</page_increment>
-      <pv_name>$(TS)LLRF4:DRV0:gdr_gainp_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:gdr_gainp_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -17984,7 +17984,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:gdr_setx_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:gdr_setx_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -18039,7 +18039,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:sel2_phase_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:sel2_phase_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -18094,7 +18094,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:DRV0:gdr_gainy_ao</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:gdr_gainy_ao</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -18149,7 +18149,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:prop8x_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:prop8x_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -18209,7 +18209,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:start_ptrack_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:start_ptrack_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -18269,7 +18269,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:sel2_dds_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:sel2_dds_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -18329,7 +18329,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:permit2_mask_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:permit2_mask_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -18389,7 +18389,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:monitor_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:monitor_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -18449,7 +18449,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:quench_test_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:quench_test_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -18509,7 +18509,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:DRV0:rf_go_bo</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:rf_go_bo</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>

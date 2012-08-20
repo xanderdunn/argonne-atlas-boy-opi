@@ -118,7 +118,7 @@
     <trace_1_x_pv_value />
     <axis_0_scale_format></axis_0_scale_format>
     <trace_0_x_pv></trace_0_x_pv>
-    <trace_0_y_pv>$(TS)LLRF4:STATS0:S$(FWD)_ampl_wf</trace_0_y_pv>
+    <trace_0_y_pv>$(TS)$(LLRF):STATS0:S$(FWD)_ampl_wf</trace_0_y_pv>
     <axis_0_title_font>
       <fontdata fontName="Arial" height="9" style="1" />
     </axis_0_title_font>
@@ -156,7 +156,7 @@ $(trace_0_y_pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </plot_area_background_color>
     <title></title>
-    <trace_1_y_pv>$(TS)LLRF4:STATS0:S$(FWD)_phase_wf</trace_1_y_pv>
+    <trace_1_y_pv>$(TS)$(LLRF):STATS0:S$(FWD)_phase_wf</trace_1_y_pv>
     <axis_2_auto_scale>true</axis_2_auto_scale>
     <pv_name></pv_name>
     <axis_1_minimum>0.0</axis_1_minimum>

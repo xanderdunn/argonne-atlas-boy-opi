@@ -1,9 +1,13 @@
+Shortcuts
+Ctrl + G = Start the opened .opi file in runtime mode
+F8 = enter/exit compact mode
+
 !! OPI Runtime vs. OPI Editor
 Just like MEDM, CSS BOY has an execute mode and an edit mode.
 To switch between them, right click on an OPI in the left-hand Navigator
 pane and choose Open With --> OPI Edtior or OPI Runtime.
 
-!! First time use
+!! First time use (TS macro)
 You will need to set the "TS" macro so that it can properlly find your EPICS
 server.  Open front.opi in Editor mode and click anywhere on the background.
 This should select the widget "root Group."  At the top of the Properties

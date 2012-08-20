@@ -153,7 +153,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:FILE0:AutoIncrement</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:AutoIncrement</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -266,7 +266,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(TS)LLRF4:FILE0:FileNumber</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:FileNumber</pv_name>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
@@ -320,7 +320,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(TS)LLRF4:FILE0:ArraySize0_RBV</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:ArraySize0_RBV</pv_name>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
@@ -374,7 +374,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(TS)LLRF4:FILE0:DataType_RBV</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:DataType_RBV</pv_name>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
@@ -428,7 +428,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(TS)LLRF4:FILE0:ArraySize1_RBV</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:ArraySize1_RBV</pv_name>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
@@ -482,7 +482,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(TS)LLRF4:FILE0:ArraySize2_RBV</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:ArraySize2_RBV</pv_name>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
@@ -591,7 +591,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>false</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:FILE0:FilePath</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:FilePath</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1023,7 +1023,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:FILE0:FilePathExists_RBV</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:FilePathExists_RBV</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -1077,7 +1077,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>false</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:FILE0:FileName</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:FileName</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1132,7 +1132,7 @@ $(pv_value)</tooltip>
       <precision_from_pv>false</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
-      <pv_name>$(TS)LLRF4:FILE0:FileTemplate</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:FileTemplate</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1339,7 +1339,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(TS)LLRF4:FILE0:AutoFileRem</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:AutoFileRem</pv_name>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
@@ -1393,7 +1393,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(TS)LLRF4:FILE0:AutoFileInt</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:AutoFileInt</pv_name>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
@@ -1556,7 +1556,7 @@ $(pv_value)</tooltip>
       <off_color>
         <color name="Major" red="255" green="0" blue="0" />
       </off_color>
-      <pv_name>$(TS)LLRF4:FILE0:AutoFileEnable</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:AutoFileEnable</pv_name>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -1714,7 +1714,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(TS)LLRF4:DRV0:numChapPerBlock_RBV</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:numChapPerBlock_RBV</pv_name>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
@@ -1768,7 +1768,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(TS)LLRF4:FILE0:NumCapture</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:NumCapture</pv_name>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
@@ -1867,7 +1867,7 @@ $(pv_value)</tooltip>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name>$(TS)LLRF4:FILE0:Capture</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:Capture</pv_name>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
@@ -1970,7 +1970,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <precision_from_pv>true</precision_from_pv>
-      <pv_name>$(TS)LLRF4:DRV0:AvgBlockTime_RBV</pv_name>
+      <pv_name>$(TS)$(LLRF):DRV0:AvgBlockTime_RBV</pv_name>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
@@ -2186,7 +2186,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <precision_from_pv>false</precision_from_pv>
-      <pv_name>$(TS)LLRF4:FILE0:FullFileName_RBV</pv_name>
+      <pv_name>$(TS)$(LLRF):FILE0:FullFileName_RBV</pv_name>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>

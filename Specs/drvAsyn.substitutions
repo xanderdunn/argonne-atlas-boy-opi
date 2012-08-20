@@ -1,0 +1,260 @@
+file dbAsyn_bo.template
+			{
+				    pattern {P,R, NAME,  PORT, ADDR}
+{\$(P),\$(R),rf_go,portasyn,536870912}
+{\$(P),\$(R),quench_test,portasyn,536870913}
+{\$(P),\$(R),start_ptrack,portasyn,536870914}
+{\$(P),\$(R),permit2_mask,portasyn,536870917}
+{\$(P),\$(R),diff_trip_mask,portasyn,536870918}
+{\$(P),\$(R),drive_trip_mask,portasyn,536870919}
+{\$(P),\$(R),show_test_cnt,portasyn,536870927}
+{\$(P),\$(R),nusb,portasyn,536870931}
+{\$(P),\$(R),chirp_sel,portasyn,536870934}
+{\$(P),\$(R),cw_sel,portasyn,536870936}
+{\$(P),\$(R),gdr_sel,portasyn,536870937}
+{\$(P),\$(R),no_mag,portasyn,536870938}
+{\$(P),\$(R),notch_en,portasyn,536870939}
+{\$(P),\$(R),close_loop,portasyn,536870941}
+{\$(P),\$(R),prop8x,portasyn,536870942}
+{\$(P),\$(R),int_ena,portasyn,536870943}
+{\$(P),\$(R),ref_phase_lock,portasyn,536870944}
+{\$(P),\$(R),ref_phase_reset,portasyn,536870945}
+{\$(P),\$(R),sel2_dds,portasyn,536870956}
+{\$(P),\$(R),vp_reset,portasyn,536870957}
+{\$(P),\$(R),trip_reset,portasyn,536870962}
+{\$(P),\$(R),reset_rx,portasyn,536870971}
+{\$(P),\$(R),reset_tx,portasyn,536870972}
+{\$(P),\$(R),enable_rx,portasyn,536870973}
+{\$(P),\$(R),enable_tx,portasyn,536870974}
+{\$(P),\$(R),en_adc0,portasyn,536870991}
+{\$(P),\$(R),en_adc1,portasyn,536870992}
+{\$(P),\$(R),en_adc2,portasyn,536870993}
+{\$(P),\$(R),en_adc3,portasyn,536870994}
+{\$(P),\$(R),en_dac,portasyn,536870995}
+{\$(P),\$(R),en_dallas,portasyn,536870996}
+{\$(P),\$(R),en_slowadc,portasyn,536870997}
+{\$(P),\$(R),en_pin,portasyn,536870998}
+{\$(P),\$(R),max1820_sync_enable,portasyn,536870999}
+{\$(P),\$(R),max1820_mux_ctl,portasyn,536871000}
+{\$(P),\$(R),en_mdac,portasyn,536871001}
+{\$(P),\$(R),monitor,portasyn,536871003}
+{\$(P),\$(R),dac_reconfig,portasyn,536871008}
+}
+file dbAsyn_ai.template
+			{
+				    pattern {P,R, NAME,  PORT, ADDR, SCAN}
+{\$(P),\$(R),page_id_0,portasyn,1073741824,".1 second"}
+{\$(P),\$(R),wave_sel_1,portasyn,1073741825,".1 second"}
+{\$(P),\$(R),wave_sel_2,portasyn,1073741826,".1 second"}
+{\$(P),\$(R),wave_sel_3,portasyn,1073741827,".1 second"}
+{\$(P),\$(R),wave_sel_4,portasyn,1073741828,".1 second"}
+{\$(P),\$(R),wave_sel_5,portasyn,1073741829,".1 second"}
+{\$(P),\$(R),wave_sel_6,portasyn,1073741830,".1 second"}
+{\$(P),\$(R),wave_sel_7,portasyn,1073741831,".1 second"}
+{\$(P),\$(R),wave_sel_8,portasyn,1073741832,".1 second"}
+{\$(P),\$(R),wave_sel_9,portasyn,1073741833,".1 second"}
+{\$(P),\$(R),wave_sel_10,portasyn,1073741834,".1 second"}
+{\$(P),\$(R),wave_sel_11,portasyn,1073741835,".1 second"}
+{\$(P),\$(R),wave_sel_12,portasyn,1073741836,".1 second"}
+{\$(P),\$(R),config_data,portasyn,1073741837,".1 second"}
+{\$(P),\$(R),frequency,portasyn,1073741838,".1 second"}
+{\$(P),\$(R),dallas_id_20,portasyn,1073741839,".1 second"}
+{\$(P),\$(R),dallas_id_24,portasyn,1073741840,".1 second"}
+{\$(P),\$(R),dallas_id_28,portasyn,1073741841,".1 second"}
+{\$(P),\$(R),dallas_id_2c,portasyn,1073741842,".1 second"}
+{\$(P),\$(R),dallas_id_30,portasyn,1073741843,".1 second"}
+{\$(P),\$(R),dallas_id_34,portasyn,1073741844,".1 second"}
+{\$(P),\$(R),dallas_id_38,portasyn,1073741845,".1 second"}
+{\$(P),\$(R),dallas_id_3c,portasyn,1073741846,".1 second"}
+{\$(P),\$(R),mcp_1,portasyn,1073741847,".1 second"}
+{\$(P),\$(R),core_current,portasyn,1073741848,".1 second"}
+{\$(P),\$(R),mcp_2,portasyn,1073741849,".1 second"}
+{\$(P),\$(R),lo_power,portasyn,1073741850,".1 second"}
+{\$(P),\$(R),mcp_3,portasyn,1073741851,".1 second"}
+{\$(P),\$(R),ai_1,portasyn,1073741852,".1 second"}
+{\$(P),\$(R),mcp_4,portasyn,1073741853,".1 second"}
+{\$(P),\$(R),ai_2,portasyn,1073741854,".1 second"}
+{\$(P),\$(R),mcp_5,portasyn,1073741855,".1 second"}
+{\$(P),\$(R),dac_loopback,portasyn,1073741856,".1 second"}
+{\$(P),\$(R),mcp_6,portasyn,1073741857,".1 second"}
+{\$(P),\$(R),n_a,portasyn,1073741858,".1 second"}
+{\$(P),\$(R),mcp_7,portasyn,1073741859,".1 second"}
+{\$(P),\$(R),5V,portasyn,1073741860,".1 second"}
+{\$(P),\$(R),mcp_8,portasyn,1073741861,".1 second"}
+{\$(P),\$(R),J20,portasyn,1073741862,".1 second"}
+{\$(P),\$(R),freq_Hz,portasyn,1073741863,".1 second"}
+{\$(P),\$(R),yscale,portasyn,1073741864,".1 second"}
+{\$(P),\$(R),timestamp1,portasyn,1073741865,".1 second"}
+{\$(P),\$(R),timestamp2,portasyn,1073741866,".1 second"}
+{\$(P),\$(R),buf_discarded,portasyn,1073741867,".1 second"}
+{\$(P),\$(R),ph_avr_1,portasyn,1073741868,".1 second"}
+{\$(P),\$(R),ph_avr_2,portasyn,1073741869,".1 second"}
+{\$(P),\$(R),ph_avr_3,portasyn,1073741870,".1 second"}
+{\$(P),\$(R),ph_avr_4,portasyn,1073741871,".1 second"}
+{\$(P),\$(R),ph_rms_1,portasyn,1073741872,".1 second"}
+{\$(P),\$(R),ph_rms_2,portasyn,1073741873,".1 second"}
+{\$(P),\$(R),ph_rms_3,portasyn,1073741874,".1 second"}
+{\$(P),\$(R),ph_rms_4,portasyn,1073741875,".1 second"}
+{\$(P),\$(R),cav_ph_err,portasyn,1073741876,".1 second"}
+{\$(P),\$(R),temp_mdeg,portasyn,1073741877,".1 second"}
+{\$(P),\$(R),circle_count,portasyn,1073741878,".1 second"}
+{\$(P),\$(R),circle_fault,portasyn,1073741879,".1 second"}
+{\$(P),\$(R),circle_wrap,portasyn,1073741880,".1 second"}
+{\$(P),\$(R),circle_addr,portasyn,1073741881,".1 second"}
+{\$(P),\$(R),adc1_min,portasyn,1073741882,".1 second"}
+{\$(P),\$(R),adc1_max,portasyn,1073741883,".1 second"}
+{\$(P),\$(R),adc2_min,portasyn,1073741884,".1 second"}
+{\$(P),\$(R),adc2_max,portasyn,1073741885,".1 second"}
+{\$(P),\$(R),adc3_min,portasyn,1073741886,".1 second"}
+{\$(P),\$(R),adc3_max,portasyn,1073741887,".1 second"}
+{\$(P),\$(R),adc4_min,portasyn,1073741888,".1 second"}
+{\$(P),\$(R),adc4_max,portasyn,1073741889,".1 second"}
+{\$(P),\$(R),dac2_min,portasyn,1073741890,".1 second"}
+{\$(P),\$(R),dac2_max,portasyn,1073741891,".1 second"}
+{\$(P),\$(R),sel_freq,portasyn,1073741892,".1 second"}
+{\$(P),\$(R),sel_freq_errs,portasyn,1073741893,".1 second"}
+{\$(P),\$(R),laser_freq,portasyn,1073741894,".1 second"}
+{\$(P),\$(R),rf_zeros,portasyn,1073741895,".1 second"}
+{\$(P),\$(R),phase_track,portasyn,1073741896,".1 second"}
+{\$(P),\$(R),amp_ok,portasyn,1073741897,".1 second"}
+{\$(P),\$(R),rf_permit2,portasyn,1073741898,".1 second"}
+{\$(P),\$(R),rf_permit1,portasyn,1073741899,".1 second"}
+{\$(P),\$(R),rf_master,portasyn,1073741900,".1 second"}
+{\$(P),\$(R),rf_on,portasyn,1073741901,".1 second"}
+{\$(P),\$(R),phase_ref,portasyn,1073741902,".1 second"}
+{\$(P),\$(R),phase_ref0,portasyn,1073741903,".1 second"}
+{\$(P),\$(R),diff_tripped,portasyn,1073741904,".1 second"}
+{\$(P),\$(R),diff_zeros,portasyn,1073741905,".1 second"}
+{\$(P),\$(R),diff_peak_val,portasyn,1073741906,".1 second"}
+{\$(P),\$(R),drive_tripped,portasyn,1073741907,".1 second"}
+{\$(P),\$(R),drive_zeros,portasyn,1073741908,".1 second"}
+{\$(P),\$(R),drive_peak_val,portasyn,1073741909,".1 second"}
+{\$(P),\$(R),time1,portasyn,1073741910,".1 second"}
+{\$(P),\$(R),time2,portasyn,1073741911,".1 second"}
+{\$(P),\$(R),time3,portasyn,1073741912,".1 second"}
+{\$(P),\$(R),time4,portasyn,1073741913,".1 second"}
+{\$(P),\$(R),page_id_f,portasyn,1073741914,".1 second"}
+{\$(P),\$(R),wave_sel_1,portasyn,1073741915,".1 second"}
+{\$(P),\$(R),wave_sel_2,portasyn,1073741916,".1 second"}
+{\$(P),\$(R),wave_sel_3,portasyn,1073741917,".1 second"}
+{\$(P),\$(R),wave_sel_4,portasyn,1073741918,".1 second"}
+{\$(P),\$(R),wave_sel_5,portasyn,1073741919,".1 second"}
+{\$(P),\$(R),wave_sel_6,portasyn,1073741920,".1 second"}
+{\$(P),\$(R),wave_sel_7,portasyn,1073741921,".1 second"}
+{\$(P),\$(R),wave_sel_8,portasyn,1073741922,".1 second"}
+{\$(P),\$(R),wave_sel_9,portasyn,1073741923,".1 second"}
+{\$(P),\$(R),wave_sel_10,portasyn,1073741924,".1 second"}
+{\$(P),\$(R),wave_sel_11,portasyn,1073741925,".1 second"}
+{\$(P),\$(R),wave_sel_12,portasyn,1073741926,".1 second"}
+{\$(P),\$(R),na,portasyn,1073741927,".1 second"}
+{\$(P),\$(R),checksum,portasyn,1073741928,".1 second"}
+}
+
+	file dbAsyn_ao.template
+	{
+			    pattern {P,R, NAME,  PORT, ADDR,FLNK}
+				{\$(P),\$(R),sideband_mode,portasyn,536870915,0}
+{\$(P),\$(R),track_bw,portasyn,536870916,0}
+{\$(P),\$(R),ddsa_phstep_h,portasyn,536870920,0}
+{\$(P),\$(R),ddsa_phstep_l,portasyn,536870921,0}
+{\$(P),\$(R),ddsa_modulo,portasyn,536870922,0}
+{\$(P),\$(R),in_amp_set,portasyn,536870923,0}
+{\$(P),\$(R),in_phase_set,portasyn,536870924,0}
+{\$(P),\$(R),out_amp_set,portasyn,536870925,0}
+{\$(P),\$(R),out_phase_set,portasyn,536870926,0}
+{\$(P),\$(R),wave_samp_per,portasyn,536870928,0}
+{\$(P),\$(R),wave_shift,portasyn,536870929,0}
+{\$(P),\$(R),xsel,portasyn,536870930,0}
+{\$(P),\$(R),xstp,portasyn,536870932,0}
+{\$(P),\$(R),ch_keep,portasyn,536870933,0}
+{\$(P),\$(R),chirp_density,portasyn,536870935,0}
+{\$(P),\$(R),chirp_power,portasyn,536870940,0}
+{\$(P),\$(R),amp_set,portasyn,536870946,0}
+{\$(P),\$(R),pha_set,portasyn,536870947,0}
+{\$(P),\$(R),amp_prop,portasyn,536870948,0}
+{\$(P),\$(R),pha_prop,portasyn,536870949,0}
+{\$(P),\$(R),amp_freq,portasyn,536870950,0}
+{\$(P),\$(R),pha_freq,portasyn,536870951,0}
+{\$(P),\$(R),pha_kick,portasyn,536870952,0}
+{\$(P),\$(R),cal_out_amp,portasyn,536870953,0}
+{\$(P),\$(R),gdr_pole,portasyn,536870954,0}
+{\$(P),\$(R),sel2_phase,portasyn,536870955,0}
+{\$(P),\$(R),sel2_phstep,portasyn,536870958,0}
+{\$(P),\$(R),gdr_gainp,portasyn,536870959,0}
+{\$(P),\$(R),diff_thresh,portasyn,536870960,0}
+{\$(P),\$(R),drive_thresh,portasyn,536870961,0}
+{\$(P),\$(R),gdr_setx,portasyn,536870963,0}
+{\$(P),\$(R),gdr_sety,portasyn,536870964,0}
+{\$(P),\$(R),gdr_gainx,portasyn,536870965,0}
+{\$(P),\$(R),gdr_gainy,portasyn,536870966,0}
+{\$(P),\$(R),unused_4,portasyn,536870967,0}
+{\$(P),\$(R),unused_5,portasyn,536870968,0}
+{\$(P),\$(R),unused_6,portasyn,536870969,0}
+{\$(P),\$(R),unused_7,portasyn,536870970,0}
+{\$(P),\$(R),ad95xx,portasyn,536870975,0}
+{\$(P),\$(R),wave_sel_1,portasyn,536870976,0}
+{\$(P),\$(R),wave_sel_2,portasyn,536870977,0}
+{\$(P),\$(R),wave_sel_3,portasyn,536870978,0}
+{\$(P),\$(R),wave_sel_4,portasyn,536870979,0}
+{\$(P),\$(R),wave_sel_5,portasyn,536870980,0}
+{\$(P),\$(R),wave_sel_6,portasyn,536870981,0}
+{\$(P),\$(R),wave_sel_7,portasyn,536870982,0}
+{\$(P),\$(R),wave_sel_8,portasyn,536870983,0}
+{\$(P),\$(R),wave_sel_9,portasyn,536870984,0}
+{\$(P),\$(R),wave_sel_10,portasyn,536870985,0}
+{\$(P),\$(R),wave_sel_11,portasyn,536870986,0}
+{\$(P),\$(R),wave_sel_12,portasyn,536870987,0}
+{\$(P),\$(R),tpat_speed,portasyn,536870988,0}
+{\$(P),\$(R),src_sel,portasyn,536870989,0}
+{\$(P),\$(R),dbg_sel,portasyn,536870990,0}
+{\$(P),\$(R),max1820_div_ctl,portasyn,536871002,0}
+{\$(P),\$(R),mcp3208_divset,portasyn,536871004,0}
+{\$(P),\$(R),mcp3208_trigset,portasyn,536871005,0}
+{\$(P),\$(R),mcp3208_lochan,portasyn,536871006,0}
+{\$(P),\$(R),mcp3208_lothresh,portasyn,536871007,0}
+{\$(P),\$(R),vhf_tuner,portasyn,536871009,0}
+}
+
+	file dbAsyn_wave_int.template
+	{
+	pattern {P,R, NAME,       RW,PORT, ADDR, SCAN, NELM }
+	{\$(P),\$(R),   ,w1,r,portasyn,0,".1 second" ,1024}
+{\$(P),\$(R),   ,w2,r,portasyn,1,".1 second" ,1024}
+{\$(P),\$(R),   ,w3,r,portasyn,2,".1 second" ,1024}
+{\$(P),\$(R),   ,w4,r,portasyn,3,".1 second" ,1024}
+{\$(P),\$(R),   ,w5,r,portasyn,4,".1 second" ,1024}
+{\$(P),\$(R),   ,w6,r,portasyn,5,".1 second" ,1024}
+{\$(P),\$(R),   ,w7,r,portasyn,6,".1 second" ,1024}
+{\$(P),\$(R),   ,w8,r,portasyn,7,".1 second" ,1024}
+{\$(P),\$(R),   ,w9,r,portasyn,8,".1 second" ,32}
+{\$(P),\$(R),   ,wa,r,portasyn,9,".1 second" ,32}
+{\$(P),\$(R),   ,wb,r,portasyn,10,".1 second" ,32}
+{\$(P),\$(R),   ,wc,r,portasyn,11,".1 second" ,32}
+{\$(P),\$(R),   ,sin,r,portasyn,12,".1 second" ,1024}
+{\$(P),\$(R),   ,cos,r,portasyn,13,".1 second" ,1024}
+{\$(P),\$(R),   ,xaxis,r,portasyn,14,".1 second" ,1024}
+{\$(P),\$(R),   ,w1_fault,r,portasyn,15,".1 second" ,1024}
+{\$(P),\$(R),   ,w2_fault,r,portasyn,16,".1 second" ,1024}
+{\$(P),\$(R),   ,w3_fault,r,portasyn,17,".1 second" ,1024}
+{\$(P),\$(R),   ,w4_fault,r,portasyn,18,".1 second" ,1024}
+{\$(P),\$(R),   ,w5_fault,r,portasyn,19,".1 second" ,1024}
+{\$(P),\$(R),   ,w6_fault,r,portasyn,20,".1 second" ,1024}
+{\$(P),\$(R),   ,w7_fault,r,portasyn,21,".1 second" ,1024}
+{\$(P),\$(R),   ,w8_fault,r,portasyn,22,".1 second" ,1024}
+{\$(P),\$(R),   ,xaxis_fault,r,portasyn,23,".1 second" ,1024}
+{\$(P),\$(R),   ,config_array,r,portasyn,24,".1 second" ,8}
+}
+
+	file dbAsyn_wave_float.template
+	{
+	pattern {P,R, NAME,       RW,PORT, ADDR, SCAN, NELM }
+	}
+
+	file dbAsyn_str.template
+	{
+	pattern {P,R, NAME,  PORT,   ADDR, SCAN, LEN }
+	{\$(P),\$(R),config_rom1,portasyn,0,"1 second",0}
+{\$(P),\$(R),config_rom2,portasyn,1,"1 second",0}
+{\$(P),\$(R),dallas_rom_1,portasyn,2,"1 second",0}
+{\$(P),\$(R),dallas_rom_2,portasyn,3,"1 second",0}
+}
