@@ -123,7 +123,7 @@
       <fontdata fontName="Arial" height="9" style="1" />
     </axis_0_title_font>
     <axis_1_auto_scale>true</axis_1_auto_scale>
-    <trace_0_concatenate_data>true</trace_0_concatenate_data>
+    <trace_0_concatenate_data>false</trace_0_concatenate_data>
     <actions hook="false" hook_all="false" />
     <trigger_pv_value />
     <trace_1_x_pv></trace_1_x_pv>
@@ -188,7 +188,7 @@ $(trace_0_y_pv_value)</tooltip>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <trace_1_concatenate_data>true</trace_1_concatenate_data>
+    <trace_1_concatenate_data>false</trace_1_concatenate_data>
     <rules />
     <trace_0_y_pv_value />
     <trace_0_trace_type>0</trace_0_trace_type>
