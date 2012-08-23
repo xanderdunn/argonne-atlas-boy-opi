@@ -7,6 +7,17 @@
 .metadata/.plugins/org.eclipse.team.cvs.core/.running
 .metadata/.plugins/org.eclipse.core.resources
 
-# System files
+# Other Unecessary System files
 *~
 *.log
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
