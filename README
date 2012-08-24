@@ -1,5 +1,7 @@
 This is an entire Eclipse workspace for the ATLAS CSS BOY OPI.  It is under git control such that a user can clone this repository and then point the CSS workspace dialogue to the cloned directory.  This creates a complete CSS BOY set-up with all the desired ATLAS screens and settings.
 
-git clone /net/phoebus/asdctls/git/atlas_workspace
-Point CSS BOY to the cloned folder atlas_workspace
-Done.
+- cd ~/
+- mkdir CSS-Projects
+- cd CSS-Projects
+- git clone /net/phoebus/asdctls/git/atlas_workspace
+- Start CSS BOY and point it to the cloned folder atlas_workspace.  If this is not the first time you are starting CSS BOY, you can switch the workspace using File --> Switch Workspace.  
