@@ -7836,13 +7836,11 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0">
         <trace_1_visible>true</trace_1_visible>
         <trace_1_trace_type>0</trace_1_trace_type>
-        <axis_3_dash_grid_line>true</axis_3_dash_grid_line>
         <trace_0_trace_color>
           <color red="21" green="21" blue="196" />
         </trace_0_trace_color>
         <axis_0_auto_scale>true</axis_0_auto_scale>
         <trace_3_trace_type>0</trace_3_trace_type>
-        <axis_3_minimum>0.0</axis_3_minimum>
         <axis_1_time_format>0</axis_1_time_format>
         <trace_1_point_size>4</trace_1_point_size>
         <trace_0_plot_mode>0</trace_0_plot_mode>
@@ -7859,13 +7857,9 @@ $(pv_value)</tooltip>
         </axis_2_grid_color>
         <axis_2_minimum>0.0</axis_2_minimum>
         <trace_0_point_size>4</trace_0_point_size>
-        <axis_3_show_grid>true</axis_3_show_grid>
         <show_legend>true</show_legend>
         <y>48</y>
         <x>11</x>
-        <axis_3_axis_color>
-          <color red="0" green="0" blue="0" />
-        </axis_3_axis_color>
         <visible>true</visible>
         <trace_0_x_pv_value />
         <axis_1_visible>true</axis_1_visible>
@@ -7889,7 +7883,6 @@ $(pv_value)</tooltip>
         <axis_1_auto_scale_threshold>0.0</axis_1_auto_scale_threshold>
         <trace_0_line_width>1</trace_0_line_width>
         <trace_2_x_pv_value />
-        <axis_3_auto_scale>true</axis_3_auto_scale>
         <show_toolbar>true</show_toolbar>
         <trace_1_update_delay>100</trace_1_update_delay>
         <axis_1_show_grid>true</axis_1_show_grid>
@@ -7903,7 +7896,6 @@ $(pv_value)</tooltip>
         <trace_2_trace_type>0</trace_2_trace_type>
         <trace_0_name>CAV-ampl</trace_0_name>
         <trace_1_anti_alias>true</trace_1_anti_alias>
-        <axis_3_auto_scale_threshold>0.0</axis_3_auto_scale_threshold>
         <trace_3_x_pv></trace_3_x_pv>
         <axis_2_maximum>100.0</axis_2_maximum>
         <trace_0_update_mode>3</trace_0_update_mode>
@@ -7939,7 +7931,6 @@ $(pv_value)</tooltip>
         <axis_1_log_scale>false</axis_1_log_scale>
         <trace_1_point_style>0</trace_1_point_style>
         <axis_2_auto_scale_threshold>0.0</axis_2_auto_scale_threshold>
-        <axis_3_maximum>100.0</axis_3_maximum>
         <trace_2_plot_mode>0</trace_2_plot_mode>
         <title_font>
           <fontdata fontName="Arial" height="12" style="1" />
@@ -7953,7 +7944,6 @@ $(pv_value)</tooltip>
         <axis_0_scale_format></axis_0_scale_format>
         <trace_0_x_pv></trace_0_x_pv>
         <trace_0_y_pv>$(TS)$(LLRF):STATS0:S$(CAV)_mean_ampl</trace_0_y_pv>
-        <axis_3_visible>true</axis_3_visible>
         <axis_0_title_font>
           <fontdata fontName="Arial" height="9" style="1" />
         </axis_0_title_font>
@@ -7970,15 +7960,9 @@ $(pv_value)</tooltip>
         <widget_type>XY Graph</widget_type>
         <enabled>true</enabled>
         <width>542</width>
-        <axis_3_title_font>
-          <fontdata fontName="Arial" height="9" style="1" />
-        </axis_3_title_font>
         <trace_0_buffer_size>100</trace_0_buffer_size>
         <trigger_pv></trigger_pv>
-        <axis_3_grid_color>
-          <color red="200" green="200" blue="200" />
-        </axis_3_grid_color>
-        <axis_count>4</axis_count>
+        <axis_count>3</axis_count>
         <trace_2_name>REV-ampl</trace_2_name>
         <transparent>false</transparent>
         <trace_2_anti_alias>true</trace_2_anti_alias>
@@ -8005,14 +7989,8 @@ $(trace_0_y_pv_value)</tooltip>
           <color red="255" green="255" blue="255" />
         </plot_area_background_color>
         <trace_2_concatenate_data>true</trace_2_concatenate_data>
-        <axis_3_scale_font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-        </axis_3_scale_font>
         <trace_2_point_style>0</trace_2_point_style>
-        <axis_3_y_axis>true</axis_3_y_axis>
         <title></title>
-        <axis_3_axis_title>Secondary Axis (3)</axis_3_axis_title>
-        <axis_3_log_scale>false</axis_3_log_scale>
         <trace_1_y_pv>$(TS)$(LLRF):STATS0:S$(FWD)_mean_ampl</trace_1_y_pv>
         <axis_2_auto_scale>true</axis_2_auto_scale>
         <pv_name></pv_name>
@@ -8030,11 +8008,9 @@ $(trace_0_y_pv_value)</tooltip>
         <border_color>
           <color red="0" green="128" blue="255" />
         </border_color>
-        <axis_3_left_bottom_side>true</axis_3_left_bottom_side>
         <trace_3_update_delay>100</trace_3_update_delay>
         <scripts />
         <trace_0_anti_alias>true</trace_0_anti_alias>
-        <axis_3_time_format>0</axis_3_time_format>
         <background_color>
           <color red="240" green="240" blue="240" />
         </background_color>
@@ -8048,7 +8024,6 @@ $(trace_0_y_pv_value)</tooltip>
         <axis_2_visible>true</axis_2_visible>
         <trace_1_y_axis_index>1</trace_1_y_axis_index>
         <trace_3_anti_alias>true</trace_3_anti_alias>
-        <axis_3_scale_format></axis_3_scale_format>
         <scale_options>
           <width_scalable>true</width_scalable>
           <height_scalable>true</height_scalable>
