@@ -44,7 +44,23 @@
     </macros>
     <visible>true</visible>
     <wuid>7b0e122e:138e31abd8a:-7f26</wuid>
-    <scripts />
+    <scripts>
+      <path pathString="rescale.py" checkConnect="true" sfe="true" seoe="false">
+        <pv trig="true">loc://rescale</pv>
+        <pv trig="false">$(TS)LLRF4:STATS0:S$(CAV)_mean_ampl</pv>
+        <pv trig="false">$(TS)LLRF4:STATS0:S$(FWD)_mean_ampl</pv>
+        <pv trig="false">$(TS)LLRF4:STATS0:S$(REV)_mean_ampl</pv>
+        <pv trig="false">$(TS)LLRF4:STATS0:S$(CAV)_mean_phase</pv>
+        <pv trig="false">$(TS)LLRF4:STATS0:S$(FWD)_mean_phase</pv>
+        <pv trig="false">$(TS)LLRF4:STATS0:S$(REV)_mean_phase</pv>
+        <pv trig="false">loc://offset1</pv>
+        <pv trig="false">loc://offset2</pv>
+        <pv trig="false">loc://offset3</pv>
+        <pv trig="false">loc://offset4</pv>
+        <pv trig="false">loc://offset5</pv>
+        <pv trig="false">loc://offset6</pv>
+      </path>
+    </scripts>
     <height>951</height>
     <name>root Group</name>
     <scale_options>
@@ -10312,7 +10328,7 @@ $(pv_value)</tooltip>
         <actions hook="false" hook_all="false">
           <action type="WRITE_PV">
             <pv_name>loc://rescale</pv_name>
-            <value>3</value>
+            <value>2</value>
             <timeout>10</timeout>
             <description></description>
           </action>
@@ -10533,7 +10549,7 @@ $(pv_value)</tooltip>
         </border_color>
         <y>437</y>
         <actions hook="false" hook_all="false" />
-        <x>393</x>
+        <x>387</x>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       </widget>
