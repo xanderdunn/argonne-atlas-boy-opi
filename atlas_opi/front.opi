@@ -35,7 +35,7 @@
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0">
     <macros>
       <include_parent_macros>true</include_parent_macros>
-      <TS></TS>
+      <TS>test</TS>
       <CAV>1</CAV>
       <FWD>3</FWD>
       <REF>2</REF>
@@ -11412,8 +11412,8 @@ $(pv_value)</tooltip>
       <y>0</y>
       <actions hook="false" hook_all="false">
         <action type="EXECUTE_CMD">
-          <command>cd ../../medm; medm -x -attach LLRF4_launcher.adl &amp;</command>
-          <command_directory>$(user.dir) </command_directory>
+          <command>medm -x -attach LLRF4_launcher.adl</command>
+          <command_directory>/net/phoebus/spxrfshare/ops/cavCtl/medm</command_directory>
           <wait_time>10</wait_time>
           <description></description>
         </action>
