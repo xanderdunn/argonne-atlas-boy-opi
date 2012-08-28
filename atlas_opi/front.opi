@@ -5430,7 +5430,7 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>650</width>
+      <width>888</width>
       <border_style>0</border_style>
       <rules />
       <lock_children>false</lock_children>
@@ -5660,7 +5660,7 @@ $(pv_value)</tooltip>
         <wuid>54c4d926:13912472211:-79ff</wuid>
         <scripts />
         <height>38</height>
-        <name>Expert</name>
+        <name>HELP</name>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <scale_options>
           <width_scalable>true</width_scalable>
@@ -5709,7 +5709,7 @@ $(pv_value)</tooltip>
         <wuid>-637a4965:1392191f1a6:-6def</wuid>
         <scripts />
         <height>38</height>
-        <name>Expert</name>
+        <name>LOG_BOOK</name>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
         <scale_options>
           <width_scalable>true</width_scalable>
@@ -5751,6 +5751,154 @@ $(pv_value)</tooltip>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
         <x>542</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>-6965c3b4:1396db541bf:-7a66</wuid>
+        <scripts />
+        <height>38</height>
+        <name>XGUI</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name></pv_name>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <widget_type>Action Button</widget_type>
+        <enabled>false</enabled>
+        <text>XGUI</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <fontdata fontName="Arial Narrow" height="12" style="1" />
+        </font>
+        <width>65</width>
+        <border_style>0</border_style>
+        <push_action_index>0</push_action_index>
+        <image></image>
+        <rules />
+        <pv_value />
+        <toggle_button>false</toggle_button>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>0</y>
+        <actions hook="false" hook_all="false" />
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>804</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>-6965c3b4:1396db541bf:-7a65</wuid>
+        <scripts />
+        <height>38</height>
+        <name>SCRIPTS</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name></pv_name>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <widget_type>Action Button</widget_type>
+        <enabled>true</enabled>
+        <text>SCRIPTS</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <fontdata fontName="Arial Narrow" height="12" style="1" />
+        </font>
+        <width>91</width>
+        <border_style>0</border_style>
+        <push_action_index>0</push_action_index>
+        <image></image>
+        <rules />
+        <pv_value />
+        <toggle_button>false</toggle_button>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>0</y>
+        <actions hook="false" hook_all="false">
+          <action type="OPEN_DISPLAY">
+            <path>scripts.opi</path>
+            <macros>
+              <include_parent_macros>true</include_parent_macros>
+            </macros>
+            <replace>0</replace>
+            <description></description>
+          </action>
+        </actions>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>714</x>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
+        <border_alarm_sensitive>false</border_alarm_sensitive>
+        <visible>true</visible>
+        <wuid>-6965c3b4:1396db541bf:-7a64</wuid>
+        <scripts />
+        <height>38</height>
+        <name>MEDM</name>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <pv_name></pv_name>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <widget_type>Action Button</widget_type>
+        <enabled>true</enabled>
+        <text>MEDM</text>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <font>
+          <fontdata fontName="Arial Narrow" height="12" style="1" />
+        </font>
+        <width>67</width>
+        <border_style>0</border_style>
+        <push_action_index>0</push_action_index>
+        <image></image>
+        <rules />
+        <pv_value />
+        <toggle_button>false</toggle_button>
+        <border_width>1</border_width>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <y>0</y>
+        <actions hook="false" hook_all="false">
+          <action type="EXECUTE_CMD">
+            <command>medm -x -attach LLRF4_launcher.adl</command>
+            <command_directory>/net/phoebus/spxrfshare/ops/cavCtl/medm</command_directory>
+            <wait_time>10</wait_time>
+            <description></description>
+          </action>
+        </actions>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <x>648</x>
       </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0">
@@ -11273,154 +11421,6 @@ $(pv_value)</tooltip>
         <x>10</x>
         <tooltip></tooltip>
       </widget>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <visible>true</visible>
-      <wuid>116b3ded:13954513baf:-576c</wuid>
-      <scripts />
-      <height>38</height>
-      <name>Expert_1</name>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <pv_name></pv_name>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <widget_type>Action Button</widget_type>
-      <enabled>false</enabled>
-      <text>XGUI</text>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <font>
-        <fontdata fontName="Arial Narrow" height="12" style="1" />
-      </font>
-      <width>65</width>
-      <border_style>0</border_style>
-      <push_action_index>0</push_action_index>
-      <image></image>
-      <rules />
-      <pv_value />
-      <toggle_button>false</toggle_button>
-      <border_width>1</border_width>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <y>0</y>
-      <actions hook="false" hook_all="false" />
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <x>884</x>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <visible>true</visible>
-      <wuid>116b3ded:13954513baf:-5773</wuid>
-      <scripts />
-      <height>38</height>
-      <name>Expert</name>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <pv_name></pv_name>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <widget_type>Action Button</widget_type>
-      <enabled>true</enabled>
-      <text>SCRIPTS</text>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <font>
-        <fontdata fontName="Arial Narrow" height="12" style="1" />
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
-      <push_action_index>0</push_action_index>
-      <image></image>
-      <rules />
-      <pv_value />
-      <toggle_button>false</toggle_button>
-      <border_width>1</border_width>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <y>0</y>
-      <actions hook="false" hook_all="false">
-        <action type="OPEN_DISPLAY">
-          <path>scripts.opi</path>
-          <macros>
-            <include_parent_macros>true</include_parent_macros>
-          </macros>
-          <replace>0</replace>
-          <description></description>
-        </action>
-      </actions>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <x>948</x>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <visible>true</visible>
-      <wuid>-2dbecc1e:13958e2d3fa:-7cd2</wuid>
-      <scripts />
-      <height>38</height>
-      <name>Expert</name>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <pv_name></pv_name>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <widget_type>Action Button</widget_type>
-      <enabled>true</enabled>
-      <text>MEDM</text>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <font>
-        <fontdata fontName="Arial Narrow" height="12" style="1" />
-      </font>
-      <width>67</width>
-      <border_style>0</border_style>
-      <push_action_index>0</push_action_index>
-      <image></image>
-      <rules />
-      <pv_value />
-      <toggle_button>false</toggle_button>
-      <border_width>1</border_width>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <y>0</y>
-      <actions hook="false" hook_all="false">
-        <action type="EXECUTE_CMD">
-          <command>medm -x -attach LLRF4_launcher.adl</command>
-          <command_directory>/net/phoebus/spxrfshare/ops/cavCtl/medm</command_directory>
-          <wait_time>10</wait_time>
-          <description></description>
-        </action>
-      </actions>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <x>1038</x>
     </widget>
   </widget>
 </display>
