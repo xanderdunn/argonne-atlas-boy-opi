@@ -5775,7 +5775,7 @@ $(pv_value)</tooltip>
         <widget_type>Action Button</widget_type>
         <enabled>true</enabled>
         <text>XGUI</text>
-        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
         <font>
           <fontdata fontName="Arial Narrow" height="12" style="1" />
         </font>
@@ -5793,8 +5793,8 @@ $(pv_value)</tooltip>
         <y>0</y>
         <actions hook="false" hook_all="false">
           <action type="EXECUTE_CMD">
-            <command>caXGUI</command>
-            <command_directory>/net/phoebus/spxrfshare/ops/cavCtl/caXGUI/bin/linux-x86_64/</command_directory>
+            <command>run_caxgui</command>
+            <command_directory>../../caXGUI/</command_directory>
             <wait_time>10</wait_time>
             <description></description>
           </action>
@@ -5897,8 +5897,8 @@ $(pv_value)</tooltip>
         <y>0</y>
         <actions hook="false" hook_all="false">
           <action type="EXECUTE_CMD">
-            <command>medm -x -attach LLRF4_launcher.adl</command>
-            <command_directory>/net/phoebus/spxrfshare/ops/cavCtl/medm</command_directory>
+            <command>../../medm/run_medm</command>
+            <command_directory>$(user.dir)</command_directory>
             <wait_time>10</wait_time>
             <description></description>
           </action>
