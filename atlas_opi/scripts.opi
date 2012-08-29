@@ -491,8 +491,8 @@ $(pv_value)</tooltip>
       <y>174</y>
       <actions hook="false" hook_all="false">
         <action type="EXECUTE_CMD">
-          <command></command>
-          <command_directory>$(user.home)</command_directory>
+          <command>./psd.sh</command>
+          <command_directory>$(user.dir)</command_directory>
           <wait_time>10</wait_time>
           <description></description>
         </action>
