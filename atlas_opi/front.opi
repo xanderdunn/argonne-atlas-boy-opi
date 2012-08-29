@@ -35,7 +35,6 @@
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0">
     <macros>
       <include_parent_macros>true</include_parent_macros>
-      <TS>test</TS>
       <CAV>1</CAV>
       <FWD>3</FWD>
       <REF>2</REF>
