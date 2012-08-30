@@ -5,7 +5,7 @@
     <include_parent_macros>true</include_parent_macros>
   </macros>
   <wuid>7b0e122e:138e31abd8a:-7f27</wuid>
-  <boy_version>3.1.1.20120723</boy_version>
+  <boy_version>3.1.2.20120829</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
   <height>960</height>
@@ -35,6 +35,7 @@
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0">
     <macros>
       <include_parent_macros>true</include_parent_macros>
+      <TS></TS>
       <CAV>1</CAV>
       <FWD>3</FWD>
       <REF>2</REF>
@@ -6275,47 +6276,48 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
         <visible>true</visible>
-        <minimum>-1.7976931348623157E308</minimum>
         <vertical_alignment>1</vertical_alignment>
-        <show_units>true</show_units>
         <multiline_input>false</multiline_input>
-        <wuid>7b0e122e:138e31abd8a:-7ea5</wuid>
         <auto_size>false</auto_size>
-        <rotation_angle>0.0</rotation_angle>
         <scripts />
         <height>19</height>
-        <name>Text Input_12</name>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <precision_from_pv>true</precision_from_pv>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <widget_type>Text Input</widget_type>
+        <enabled>true</enabled>
+        <text></text>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>82</width>
+        <border_style>3</border_style>
+        <pv_value />
+        <border_width>1</border_width>
+        <maximum>1.7976931348623157E308</maximum>
+        <minimum>-1.7976931348623157E308</minimum>
+        <show_units>true</show_units>
+        <wuid>7b0e122e:138e31abd8a:-7ea5</wuid>
+        <rotation_angle>0.0</rotation_angle>
+        <name>Text Input_12</name>
         <scale_options>
           <width_scalable>true</width_scalable>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <format_type>0</format_type>
-        <precision_from_pv>true</precision_from_pv>
         <transparent>false</transparent>
         <selector_type>0</selector_type>
         <pv_name></pv_name>
-        <background_color>
-          <color red="255" green="255" blue="255" />
-        </background_color>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
-        <widget_type>Text Input</widget_type>
-        <enabled>true</enabled>
-        <text></text>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <precision>0</precision>
-        <font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-        </font>
-        <width>82</width>
-        <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
-        <pv_value />
-        <border_width>1</border_width>
-        <maximum>1.7976931348623157E308</maximum>
         <limits_from_pv>false</limits_from_pv>
         <border_color>
           <color red="0" green="128" blue="255" />
@@ -6419,47 +6421,48 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
         <visible>true</visible>
-        <minimum>-1.7976931348623157E308</minimum>
         <vertical_alignment>1</vertical_alignment>
-        <show_units>true</show_units>
         <multiline_input>false</multiline_input>
-        <wuid>7b0e122e:138e31abd8a:-7ea2</wuid>
         <auto_size>false</auto_size>
-        <rotation_angle>0.0</rotation_angle>
         <scripts />
         <height>19</height>
-        <name>Text Input_13</name>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <precision_from_pv>true</precision_from_pv>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <widget_type>Text Input</widget_type>
+        <enabled>true</enabled>
+        <text></text>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>82</width>
+        <border_style>3</border_style>
+        <pv_value />
+        <border_width>1</border_width>
+        <maximum>1.7976931348623157E308</maximum>
+        <minimum>-1.7976931348623157E308</minimum>
+        <show_units>true</show_units>
+        <wuid>7b0e122e:138e31abd8a:-7ea2</wuid>
+        <rotation_angle>0.0</rotation_angle>
+        <name>Text Input_13</name>
         <scale_options>
           <width_scalable>true</width_scalable>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <format_type>0</format_type>
-        <precision_from_pv>true</precision_from_pv>
         <transparent>false</transparent>
         <selector_type>0</selector_type>
         <pv_name></pv_name>
-        <background_color>
-          <color red="255" green="255" blue="255" />
-        </background_color>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
-        <widget_type>Text Input</widget_type>
-        <enabled>true</enabled>
-        <text></text>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <precision>0</precision>
-        <font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-        </font>
-        <width>82</width>
-        <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
-        <pv_value />
-        <border_width>1</border_width>
-        <maximum>1.7976931348623157E308</maximum>
         <limits_from_pv>false</limits_from_pv>
         <border_color>
           <color red="0" green="128" blue="255" />
@@ -6515,47 +6518,48 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
         <visible>true</visible>
-        <minimum>-1.7976931348623157E308</minimum>
         <vertical_alignment>1</vertical_alignment>
-        <show_units>true</show_units>
         <multiline_input>false</multiline_input>
-        <wuid>7b0e122e:138e31abd8a:-7ea0</wuid>
         <auto_size>false</auto_size>
-        <rotation_angle>0.0</rotation_angle>
         <scripts />
         <height>19</height>
-        <name>Text Input_14</name>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <precision_from_pv>true</precision_from_pv>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <widget_type>Text Input</widget_type>
+        <enabled>true</enabled>
+        <text></text>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>98</width>
+        <border_style>3</border_style>
+        <pv_value />
+        <border_width>1</border_width>
+        <maximum>1.7976931348623157E308</maximum>
+        <minimum>-1.7976931348623157E308</minimum>
+        <show_units>true</show_units>
+        <wuid>7b0e122e:138e31abd8a:-7ea0</wuid>
+        <rotation_angle>0.0</rotation_angle>
+        <name>Text Input_14</name>
         <scale_options>
           <width_scalable>true</width_scalable>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <format_type>0</format_type>
-        <precision_from_pv>true</precision_from_pv>
         <transparent>false</transparent>
         <selector_type>0</selector_type>
         <pv_name>$(TS)$(LLRF):STATS0:S$(FWD)_mean_ampl</pv_name>
-        <background_color>
-          <color red="255" green="255" blue="255" />
-        </background_color>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
-        <widget_type>Text Input</widget_type>
-        <enabled>true</enabled>
-        <text></text>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <precision>0</precision>
-        <font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-        </font>
-        <width>98</width>
-        <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
-        <pv_value />
-        <border_width>1</border_width>
-        <maximum>1.7976931348623157E308</maximum>
         <limits_from_pv>false</limits_from_pv>
         <border_color>
           <color red="0" green="128" blue="255" />
@@ -6611,47 +6615,48 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
         <visible>true</visible>
-        <minimum>-1.7976931348623157E308</minimum>
         <vertical_alignment>1</vertical_alignment>
-        <show_units>true</show_units>
         <multiline_input>false</multiline_input>
-        <wuid>7b0e122e:138e31abd8a:-7e9e</wuid>
         <auto_size>false</auto_size>
-        <rotation_angle>0.0</rotation_angle>
         <scripts />
         <height>19</height>
-        <name>Text Input_15</name>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <precision_from_pv>true</precision_from_pv>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <widget_type>Text Input</widget_type>
+        <enabled>true</enabled>
+        <text></text>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>98</width>
+        <border_style>3</border_style>
+        <pv_value />
+        <border_width>1</border_width>
+        <maximum>1.7976931348623157E308</maximum>
+        <minimum>-1.7976931348623157E308</minimum>
+        <show_units>true</show_units>
+        <wuid>7b0e122e:138e31abd8a:-7e9e</wuid>
+        <rotation_angle>0.0</rotation_angle>
+        <name>Text Input_15</name>
         <scale_options>
           <width_scalable>true</width_scalable>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <format_type>0</format_type>
-        <precision_from_pv>true</precision_from_pv>
         <transparent>false</transparent>
         <selector_type>0</selector_type>
         <pv_name>$(TS)$(LLRF):STATS0:S$(REV)_mean_ampl</pv_name>
-        <background_color>
-          <color red="255" green="255" blue="255" />
-        </background_color>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
-        <widget_type>Text Input</widget_type>
-        <enabled>true</enabled>
-        <text></text>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <precision>0</precision>
-        <font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-        </font>
-        <width>98</width>
-        <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
-        <pv_value />
-        <border_width>1</border_width>
-        <maximum>1.7976931348623157E308</maximum>
         <limits_from_pv>false</limits_from_pv>
         <border_color>
           <color red="0" green="128" blue="255" />
@@ -6707,47 +6712,48 @@ $(pv_value)</tooltip>
       <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
         <border_alarm_sensitive>false</border_alarm_sensitive>
         <visible>true</visible>
-        <minimum>-1.7976931348623157E308</minimum>
         <vertical_alignment>1</vertical_alignment>
-        <show_units>true</show_units>
         <multiline_input>false</multiline_input>
-        <wuid>7b0e122e:138e31abd8a:-7e9c</wuid>
         <auto_size>false</auto_size>
-        <rotation_angle>0.0</rotation_angle>
         <scripts />
         <height>19</height>
-        <name>Text Input_16</name>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <precision_from_pv>true</precision_from_pv>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <widget_type>Text Input</widget_type>
+        <enabled>true</enabled>
+        <text></text>
+        <font>
+          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        </font>
+        <width>98</width>
+        <border_style>3</border_style>
+        <pv_value />
+        <border_width>1</border_width>
+        <maximum>1.7976931348623157E308</maximum>
+        <minimum>-1.7976931348623157E308</minimum>
+        <show_units>true</show_units>
+        <wuid>7b0e122e:138e31abd8a:-7e9c</wuid>
+        <rotation_angle>0.0</rotation_angle>
+        <name>Text Input_16</name>
         <scale_options>
           <width_scalable>true</width_scalable>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <format_type>0</format_type>
-        <precision_from_pv>true</precision_from_pv>
         <transparent>false</transparent>
         <selector_type>0</selector_type>
         <pv_name>$(TS)$(LLRF):STATS0:S$(CAV)_mean_ampl</pv_name>
-        <background_color>
-          <color red="255" green="255" blue="255" />
-        </background_color>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
-        <widget_type>Text Input</widget_type>
-        <enabled>true</enabled>
-        <text></text>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <precision>0</precision>
-        <font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-        </font>
-        <width>98</width>
-        <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
-        <pv_value />
-        <border_width>1</border_width>
-        <maximum>1.7976931348623157E308</maximum>
         <limits_from_pv>false</limits_from_pv>
         <border_color>
           <color red="0" green="128" blue="255" />
@@ -6989,6 +6995,7 @@ $(pv_value)</tooltip>
         <read_only>true</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>54c4d926:13912472211:-7d4c</wuid>
@@ -7023,6 +7030,7 @@ $(pv_value)</tooltip>
         </font>
         <width>177</width>
         <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -7043,6 +7051,7 @@ $(pv_value)</tooltip>
         <read_only>true</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>54c4d926:13912472211:-7d4b</wuid>
@@ -7077,6 +7086,7 @@ $(pv_value)</tooltip>
         </font>
         <width>177</width>
         <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -7097,6 +7107,7 @@ $(pv_value)</tooltip>
         <read_only>true</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>54c4d926:13912472211:-7d15</wuid>
@@ -7131,6 +7142,7 @@ $(pv_value)</tooltip>
         </font>
         <width>112</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -7150,6 +7162,7 @@ $(pv_value)</tooltip>
         <read_only>true</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>54c4d926:13912472211:-7d14</wuid>
@@ -7184,6 +7197,7 @@ $(pv_value)</tooltip>
         </font>
         <width>112</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -7440,6 +7454,7 @@ $(pv_value)</tooltip>
         <read_only>false</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7ee1</wuid>
@@ -7474,6 +7489,7 @@ $(pv_value)</tooltip>
         </font>
         <width>130</width>
         <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -7494,6 +7510,7 @@ $(pv_value)</tooltip>
         <read_only>false</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7ee0</wuid>
@@ -7528,6 +7545,7 @@ $(pv_value)</tooltip>
         </font>
         <width>130</width>
         <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -7548,6 +7566,7 @@ $(pv_value)</tooltip>
         <read_only>false</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7edf</wuid>
@@ -7582,6 +7601,7 @@ $(pv_value)</tooltip>
         </font>
         <width>130</width>
         <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -7602,6 +7622,7 @@ $(pv_value)</tooltip>
         <read_only>false</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7e91</wuid>
@@ -7636,6 +7657,7 @@ $(pv_value)</tooltip>
         </font>
         <width>130</width>
         <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -7656,6 +7678,7 @@ $(pv_value)</tooltip>
         <read_only>true</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>true</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7d96</wuid>
@@ -7690,6 +7713,7 @@ $(pv_value)</tooltip>
         </font>
         <width>112</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -7709,6 +7733,7 @@ $(pv_value)</tooltip>
         <read_only>true</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>true</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7d95</wuid>
@@ -7743,6 +7768,7 @@ $(pv_value)</tooltip>
         </font>
         <width>112</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -7762,6 +7788,7 @@ $(pv_value)</tooltip>
         <read_only>true</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>true</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7d94</wuid>
@@ -7796,6 +7823,7 @@ $(pv_value)</tooltip>
         </font>
         <width>112</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -7815,6 +7843,7 @@ $(pv_value)</tooltip>
         <read_only>true</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>true</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7d93</wuid>
@@ -7849,6 +7878,7 @@ $(pv_value)</tooltip>
         </font>
         <width>119</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -10496,6 +10526,7 @@ $(pv_value)</tooltip>
         <read_only>false</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>5321f133:1391105beff:-7c23</wuid>
@@ -10530,6 +10561,7 @@ $(pv_value)</tooltip>
         </font>
         <width>70</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -10550,6 +10582,7 @@ $(pv_value)</tooltip>
         <read_only>false</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>5321f133:1391105beff:-74de</wuid>
@@ -10584,6 +10617,7 @@ $(pv_value)</tooltip>
         </font>
         <width>70</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -10604,6 +10638,7 @@ $(pv_value)</tooltip>
         <read_only>false</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>5321f133:1391105beff:-74d7</wuid>
@@ -10638,6 +10673,7 @@ $(pv_value)</tooltip>
         </font>
         <width>70</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -10658,6 +10694,7 @@ $(pv_value)</tooltip>
         <read_only>false</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>5321f133:1391105beff:-74e5</wuid>
@@ -10692,6 +10729,7 @@ $(pv_value)</tooltip>
         </font>
         <width>70</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -10712,6 +10750,7 @@ $(pv_value)</tooltip>
         <read_only>false</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>d610339:1396d6c1207:-7934</wuid>
@@ -10746,6 +10785,7 @@ $(pv_value)</tooltip>
         </font>
         <width>70</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -10766,6 +10806,7 @@ $(pv_value)</tooltip>
         <read_only>false</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>d610339:1396d6c1207:-780f</wuid>
@@ -10800,6 +10841,7 @@ $(pv_value)</tooltip>
         </font>
         <width>70</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -11004,6 +11046,7 @@ $(pv_value)</tooltip>
         <read_only>false</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7ea8</wuid>
@@ -11038,6 +11081,7 @@ $(pv_value)</tooltip>
         </font>
         <width>130</width>
         <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -11058,6 +11102,7 @@ $(pv_value)</tooltip>
         <read_only>false</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7ea7</wuid>
@@ -11092,6 +11137,7 @@ $(pv_value)</tooltip>
         </font>
         <width>130</width>
         <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -11112,6 +11158,7 @@ $(pv_value)</tooltip>
         <read_only>false</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7ea6</wuid>
@@ -11146,6 +11193,7 @@ $(pv_value)</tooltip>
         </font>
         <width>130</width>
         <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -11166,6 +11214,7 @@ $(pv_value)</tooltip>
         <read_only>false</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>false</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7e6a</wuid>
@@ -11200,6 +11249,7 @@ $(pv_value)</tooltip>
         </font>
         <width>130</width>
         <border_style>3</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -11220,6 +11270,7 @@ $(pv_value)</tooltip>
         <read_only>true</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>true</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7c4d</wuid>
@@ -11254,6 +11305,7 @@ $(pv_value)</tooltip>
         </font>
         <width>117</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -11273,6 +11325,7 @@ $(pv_value)</tooltip>
         <read_only>true</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>true</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7c4c</wuid>
@@ -11307,6 +11360,7 @@ $(pv_value)</tooltip>
         </font>
         <width>112</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -11326,6 +11380,7 @@ $(pv_value)</tooltip>
         <read_only>true</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>true</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7c4b</wuid>
@@ -11360,6 +11415,7 @@ $(pv_value)</tooltip>
         </font>
         <width>117</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
@@ -11379,6 +11435,7 @@ $(pv_value)</tooltip>
         <read_only>true</read_only>
         <visible>true</visible>
         <minimum>-1.7976931348623157E308</minimum>
+        <next_focus>0</next_focus>
         <show_units>true</show_units>
         <multiline_input>false</multiline_input>
         <wuid>b803835:1391168953e:-7c4a</wuid>
@@ -11413,6 +11470,7 @@ $(pv_value)</tooltip>
         </font>
         <width>117</width>
         <border_style>0</border_style>
+        <confirm_message></confirm_message>
         <rules />
         <pv_value />
         <maximum>1.7976931348623157E308</maximum>
