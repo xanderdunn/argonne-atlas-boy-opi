@@ -374,7 +374,7 @@ $(pv_value)</tooltip>
       <password_input>false</password_input>
       <name>Text_5</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <format_type>2</format_type>
+      <format_type>1</format_type>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
@@ -506,6 +506,13 @@ $(pv_value)</tooltip>
       </border_color>
       <y>174</y>
       <actions hook="false" hook_all="false">
+        <action type="EXECUTE_PYTHONSCRIPT">
+          <path>psd.py</path>
+          <scriptText><![CDATA[from org.csstudio.opibuilder.scriptUtil import PVUtil
+]]></scriptText>
+          <embedded>false</embedded>
+          <description></description>
+        </action>
         <action type="EXECUTE_CMD">
           <command>./psd.sh</command>
           <command_directory>$(atlas_opi.dir)</command_directory>
