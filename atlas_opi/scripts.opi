@@ -5,8 +5,12 @@
     <include_parent_macros>true</include_parent_macros>
   </macros>
   <wuid>116b3ded:13954513baf:-5751</wuid>
-  <boy_version>3.1.2.20120829</boy_version>
-  <scripts />
+  <boy_version>3.1.2.20120828</boy_version>
+  <scripts>
+    <path pathString="AbsoluteWSPathToSysProp.py" checkConnect="true" sfe="false" seoe="false">
+      <pv trig="true">1</pv>
+    </path>
+  </scripts>
   <show_ruler>true</show_ruler>
   <height>500</height>
   <name></name>
@@ -504,7 +508,7 @@ $(pv_value)</tooltip>
       <actions hook="false" hook_all="false">
         <action type="EXECUTE_CMD">
           <command>./psd.sh</command>
-          <command_directory>$(user.dir)</command_directory>
+          <command_directory>$(atlas_opi.dir)</command_directory>
           <wait_time>10</wait_time>
           <description></description>
         </action>
