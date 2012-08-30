@@ -1,8 +1,11 @@
 #!/bin/bash
 
 # The EPICS extensions version of caget does not support -S string
-#	conversion.  Hence, we use the EPICS base version.  A linux-x86_64
+#	output.  Hence, we use the EPICS base version.  A linux-x86_64
 #	binary has been included in the sdds directory
+
+# This script will be executed from the directory containing the css
+#   binary.  All paths will be relative to this location.
 
 # Hit save button by setting save PV
 caput LLRF4:FILE0:Capture 1
