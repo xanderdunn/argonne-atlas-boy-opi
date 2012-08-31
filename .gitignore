@@ -2,6 +2,8 @@
 pydev
 org.eclipse.team.cvs.core
 .lock
+dialog_settings.xml
+org.eclipse.ui.ide
 
 # Other Unecessary System files
 *~
