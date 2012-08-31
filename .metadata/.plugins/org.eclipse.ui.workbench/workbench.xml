@@ -228,6 +228,12 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="help.txt" tooltip="atlas_opi/help.txt">
+<persistable path="/atlas_opi/help.txt"/>
+</file>
+<file factoryID="org.csstudio.opibuilder.runmode.RunnerInputFactory" id="org.csstudio.opibuilder.OPIRunner" name="front.opi" tooltip="/atlas_opi/front.opi">
+<persistable path="/atlas_opi/front.opi"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.csstudio.opibuilder.OPIEditor" name="front.opi" tooltip="atlas_opi/front.opi">
 <persistable path="/atlas_opi/front.opi"/>
 </file>
