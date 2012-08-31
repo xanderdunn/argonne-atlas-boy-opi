@@ -5464,7 +5464,7 @@ $(pv_value)</tooltip>
         </foreground_color>
         <widget_type>Action Button</widget_type>
         <enabled>true</enabled>
-        <text>SEL MODE</text>
+        <text>DIAGRAM</text>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <font>
           <fontdata fontName="Arial Narrow" height="12" style="1" />
