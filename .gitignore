@@ -1,8 +1,7 @@
 # Unecessary Eclipse workspace settings files
-org.eclipse.core.runtime
 pydev
 org.eclipse.team.cvs.core
-CSS
+.lock
 
 # Other Unecessary System files
 *~
