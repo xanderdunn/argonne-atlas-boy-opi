@@ -5,7 +5,7 @@
     <include_parent_macros>true</include_parent_macros>
   </macros>
   <wuid>7b0e122e:138e31abd8a:-7f27</wuid>
-  <boy_version>3.1.2.20120829</boy_version>
+  <boy_version>3.1.2.20120828</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
   <height>960</height>
@@ -35,7 +35,7 @@
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0">
     <macros>
       <include_parent_macros>true</include_parent_macros>
-      <TS></TS>
+      <temp></temp>
       <CAV>1</CAV>
       <FWD>3</FWD>
       <REF>2</REF>

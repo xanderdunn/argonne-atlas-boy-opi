@@ -14,6 +14,8 @@
 <coolItem id="org.csstudio.opibuilder.actionSet" itemType="typeToolBarContribution" x="48" y="32"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.annotationNavigation" itemType="typeToolBarContribution" x="84" y="32"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.navigation" itemType="typeToolBarContribution" x="40" y="32"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.csstudio.opibuilder.OPIEditor" itemType="typePlaceholder" x="755" y="32"/>
 </coolbarLayout>
 <page focus="true" label="&lt;Unknown Label&gt; - OPI Runtime">
 <editors>
@@ -31,12 +33,16 @@
 </view>
 <view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
-<filters>&#x0A;<filter element=".*" isEnabled="false"/>
+<filters>
+<filter element=".*" isEnabled="false"/>
 </filters>
+<expanded>
+<element path="/atlas_opi"/>
+</expanded>
+<selection>
+<element path="/atlas_opi/front.opi"/>
+</selection>
 </viewState>
-</view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
-<viewState/>
 </view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
@@ -107,35 +113,49 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.eclipse.ui.views.ResourceNavigator"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
-<view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <fastViewBars/>
-<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="org.eclipse.ui.views.ResourceNavigator" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.ui.views.ResourceNavigator" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@4f02996a" ratio="0.75" ratioLeft="759" ratioRight="253" relationship="2" relative="left">&#x0A;<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@4f02996a" ratio="0.75" ratioLeft="759" ratioRight="253" relationship="2" relative="left">
+<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="2">
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.19960475" ratioLeft="202" ratioRight="810" relationship="2" relative="left"/>
-<info folder="true" part="right" ratio="0.74938273" ratioLeft="607" ratioRight="203" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<info folder="true" part="right" ratio="0.74938273" ratioLeft="607" ratioRight="203" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="bottom" ratio="0.7488856" ratioLeft="504" ratioRight="169" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<info folder="true" part="bottom" ratio="0.7488856" ratioLeft="504" ratioRight="169" relationship="4" relative="org.eclipse.ui.editorss">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="leftBottom" ratio="0.6998514" ratioLeft="471" ratioRight="202" relationship="4" relative="left">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<info folder="true" part="leftBottom" ratio="0.6998514" ratioLeft="471" ratioRight="202" relationship="4" relative="left">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
 </presentation>
 </folder>
 </info>
@@ -207,5 +227,9 @@
 </trimArea>
 </trimLayout>
 </window>
-<mruList/>
+<mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.csstudio.opibuilder.OPIEditor" name="front.opi" tooltip="atlas_opi/front.opi">
+<persistable path="/atlas_opi/front.opi"/>
+</file>
+</mruList>
 </workbench>
