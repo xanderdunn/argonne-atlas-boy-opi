@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;atlas_opi/.pydevproject&apos;" deleteContents="false" description="Delete resource &apos;atlas_opi/.pydevproject&apos;" element1="/atlas_opi/.pydevproject" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1345672125542"/>
-</session>

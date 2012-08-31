@@ -1,15 +1,12 @@
-# Unecessary Eclipse files
-.metadata/.plugins/org.python.pydev/ping.log
-.metadata/.plugins/org.eclipse.core.runtime
-.metadata/.plugins/org.python.pydev/
-*.pydevinfo
-.metadata/.plugins/org.eclipse.core.resources/.projects/atlas_opi/com.python.pydev.analysis
-.metadata/.plugins/org.eclipse.team.cvs.core/.running
-.metadata/.plugins/org.eclipse.core.resources
+# Unecessary Eclipse workspace settings files
+org.eclipse.core.runtime
+pydev
+org.eclipse.team.cvs.core
 
 # Other Unecessary System files
 *~
 *.log
+core
 
 # OS generated files
 .DS_Store
