@@ -3,9 +3,10 @@
   <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
   <macros>
     <include_parent_macros>true</include_parent_macros>
+    <temp></temp>
   </macros>
   <wuid>bef14dd:1392576b534:-7985</wuid>
-  <boy_version>3.1.1.20120723</boy_version>
+  <boy_version>3.1.2.20120828</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
   <height>290</height>
@@ -202,6 +203,7 @@ $(trace_0_y_pv_value)</tooltip>
     <read_only>true</read_only>
     <visible>true</visible>
     <minimum>-1.7976931348623157E308</minimum>
+    <next_focus>0</next_focus>
     <show_units>false</show_units>
     <multiline_input>false</multiline_input>
     <wuid>1af02831:13925a0d761:-7b73</wuid>
@@ -236,6 +238,7 @@ $(trace_0_y_pv_value)</tooltip>
     </font>
     <width>100</width>
     <border_style>0</border_style>
+    <confirm_message></confirm_message>
     <rules />
     <pv_value />
     <maximum>1.7976931348623157E308</maximum>

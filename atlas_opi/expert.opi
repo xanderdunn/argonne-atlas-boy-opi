@@ -3,9 +3,10 @@
   <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
   <macros>
     <include_parent_macros>true</include_parent_macros>
+    <temp></temp>
   </macros>
   <wuid>2baa2408:138eceaffac:-7373</wuid>
-  <boy_version>3.1.1.20120723</boy_version>
+  <boy_version>3.1.2.20120828</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
   <height>1095</height>
@@ -297,47 +298,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-79d1</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_13</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-79d1</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_13</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:in_phase_set_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -352,47 +354,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-79d0</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_14</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-79d0</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_14</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:out_amp_set_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -407,47 +410,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-79cf</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_15</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-79cf</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_15</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:out_phase_set_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -462,47 +466,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-79ce</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_12</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-79ce</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_12</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:in_amp_set_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -711,6 +716,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>7bbb480c:13920398182:-7992</wuid>
@@ -745,6 +751,7 @@ $(pv_value)</tooltip>
       </font>
       <width>165</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -845,47 +852,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-77e8</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_16</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-77e8</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_16</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:wave_samp_per_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -900,47 +908,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-77e7</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_17</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-77e7</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_17</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:wave_shift_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -2001,47 +2010,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-7610</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_20</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-7610</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_20</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:chirp_density_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -2145,47 +2155,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-760d</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_21</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-760d</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_21</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:chirp_power_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -2289,47 +2300,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-760a</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_78</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-760a</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_78</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:amp_set_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -2433,47 +2445,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-7607</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_22</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-7607</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_22</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:pha_set_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -2577,47 +2590,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-7604</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_23</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-7604</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_23</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:amp_prop_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -2769,47 +2783,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-7600</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_24</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-7600</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_24</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:pha_prop_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -2865,47 +2880,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-75fe</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_25</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-75fe</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_25</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:amp_freq_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -3009,47 +3025,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-75fb</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_26</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-75fb</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_26</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:pha_freq_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -3153,47 +3170,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-75f8</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_27</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>85</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-75f8</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_27</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:pha_kick_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>85</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -3478,47 +3496,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-78ab</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_11</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-78ab</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_11</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:ddsa_modulo_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -3533,47 +3552,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-78aa</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_10</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-78aa</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_10</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:ddsa_phstep_l_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -3588,47 +3608,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-78a9</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_9</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-78a9</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_9</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:ddsa_phstep_h_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -3789,6 +3810,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>7bbb480c:13920398182:-789c</wuid>
@@ -3823,6 +3845,7 @@ $(pv_value)</tooltip>
       </font>
       <width>348</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -3882,47 +3905,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-77b1</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_18</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-77b1</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_18</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:xsel_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -4026,47 +4050,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-7764</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_19</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-7764</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_19</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:ch_keep_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -4170,47 +4195,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-74ac</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_29</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-74ac</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_29</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:tpat_speed_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -5081,6 +5107,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>7bbb480c:13920398182:-7829</wuid>
@@ -5115,6 +5142,7 @@ $(pv_value)</tooltip>
       </font>
       <width>367</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -5578,47 +5606,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-7514</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_28</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-7514</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_28</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:ad95xx_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -5722,47 +5751,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-746b</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_30</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-746b</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_30</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:src_sel_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -5866,47 +5896,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-7468</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_98</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-7468</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_98</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:dbg_sel_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -6313,47 +6344,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-7227</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_100</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-7227</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_100</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:max1820_div_ctl_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -6457,47 +6489,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-7224</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_102</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-7224</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_102</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:mcp3208_divset_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -6683,47 +6716,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-721f</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_104</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-721f</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_104</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:mcp3208_lothresh_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -6738,47 +6772,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-721e</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_105</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-721e</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_105</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:mcp3208_lochan_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -6793,47 +6828,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-721d</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_106</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-721d</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_106</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:mcp3208_trigset_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -6985,47 +7021,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-7219</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_109</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>91</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-7219</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_109</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:vhf_tuner_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>91</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -8545,6 +8582,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-76cb</wuid>
@@ -8579,6 +8617,7 @@ $(pv_value)</tooltip>
       </font>
       <width>76</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -8598,6 +8637,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-76ca</wuid>
@@ -8632,6 +8672,7 @@ $(pv_value)</tooltip>
       </font>
       <width>76</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -8651,6 +8692,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-76c9</wuid>
@@ -8685,6 +8727,7 @@ $(pv_value)</tooltip>
       </font>
       <width>76</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -8704,6 +8747,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-76c8</wuid>
@@ -8738,6 +8782,7 @@ $(pv_value)</tooltip>
       </font>
       <width>76</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -8757,6 +8802,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-76c7</wuid>
@@ -8791,6 +8837,7 @@ $(pv_value)</tooltip>
       </font>
       <width>76</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -8810,6 +8857,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-76c6</wuid>
@@ -8844,6 +8892,7 @@ $(pv_value)</tooltip>
       </font>
       <width>76</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -8863,6 +8912,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-76c5</wuid>
@@ -8897,6 +8947,7 @@ $(pv_value)</tooltip>
       </font>
       <width>76</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -8916,6 +8967,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-76c4</wuid>
@@ -8950,6 +9002,7 @@ $(pv_value)</tooltip>
       </font>
       <width>76</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -8969,6 +9022,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-76c3</wuid>
@@ -9003,6 +9057,7 @@ $(pv_value)</tooltip>
       </font>
       <width>76</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -9022,6 +9077,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-76c2</wuid>
@@ -9056,6 +9112,7 @@ $(pv_value)</tooltip>
       </font>
       <width>84</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -9075,6 +9132,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-76c1</wuid>
@@ -9109,6 +9167,7 @@ $(pv_value)</tooltip>
       </font>
       <width>84</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -9128,6 +9187,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-76c0</wuid>
@@ -9162,6 +9222,7 @@ $(pv_value)</tooltip>
       </font>
       <width>84</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -9181,6 +9242,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-770b</wuid>
@@ -9215,6 +9277,7 @@ $(pv_value)</tooltip>
       </font>
       <width>121</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -9281,6 +9344,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-7c2b</wuid>
@@ -9315,6 +9379,7 @@ $(pv_value)</tooltip>
       </font>
       <width>100</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -9436,6 +9501,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-7c2a</wuid>
@@ -9470,6 +9536,7 @@ $(pv_value)</tooltip>
       </font>
       <width>100</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -9489,6 +9556,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-7c29</wuid>
@@ -9523,6 +9591,7 @@ $(pv_value)</tooltip>
       </font>
       <width>100</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -9644,6 +9713,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>57b362fb:13901476f15:-7c28</wuid>
@@ -9678,6 +9748,7 @@ $(pv_value)</tooltip>
       </font>
       <width>100</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -14464,6 +14535,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>7bbb480c:13920398182:-7878</wuid>
@@ -14498,6 +14570,7 @@ $(pv_value)</tooltip>
       </font>
       <width>41</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -16606,47 +16679,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-3b2b</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_77</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>89</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-3b2b</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_77</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:gdr_pole_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>89</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -16798,47 +16872,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-3b27</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_29</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>89</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-3b27</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_29</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:gdr_gainp_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>89</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -17106,47 +17181,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-3b20</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_30</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>89</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-3b20</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_30</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:gdr_gainx_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>89</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -17380,47 +17456,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-3b1a</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_84</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>89</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-3b1a</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_84</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:gdr_sety_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>89</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -17435,47 +17512,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-3b19</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_28</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>89</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-3b19</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_28</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:cal_out_amp_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>89</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -17531,47 +17609,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-3b17</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_82</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>89</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-3b17</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_82</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:sel2_phstep_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>89</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -17682,47 +17761,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-3b14</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_90</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>89</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-3b14</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_90</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:track_bw_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>89</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -17833,47 +17913,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-3b11</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_76</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>89</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-3b11</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_76</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:gdr_setx_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>89</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -17888,47 +17969,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-3b10</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_83</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>89</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-3b10</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_83</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:sel2_phase_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>89</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -17943,47 +18025,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>7bbb480c:13920398182:-3b0f</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_78</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>89</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>7bbb480c:13920398182:-3b0f</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_78</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:gdr_gainy_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>89</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -18420,6 +18503,7 @@ $(pv_value)</tooltip>
       <read_only>true</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
       <wuid>7bbb480c:13920398182:-3ac8</wuid>
@@ -18454,6 +18538,7 @@ $(pv_value)</tooltip>
       </font>
       <width>99</width>
       <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
       <pv_value />
       <maximum>1.7976931348623157E308</maximum>
@@ -18561,47 +18646,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>-335b0dd0:13944820261:-6945</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_90</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>89</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>-335b0dd0:13944820261:-6945</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_90</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:sideband_mode_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>89</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -18780,47 +18866,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>-335b0dd0:13944820261:-68f1</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_93</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>89</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>-335b0dd0:13944820261:-68f1</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_93</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:xstp_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>89</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -18917,47 +19004,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>-335b0dd0:13944820261:-68ec</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_96</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>89</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>-335b0dd0:13944820261:-68ec</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_96</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:diff_thresh_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>89</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -19157,47 +19245,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>-335b0dd0:13944820261:-6855</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_90</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>89</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>-335b0dd0:13944820261:-6855</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_90</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:drive_thresh_ao</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>89</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -19335,47 +19424,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>-335b0dd0:13944820261:-684d</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_97</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>-335b0dd0:13944820261:-684d</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_97</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:cav_ph_err</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -19431,47 +19521,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>-335b0dd0:13944820261:-6849</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_100</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>-335b0dd0:13944820261:-6849</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_100</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:temp_mdeg</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -19527,47 +19618,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>-335b0dd0:13944820261:-6847</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_101</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>-335b0dd0:13944820261:-6847</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_101</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:diff_tripped</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -19623,47 +19715,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>-335b0dd0:13944820261:-6844</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_103</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>-335b0dd0:13944820261:-6844</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_103</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:diff_zeros</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -19719,47 +19812,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>-335b0dd0:13944820261:-6842</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_104</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>-335b0dd0:13944820261:-6842</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_104</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:diff_peak_val</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -19815,47 +19909,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>-335b0dd0:13944820261:-67fd</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_97</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>-335b0dd0:13944820261:-67fd</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_97</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:drive_tripped</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -19911,47 +20006,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>-335b0dd0:13944820261:-67f9</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_100</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>-335b0dd0:13944820261:-67f9</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_100</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:drive_zeros</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -20007,47 +20103,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>-335b0dd0:13944820261:-67f7</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_101</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>-335b0dd0:13944820261:-67f7</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_101</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:ph_avr_1</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -20163,47 +20260,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>c9d1f02:139496e6268:-6d24</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_101</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>c9d1f02:139496e6268:-6d24</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_101</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:ph_avr_2</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -20259,47 +20357,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>c9d1f02:139496e6268:-6d15</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_107</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>c9d1f02:139496e6268:-6d15</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_107</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:ph_avr_3</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -20355,47 +20454,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>c9d1f02:139496e6268:-6d06</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_109</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>c9d1f02:139496e6268:-6d06</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_109</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:ph_avr_4</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -20451,47 +20551,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>c9d1f02:139496e6268:-6cf7</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_111</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>c9d1f02:139496e6268:-6cf7</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_111</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:ph_rms_1</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -20547,47 +20648,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>c9d1f02:139496e6268:-6ce8</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_113</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>c9d1f02:139496e6268:-6ce8</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_113</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:ph_rms_2</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -20643,47 +20745,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>c9d1f02:139496e6268:-6c9d</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_123</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>c9d1f02:139496e6268:-6c9d</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_123</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:ph_rms_3</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -20739,47 +20842,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>c9d1f02:139496e6268:-6cd9</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_115</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>c9d1f02:139496e6268:-6cd9</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_115</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:ph_rms_4</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -20835,47 +20939,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>c9d1f02:139496e6268:-6cca</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_117</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>c9d1f02:139496e6268:-6cca</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_117</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:dac2_min</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -20890,47 +20995,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>c9d1f02:139496e6268:-6cac</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_121</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>c9d1f02:139496e6268:-6cac</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_121</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:dac2_max</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -21327,47 +21433,48 @@ $(pv_value)</tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
       <visible>true</visible>
-      <minimum>-1.7976931348623157E308</minimum>
       <vertical_alignment>1</vertical_alignment>
-      <show_units>true</show_units>
       <multiline_input>false</multiline_input>
-      <wuid>116b3ded:13954513baf:-628e</wuid>
       <auto_size>false</auto_size>
-      <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>17</height>
-      <name>Text Update_100</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision_from_pv>true</precision_from_pv>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <widget_type>Text Input</widget_type>
+      <enabled>true</enabled>
+      <text></text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>101</width>
+      <border_style>0</border_style>
+      <pv_value />
+      <border_width>1</border_width>
+      <maximum>1.7976931348623157E308</maximum>
+      <minimum>-1.7976931348623157E308</minimum>
+      <show_units>true</show_units>
+      <wuid>116b3ded:13954513baf:-628e</wuid>
+      <rotation_angle>0.0</rotation_angle>
+      <name>Text Update_100</name>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <format_type>0</format_type>
-      <precision_from_pv>true</precision_from_pv>
       <transparent>false</transparent>
       <selector_type>0</selector_type>
       <pv_name>$(TS)$(LLRF):DRV0:drive_peak_val</pv_name>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <widget_type>Text Input</widget_type>
-      <enabled>true</enabled>
-      <text></text>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>101</width>
-      <border_style>0</border_style>
+      <confirm_message></confirm_message>
       <rules />
-      <pv_value />
-      <border_width>1</border_width>
-      <maximum>1.7976931348623157E308</maximum>
       <limits_from_pv>false</limits_from_pv>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -21385,6 +21492,7 @@ $(pv_value)</tooltip>
     <read_only>true</read_only>
     <visible>true</visible>
     <minimum>-1.7976931348623157E308</minimum>
+    <next_focus>0</next_focus>
     <show_units>false</show_units>
     <multiline_input>true</multiline_input>
     <wuid>-335b0dd0:13944820261:-772b</wuid>
@@ -21419,6 +21527,7 @@ of the new firmware.</text>
     </font>
     <width>210</width>
     <border_style>0</border_style>
+    <confirm_message></confirm_message>
     <rules />
     <pv_value />
     <show_h_scroll>false</show_h_scroll>

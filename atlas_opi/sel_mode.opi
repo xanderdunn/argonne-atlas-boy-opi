@@ -3,9 +3,10 @@
   <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
   <macros>
     <include_parent_macros>true</include_parent_macros>
+    <temp></temp>
   </macros>
   <wuid>735ee5d9:138eca48129:-7e20</wuid>
-  <boy_version>3.1.2.20120829</boy_version>
+  <boy_version>3.1.2.20120828</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
   <height>822</height>
