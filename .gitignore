@@ -5,6 +5,9 @@ org.eclipse.team.cvs.core
 dialog_settings.xml
 org.eclipse.ui.ide
 
+# Ignore all Eclipse workspace settings files
+.metadata
+
 # Other Unecessary System files
 *~
 *.log
