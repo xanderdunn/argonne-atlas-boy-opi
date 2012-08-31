@@ -2,6 +2,7 @@
 org.eclipse.core.runtime
 pydev
 org.eclipse.team.cvs.core
+CSS
 
 # Other Unecessary System files
 *~
