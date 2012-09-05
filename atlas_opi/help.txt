@@ -36,31 +36,13 @@ Print Screen keyboard key.
 Either way, you can save an image of any given strip chart in CSS BOY
 by pressing the camera icon at the top right of the strip chart.  
 
-Web Browser Settings
-By default, Eclipse will open the Log Book link in its internal browser.
-This will cause problems with looking at files on secured servers.
-To change Eclipse so that it opens the link in an external browser,
-go to Edit --> Preferences --> General --> We Browser --> Use external
-web browser.
-
 Open in New Window
 By default, all screens will open in a new tab.  If you want to open a given
 screen in a new window, then right click on the button that opens it and choose
 Open in New Window.
 
 Known Issues
-- 9 August 2012: When a given trace on the front.opi screen is hidden, 
-the graph does not correctly ignore it when autoscaling.  This will be
-fixed in the upcoming1 version of CSS BOY (> 3.1.1).  
-- 9 August 2012: CSS BOY screens can not be started from the command-line.
-This is a limitation caused by the Eclipse framework, but there are
-plausible workarounds.  Developers are working on this.
 - 9 August 2012: Running CSS BOY using Sun Java causes various problems,
 including a performance drag.  If you have Sun Java installed, make sure
 Eclipse is using openJDK by forcing it on the command-line:
 ./css -vm /usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/bin/java
-- 14 August 2012: Do not use scan.py.  It is broken and will cause CSS BOY
-to crash.
-
-Instructions for Setting Up synApps Eclipse Project
-http://subversion.xray.aps.anl.gov/admin_bcdaext/cssboy_deployment/

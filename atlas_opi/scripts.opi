@@ -7,11 +7,7 @@
   </macros>
   <wuid>116b3ded:13954513baf:-5751</wuid>
   <boy_version>3.1.2.20120828</boy_version>
-  <scripts>
-    <path pathString="AbsoluteWSPathToSysProp.py" checkConnect="true" sfe="false" seoe="false">
-      <pv trig="true">1</pv>
-    </path>
-  </scripts>
+  <scripts />
   <show_ruler>true</show_ruler>
   <height>500</height>
   <name></name>
