@@ -1,4 +1,0 @@
-- Speak to Pete
-- Get it set up on the remote machine
-- EXPERT screen
-- XGUI screen
