@@ -1,5 +1,7 @@
 #!/bin/python
 
+# Description: This is the script for running the PSD stuff in scripts.opi
+
 # from org.csstudio.opibuilder.scriptUtil import PVUtil # CSS BOY tools
 import subprocess # For executing command-line stuff
 import time # For sleeping
