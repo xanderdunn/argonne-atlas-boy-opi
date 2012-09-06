@@ -1,8 +1,10 @@
-color_file=/atlas_opi/color.def
+color_file=/atlas_opi/other/color.def
 eclipse.preferences.version=1
-font_file=/atlas_opi/font.def
+font_file=/atlas_opi/other/font.def
 opi_search_path=/atlas_opi/
 popup_console=ALL
 show_compact_mode_dialog=false
+show_fullscreen_dialog=false
+show_opi_runtime_perspective_dialog=false
 start_window_in_compact_mode=true
 top_opis="/atlas_opi/front.opi", "Alias\=atlas"

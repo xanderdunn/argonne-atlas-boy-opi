@@ -6841,15 +6841,15 @@ $(pv_value)</tooltip>
     <width>321</width>
     <border_style>0</border_style>
     <rules />
-    <lock_children>false</lock_children>
+    <lock_children>true</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
     <actions hook="false" hook_all="false" />
-    <y>612</y>
+    <y>606</y>
     <tooltip></tooltip>
-    <x>884</x>
+    <x>883</x>
     <widget typeId="org.csstudio.opibuilder.widgets.RoundedRectangle" version="1.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
       <visible>true</visible>
