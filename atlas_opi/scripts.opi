@@ -275,13 +275,13 @@ $(pv_value)</tooltip>
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
-      <text>Blocks Per File:</text>
+      <text>Blocks/File</text>
       <precision>0</precision>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>105</width>
+      <width>76</width>
       <border_style>0</border_style>
       <confirm_message></confirm_message>
       <rules />
@@ -295,7 +295,7 @@ $(pv_value)</tooltip>
       </border_color>
       <y>54</y>
       <actions hook="false" hook_all="false" />
-      <x>66</x>
+      <x>95</x>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     </widget>
@@ -331,13 +331,13 @@ $(pv_value)</tooltip>
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
-      <text>Time Duration in File (s):</text>
+      <text>Time Duration (s)</text>
       <precision>0</precision>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>167</width>
+      <width>119</width>
       <border_style>0</border_style>
       <confirm_message></confirm_message>
       <rules />
@@ -351,7 +351,7 @@ $(pv_value)</tooltip>
       </border_color>
       <y>84</y>
       <actions hook="false" hook_all="false" />
-      <x>4</x>
+      <x>52</x>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     </widget>
@@ -547,7 +547,7 @@ $(pv_value)</tooltip>
       </background_color>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
-      <text>Previous Filename:</text>
+      <text>Previous Filename</text>
       <precision>0</precision>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
