@@ -1,5 +1,4 @@
 color_file=/atlas_opi/color.def
-display_system_output=true
 eclipse.preferences.version=1
 font_file=/atlas_opi/font.def
 opi_search_path=/atlas_opi/
