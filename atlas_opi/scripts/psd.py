@@ -1,10 +1,11 @@
 #!/bin/python
 
-# Description: This is the script for running the PSD stuff in scripts.opi
+# Description: This is the PSD script in scripts.opi
 
 # from org.csstudio.opibuilder.scriptUtil import PVUtil # CSS BOY tools
 import subprocess # For executing command-line stuff
 import time # For sleeping
+import os # For working with paths
 
 # The EPICS extensions version of caget does not support -S string
 #   output.  Hence, we use the EPICS base version.  A linux-x86_64
@@ -23,12 +24,13 @@ subprocess.Popen(["caput", "LLRF4:FILE0:Capture", "1"])
 # Get the file save duration time as a variable
 p = subprocess.Popen(["../../sdds/caget_v2", "-t", "LLRF4:FILE0:FileDurTime"], stdout=subprocess.PIPE)
 wait = p.communicate()[0]
-print wait
 
 # Add 2 seconds to the total wait time and sleep for that time
 time.sleep(float(wait) + 2)
 
-# Get the save path as a string and execute sdds using it
+# Get the file path as a string
 p = subprocess.Popen(["../../sdds/caget_v2", "-St", "LLRF4:FILE0:FullFileName_RBV"], stdout=subprocess.PIPE)
 filepath = p.communicate()[0]
-p = subprocess.Popen(["../../sdds/plotPSD", filepath])
+filepath = os.path.abspath(filepath) # Make it an absolute path
+plotpath = os.path.abspath("../../sdds/plotPSD") # Get absolute path of plotPSD
+subprocess.Popen([plotpath, filepath]) # Run plotPSD on the saved file
