@@ -22,6 +22,7 @@ import os # For working with paths
 subprocess.Popen(["caput", "LLRF4:FILE0:Capture", "1"])
 
 # Get the file save duration time as a variable
+# This is run from ops/cavCtl/css/CSS_EPICS/
 p = subprocess.Popen(["../../sdds/caget_v2", "-t", "LLRF4:FILE0:FileDurTime"], stdout=subprocess.PIPE)
 wait = p.communicate()[0]
 
@@ -29,8 +30,11 @@ wait = p.communicate()[0]
 time.sleep(float(wait) + 2)
 
 # Get the file path as a string
+# This is run from ops/cavCtl/css/CSS_EPICS/
 p = subprocess.Popen(["../../sdds/caget_v2", "-St", "LLRF4:FILE0:FullFileName_RBV"], stdout=subprocess.PIPE)
-filepath = p.communicate()[0]
+filepath = p.communicate()[0] # Get the output of the above command
 filepath = os.path.abspath(filepath) # Make it an absolute path
 plotpath = os.path.abspath("../../sdds/plotPSD") # Get absolute path of plotPSD
-subprocess.Popen([plotpath, filepath]) # Run plotPSD on the saved file
+# The following is run from the directory of the user's save file
+runpath = os.path.split(filepath)[0] # Get just the directory of the save file
+subprocess.Popen([plotpath, filepath], cwd=runpath) # Run plotPSD on the saved file
