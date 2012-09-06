@@ -36,5 +36,6 @@ filepath = p.communicate()[0] # Get the output of the above command
 filepath = os.path.abspath(filepath) # Make it an absolute path
 plotpath = os.path.abspath("../../sdds/plotPSD") # Get absolute path of plotPSD
 # The following is run from the directory of the user's save file
-runpath = os.path.split(filepath)[0] # Get just the directory of the save file
+# runpath = os.path.split(filepath)[0] # Get just the directory of the save file
+runpath = os.path.split(plotpath)[0] # Get just the directory of the plotter location
 subprocess.Popen([plotpath, filepath], cwd=runpath) # Run plotPSD on the saved file
