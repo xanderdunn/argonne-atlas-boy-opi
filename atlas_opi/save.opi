@@ -2275,41 +2275,10 @@ $(pv_value)</tooltip>
       <y>117</y>
       <actions hook="false" hook_all="false">
         <action type="EXECUTE_PYTHONSCRIPT">
-          <path></path>
+          <path>scripts/save_toggle.py</path>
           <scriptText><![CDATA[from org.csstudio.opibuilder.scriptUtil import PVUtil
-
-#PVs
-# pvs[0] = $(TS)$(LLRF):FILE0:Capture
-
-# Get macros
-ts = display.getMacroValue("TS")
-llrf = display.getMacroValue("LLRF")
-pv = ts + llrf + ":FILE0:Capture"
-
-get_pv = display.getWidget("Capture_Indicator").getPV()
-set_pv = display.getWidget("Save_Button").getPV()
-
-def main():
-	# Get current PV value
-	curr = PVUtil.getLong(get_pv)
-	# If currently 0, then set to 1
-	if curr == 0:
-		print "Setting to 1"
-		set_pv.setValue(1)
-	# If currently 1, then set to 0
-	if curr == 1:
-		print "Setting to 0"
-		set_pv.setValue(0)
-
-if __name__ == '__main__':
-    main()]]></scriptText>
-          <embedded>true</embedded>
-          <description></description>
-        </action>
-        <action type="WRITE_PV">
-          <pv_name>$(TS)$(LLRF):FILE0:Capture</pv_name>
-          <value>1</value>
-          <timeout>10</timeout>
+]]></scriptText>
+          <embedded>false</embedded>
           <description></description>
         </action>
       </actions>
