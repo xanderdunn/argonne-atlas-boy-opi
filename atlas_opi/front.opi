@@ -7087,7 +7087,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
-      <read_only>true</read_only>
+      <read_only>false</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
       <next_focus>0</next_focus>
@@ -7375,13 +7375,13 @@ $(pv_value)</tooltip>
       <password_input>false</password_input>
       <name>dataLength</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <format_type>0</format_type>
+      <format_type>1</format_type>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <precision_from_pv>false</precision_from_pv>
+      <precision_from_pv>true</precision_from_pv>
       <pv_name>$(TS)$(LLRF):FILE0:FileDurTime</pv_name>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -7392,7 +7392,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <widget_type>Text</widget_type>
       <text></text>
-      <precision>0</precision>
+      <precision>1</precision>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
@@ -8563,40 +8563,31 @@ $(trace_0_y_pv_value)</tooltip>
       <trace_1_concatenate_data>true</trace_1_concatenate_data>
       <rules>
         <rule name="CAV_Visibility" prop_id="trace_0_visible" out_exp="false">
-          <exp bool_exp="pvInt0 == 0">
-            <value>false</value>
-          </exp>
           <exp bool_exp="pvInt0 == 1">
             <value>true</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 0">
+            <value>false</value>
           </exp>
           <pv trig="true">loc://CAVAmp</pv>
         </rule>
         <rule name="FWD_Visibility" prop_id="trace_1_visible" out_exp="false">
-          <exp bool_exp="pvInt0 == 0">
-            <value>false</value>
-          </exp>
           <exp bool_exp="pvInt0 == 1">
             <value>true</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 0">
+            <value>false</value>
           </exp>
           <pv trig="true">loc://FWDAmp</pv>
         </rule>
         <rule name="REV_Visibility" prop_id="trace_2_visible" out_exp="false">
-          <exp bool_exp="pvInt0 == 0">
-            <value>false</value>
-          </exp>
           <exp bool_exp="pvInt0 == 1">
             <value>true</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 0">
+            <value>false</value>
           </exp>
           <pv trig="true">loc://REVAmp</pv>
-        </rule>
-        <rule name="REF Visbility" prop_id="trace_3_visible" out_exp="false">
-          <exp bool_exp="pvInt0 == 0">
-            <value>false</value>
-          </exp>
-          <exp bool_exp="pvInt0 == 1">
-            <value>true</value>
-          </exp>
-          <pv trig="true">loc://REFAmp</pv>
         </rule>
       </rules>
       <trace_2_y_pv>$(TS)$(LLRF):STATS0:S$(REV)_mean_ampl</trace_2_y_pv>
@@ -8811,40 +8802,31 @@ $(trace_0_y_pv_value)</tooltip>
       <trace_1_concatenate_data>true</trace_1_concatenate_data>
       <rules>
         <rule name="CAV Visibility" prop_id="trace_0_visible" out_exp="false">
-          <exp bool_exp="pvInt0 == 0">
-            <value>false</value>
-          </exp>
           <exp bool_exp="pvInt0 == 1">
             <value>true</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 0">
+            <value>false</value>
           </exp>
           <pv trig="true">loc://CAVPha</pv>
         </rule>
         <rule name="FWD Visibility" prop_id="trace_1_visible" out_exp="false">
-          <exp bool_exp="pvInt0 == 0">
-            <value>false</value>
-          </exp>
           <exp bool_exp="pvInt0 == 1">
             <value>true</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 0">
+            <value>false</value>
           </exp>
           <pv trig="true">loc://FWDPha</pv>
         </rule>
         <rule name="REV Visibility" prop_id="trace_2_visible" out_exp="false">
-          <exp bool_exp="pvInt0 == 0">
-            <value>false</value>
-          </exp>
           <exp bool_exp="pvInt0 == 1">
             <value>true</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 0">
+            <value>false</value>
           </exp>
           <pv trig="true">loc://REVPha</pv>
-        </rule>
-        <rule name="REF Visibility" prop_id="trace_3_visible" out_exp="false">
-          <exp bool_exp="pvInt0 == 0">
-            <value>false</value>
-          </exp>
-          <exp bool_exp="pvInt0 == 1">
-            <value>true</value>
-          </exp>
-          <pv trig="true">loc://REFPha</pv>
         </rule>
       </rules>
       <trace_2_y_pv>$(TS)$(LLRF):STATS0:S$(REV)_mean_phase</trace_2_y_pv>
@@ -10519,7 +10501,7 @@ $(pv_value)</tooltip>
       <label></label>
       <rules />
       <pv_value />
-      <bit>-1</bit>
+      <bit>0</bit>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -10529,49 +10511,6 @@ $(pv_value)</tooltip>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
       <x>321</x>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0">
-      <border_alarm_sensitive>true</border_alarm_sensitive>
-      <visible>true</visible>
-      <wuid>-3c4549aa:1399c056e33:-7f15</wuid>
-      <auto_size>false</auto_size>
-      <scripts />
-      <height>20</height>
-      <name>Check Box_1</name>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>false</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <pv_name>loc://CAVAmp(1)</pv_name>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <foreground_color>
-        <color red="0" green="0" blue="255" />
-      </foreground_color>
-      <widget_type>Check Box</widget_type>
-      <enabled>true</enabled>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>15</width>
-      <border_style>0</border_style>
-      <label></label>
-      <rules />
-      <pv_value />
-      <bit>-1</bit>
-      <border_width>1</border_width>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <actions hook="false" hook_all="false" />
-      <y>311</y>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <x>215</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -10605,7 +10544,7 @@ $(pv_value)</tooltip>
       <label></label>
       <rules />
       <pv_value />
-      <bit>-1</bit>
+      <bit>0</bit>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -10648,7 +10587,7 @@ $(pv_value)</tooltip>
       <label></label>
       <rules />
       <pv_value />
-      <bit>1</bit>
+      <bit>0</bit>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -10691,7 +10630,7 @@ $(pv_value)</tooltip>
       <label></label>
       <rules />
       <pv_value />
-      <bit>1</bit>
+      <bit>0</bit>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -10734,7 +10673,7 @@ $(pv_value)</tooltip>
       <label></label>
       <rules />
       <pv_value />
-      <bit>1</bit>
+      <bit>0</bit>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -11182,6 +11121,49 @@ $(pv_value)</tooltip>
       <x>294</x>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.checkbox" version="1.0">
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+      <visible>true</visible>
+      <wuid>-71e55fb4:139a186ef37:-7d26</wuid>
+      <auto_size>true</auto_size>
+      <scripts />
+      <height>21</height>
+      <name>Check Box_6</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>false</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <pv_name>loc://CAVAmp(1)</pv_name>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <widget_type>Check Box</widget_type>
+      <enabled>true</enabled>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>17</width>
+      <border_style>0</border_style>
+      <label></label>
+      <rules />
+      <pv_value />
+      <bit>0</bit>
+      <border_width>1</border_width>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <actions hook="false" hook_all="false" />
+      <y>310</y>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <x>214</x>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0">
