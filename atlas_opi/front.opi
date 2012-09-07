@@ -8569,7 +8569,7 @@ $(trace_0_y_pv_value)</tooltip>
           <exp bool_exp="pvInt0 == 0">
             <value>false</value>
           </exp>
-          <pv trig="true">loc://CAVAmp</pv>
+          <pv trig="true">loc://CAVAmp(1)</pv>
         </rule>
         <rule name="FWD_Visibility" prop_id="trace_1_visible" out_exp="false">
           <exp bool_exp="pvInt0 == 1">
@@ -8578,7 +8578,7 @@ $(trace_0_y_pv_value)</tooltip>
           <exp bool_exp="pvInt0 == 0">
             <value>false</value>
           </exp>
-          <pv trig="true">loc://FWDAmp</pv>
+          <pv trig="true">loc://FWDAmp(1)</pv>
         </rule>
         <rule name="REV_Visibility" prop_id="trace_2_visible" out_exp="false">
           <exp bool_exp="pvInt0 == 1">
@@ -8587,7 +8587,7 @@ $(trace_0_y_pv_value)</tooltip>
           <exp bool_exp="pvInt0 == 0">
             <value>false</value>
           </exp>
-          <pv trig="true">loc://REVAmp</pv>
+          <pv trig="true">loc://REVAmp(1)</pv>
         </rule>
       </rules>
       <trace_2_y_pv>$(TS)$(LLRF):STATS0:S$(REV)_mean_ampl</trace_2_y_pv>
@@ -8808,7 +8808,7 @@ $(trace_0_y_pv_value)</tooltip>
           <exp bool_exp="pvInt0 == 0">
             <value>false</value>
           </exp>
-          <pv trig="true">loc://CAVPha</pv>
+          <pv trig="true">loc://CAVPha(1)</pv>
         </rule>
         <rule name="FWD Visibility" prop_id="trace_1_visible" out_exp="false">
           <exp bool_exp="pvInt0 == 1">
@@ -8817,7 +8817,7 @@ $(trace_0_y_pv_value)</tooltip>
           <exp bool_exp="pvInt0 == 0">
             <value>false</value>
           </exp>
-          <pv trig="true">loc://FWDPha</pv>
+          <pv trig="true">loc://FWDPha(1)</pv>
         </rule>
         <rule name="REV Visibility" prop_id="trace_2_visible" out_exp="false">
           <exp bool_exp="pvInt0 == 1">
@@ -8826,7 +8826,7 @@ $(trace_0_y_pv_value)</tooltip>
           <exp bool_exp="pvInt0 == 0">
             <value>false</value>
           </exp>
-          <pv trig="true">loc://REVPha</pv>
+          <pv trig="true">loc://REVPha(1)</pv>
         </rule>
       </rules>
       <trace_2_y_pv>$(TS)$(LLRF):STATS0:S$(REV)_mean_phase</trace_2_y_pv>
