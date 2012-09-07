@@ -5741,7 +5741,7 @@ $(pv_value)</tooltip>
       <y>0</y>
       <actions hook="false" hook_all="false">
         <action type="EXECUTE_CMD">
-          <command>run_caxgui</command>
+          <command>./run_caxgui</command>
           <command_directory>../../caXGUI/</command_directory>
           <wait_time>10</wait_time>
           <description></description>
@@ -5845,8 +5845,8 @@ $(pv_value)</tooltip>
       <y>0</y>
       <actions hook="false" hook_all="false">
         <action type="EXECUTE_CMD">
-          <command>../../medm/run_medm</command>
-          <command_directory>$(user.dir)</command_directory>
+          <command>./run_medm</command>
+          <command_directory>../../medm/</command_directory>
           <wait_time>10</wait_time>
           <description></description>
         </action>
@@ -6924,7 +6924,7 @@ $(pv_value)</tooltip>
     <width>321</width>
     <border_style>0</border_style>
     <rules />
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
