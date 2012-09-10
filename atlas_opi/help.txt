@@ -1,21 +1,27 @@
 Shortcuts
-Ctrl + G = Start the opened .opi file in runtime mode
 F8 = enter/exit compact mode
 
-!! OPI Runtime vs. OPI Editor
+Edit/Runtime Mode
 Just like MEDM, CSS BOY has an execute mode and an edit mode.
 To switch between them, right click on an OPI in the left-hand Navigator
-pane and choose Open With --> OPI Edtior or OPI Runtime.
+pane and choose Open With --> OPI Editor or OPI Runtime.
 
-!! First time use (TS macro)
-You will need to set the "TS" macro so that it can properlly find your EPICS
+Edit/Runtime Perspective
+Unlike MEDM, CSS BOY has an environment of panels which can be changed
+for convenience.  Window --> Open Perspective --> Other ... --> 
+OPI Runtime/OPI Editor.  When a file is in runtime mode, you can hide
+panels by going to the OPI Runtime perspective.  While editing, you want
+the panels open in OPI Editor perspective.
+
+TS macro
+You will need to set the TS macro so that it can properly find your EPICS
 server.  Open front.opi in Editor mode and click anywhere on the background.
 This should select the widget "root Group."  At the top of the Properties
 pane on the right, click on the Value of the Macros entry.  In the box
 that appears, set the correct value of the TS variable.
 
 Autoscale/Rescale
-Pressing the Rescale button will disable autosacle and alter that specific
+Pressing the Rescale button will disable autoscale and alter that specific
 y-axis so that the y-axis max is the current larger value + you given 
 offset, while the y-axis min is the current smaller value - your given 
 offset.  
@@ -40,6 +46,10 @@ Open in New Window
 By default, all screens will open in a new tab.  If you want to open a given
 screen in a new window, then right click on the button that opens it and choose
 Open in New Window.
+
+Zoom
+Press and hold Ctrl on the keyboard and then scroll with the mouse to zoom a
+screen in or out.
 
 Known Issues
 - 9 August 2012: Running CSS BOY using Sun Java causes various problems,
