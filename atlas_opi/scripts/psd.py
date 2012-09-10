@@ -34,7 +34,8 @@ time.sleep(float(wait) + 2)
 p = subprocess.Popen(["../../sdds/caget_v2", "-St", "LLRF4:FILE0:FullFileName_RBV"], stdout=subprocess.PIPE)
 filepath = p.communicate()[0] # Get the output of the above command
 filepath = os.path.abspath(filepath) # Make it an absolute path
-plotpath = os.path.abspath("../../sdds/plotPSD") # Get absolute path of plotPSD
+# If the given path is relative, make it absolute relative to the spxrfshare directory
+plotpath = os.path.abspath(["../../sdds/plotPSD"], cwd="../../../../") # Get absolute path of plotPSD
 # The following is run from the directory of the user's save file
 # runpath = os.path.split(filepath)[0] # Get just the directory of the save file
 runpath = os.path.split(plotpath)[0] # Get just the directory of the plotter location
