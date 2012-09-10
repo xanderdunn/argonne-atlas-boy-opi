@@ -86,7 +86,7 @@
     <trace_1_anti_alias>true</trace_1_anti_alias>
     <axis_2_maximum>100.0</axis_2_maximum>
     <trace_0_update_mode>3</trace_0_update_mode>
-    <trace_1_buffer_size>100</trace_1_buffer_size>
+    <trace_1_buffer_size>2000</trace_1_buffer_size>
     <axis_0_axis_title></axis_0_axis_title>
     <wuid>1af02831:13925a0d761:-7c49</wuid>
     <axis_1_axis_color>
@@ -133,7 +133,7 @@
     <widget_type>XY Graph</widget_type>
     <enabled>true</enabled>
     <width>398</width>
-    <trace_0_buffer_size>100</trace_0_buffer_size>
+    <trace_0_buffer_size>2000</trace_0_buffer_size>
     <trigger_pv></trigger_pv>
     <axis_count>3</axis_count>
     <transparent>false</transparent>
