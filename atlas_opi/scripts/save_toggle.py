@@ -1,3 +1,5 @@
+#!/bin/python
+
 from org.csstudio.opibuilder.scriptUtil import PVUtil
 
 # If it is taking data, then stop by writing 0
@@ -7,9 +9,9 @@ from org.csstudio.opibuilder.scriptUtil import PVUtil
 # pvs[0] = $(TS)$(LLRF):FILE0:Capture
 
 # Get macros
-ts = display.getMacroValue("TS")
-llrf = display.getMacroValue("LLRF")
-pv = ts + llrf + ":FILE0:Capture"
+# ts = display.getMacroValue("TS")
+# llrf = display.getMacroValue("LLRF")
+# pv = ts + llrf + ":FILE0:Capture"
 
 get_pv = display.getWidget("Capture_Indicator").getPV()
 set_pv = display.getWidget("Save_Button").getPV()
