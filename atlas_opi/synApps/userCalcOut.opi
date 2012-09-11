@@ -3840,10 +3840,10 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <visible>true</visible>
-    <wuid>799916fd:1399d0bd220:-6c32</wuid>
+    <wuid>3a37ef19:139b6ba3f6b:-7a12</wuid>
     <scripts />
     <height>20</height>
-    <name>Action Button</name>
+    <name>Action Button_2</name>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -3893,10 +3893,10 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <visible>true</visible>
-    <wuid>799916fd:1399d0bd220:-6c31</wuid>
+    <wuid>3a37ef19:139b6ba3f6b:-7a11</wuid>
     <scripts />
     <height>20</height>
-    <name>Action Button</name>
+    <name>Action Button_3</name>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <scale_options>
       <width_scalable>true</width_scalable>
