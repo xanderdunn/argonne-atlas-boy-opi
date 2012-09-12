@@ -96,14 +96,14 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <wuid>-2dbecc1e:13958e2d3fa:-7e0b</wuid>
     <scripts />
-    <height>224</height>
+    <height>182</height>
     <name>PSDPhasePlot</name>
     <scale_options>
       <width_scalable>false</width_scalable>
       <height_scalable>false</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <show_scrollbar>false</show_scrollbar>
     <background_color>
       <color red="240" green="240" blue="240" />
@@ -140,7 +140,7 @@ $(pv_value)</tooltip>
         <color red="255" green="255" blue="255" />
       </bg_gradient_color>
       <scripts />
-      <height>223</height>
+      <height>181</height>
       <anti_alias>true</anti_alias>
       <corner_height>16</corner_height>
       <name>Rounded Rectangle</name>
@@ -501,7 +501,7 @@ $(pv_value)</tooltip>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
-      <y>192</y>
+      <y>144</y>
       <actions hook="false" hook_all="false">
         <action type="EXECUTE_PYTHONSCRIPT">
           <path>scripts/psd.py</path>
@@ -513,7 +513,7 @@ $(pv_value)</tooltip>
       </actions>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-      <x>180</x>
+      <x>198</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -626,48 +626,6 @@ $(pv_value)</tooltip>
       <x>180</x>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0">
-      <visible>true</visible>
-      <vertical_alignment>0</vertical_alignment>
-      <wuid>6dd9902d:1399cde8d33:-7ecd</wuid>
-      <auto_size>false</auto_size>
-      <scripts />
-      <height>54</height>
-      <name>Text_22</name>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <transparent>true</transparent>
-      <show_scrollbar>false</show_scrollbar>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <widget_type>Label</widget_type>
-      <enabled>true</enabled>
-      <text>This script works as long as the above path is either an existing, writable, absolute path; or an existing, writable path relative to the spxrfshare directory.</text>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-      </font>
-      <width>495</width>
-      <border_style>0</border_style>
-      <rules />
-      <border_width>1</border_width>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <horizontal_alignment>0</horizontal_alignment>
-      <actions hook="false" hook_all="false" />
-      <y>139</y>
-      <wrap_words>true</wrap_words>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <x>46</x>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="1.0">
