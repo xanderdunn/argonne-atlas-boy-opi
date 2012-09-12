@@ -94,7 +94,7 @@ $(pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0">
     <trace_1_visible>true</trace_1_visible>
-    <trace_1_trace_type>0</trace_1_trace_type>
+    <trace_1_trace_type>2</trace_1_trace_type>
     <trace_0_trace_color>
       <color red="255" green="0" blue="0" />
     </trace_0_trace_color>
@@ -166,7 +166,7 @@ $(pv_value)</tooltip>
     <axis_0_time_format>0</axis_0_time_format>
     <trace_1_plot_mode>0</trace_1_plot_mode>
     <axis_1_log_scale>false</axis_1_log_scale>
-    <trace_1_point_style>0</trace_1_point_style>
+    <trace_1_point_style>1</trace_1_point_style>
     <axis_2_auto_scale_threshold>0.0</axis_2_auto_scale_threshold>
     <title_font>
       <fontdata fontName="Arial" height="12" style="1" />
@@ -199,7 +199,7 @@ $(pv_value)</tooltip>
     <axis_0_dash_grid_line>true</axis_0_dash_grid_line>
     <trace_0_x_axis_index>0</trace_0_x_axis_index>
     <axis_2_time_format>0</axis_2_time_format>
-    <trace_0_point_style>0</trace_0_point_style>
+    <trace_0_point_style>1</trace_0_point_style>
     <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -251,7 +251,7 @@ $(trace_0_y_pv_value)</tooltip>
     <trace_1_concatenate_data>false</trace_1_concatenate_data>
     <rules />
     <trace_0_y_pv_value />
-    <trace_0_trace_type>0</trace_0_trace_type>
+    <trace_0_trace_type>2</trace_0_trace_type>
     <axis_1_grid_color>
       <color red="200" green="200" blue="200" />
     </axis_1_grid_color>
@@ -259,7 +259,7 @@ $(trace_0_y_pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0">
     <trace_1_visible>true</trace_1_visible>
-    <trace_1_trace_type>0</trace_1_trace_type>
+    <trace_1_trace_type>2</trace_1_trace_type>
     <trace_0_trace_color>
       <color red="0" green="0" blue="255" />
     </trace_0_trace_color>
@@ -331,7 +331,7 @@ $(trace_0_y_pv_value)</tooltip>
     <axis_0_time_format>0</axis_0_time_format>
     <trace_1_plot_mode>0</trace_1_plot_mode>
     <axis_1_log_scale>false</axis_1_log_scale>
-    <trace_1_point_style>0</trace_1_point_style>
+    <trace_1_point_style>1</trace_1_point_style>
     <axis_2_auto_scale_threshold>0.0</axis_2_auto_scale_threshold>
     <title_font>
       <fontdata fontName="Arial" height="12" style="1" />
@@ -364,7 +364,7 @@ $(trace_0_y_pv_value)</tooltip>
     <axis_0_dash_grid_line>true</axis_0_dash_grid_line>
     <trace_0_x_axis_index>0</trace_0_x_axis_index>
     <axis_2_time_format>0</axis_2_time_format>
-    <trace_0_point_style>0</trace_0_point_style>
+    <trace_0_point_style>1</trace_0_point_style>
     <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -416,7 +416,7 @@ $(trace_0_y_pv_value)</tooltip>
     <trace_1_concatenate_data>false</trace_1_concatenate_data>
     <rules />
     <trace_0_y_pv_value />
-    <trace_0_trace_type>0</trace_0_trace_type>
+    <trace_0_trace_type>2</trace_0_trace_type>
     <axis_1_grid_color>
       <color red="200" green="200" blue="200" />
     </axis_1_grid_color>
@@ -424,7 +424,7 @@ $(trace_0_y_pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0">
     <trace_1_visible>true</trace_1_visible>
-    <trace_1_trace_type>0</trace_1_trace_type>
+    <trace_1_trace_type>2</trace_1_trace_type>
     <trace_0_trace_color>
       <color red="255" green="128" blue="255" />
     </trace_0_trace_color>
@@ -496,7 +496,7 @@ $(trace_0_y_pv_value)</tooltip>
     <axis_0_time_format>0</axis_0_time_format>
     <trace_1_plot_mode>0</trace_1_plot_mode>
     <axis_1_log_scale>false</axis_1_log_scale>
-    <trace_1_point_style>0</trace_1_point_style>
+    <trace_1_point_style>1</trace_1_point_style>
     <axis_2_auto_scale_threshold>0.0</axis_2_auto_scale_threshold>
     <title_font>
       <fontdata fontName="Arial" height="12" style="1" />
@@ -529,7 +529,7 @@ $(trace_0_y_pv_value)</tooltip>
     <axis_0_dash_grid_line>true</axis_0_dash_grid_line>
     <trace_0_x_axis_index>0</trace_0_x_axis_index>
     <axis_2_time_format>0</axis_2_time_format>
-    <trace_0_point_style>0</trace_0_point_style>
+    <trace_0_point_style>1</trace_0_point_style>
     <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -581,7 +581,7 @@ $(trace_0_y_pv_value)</tooltip>
     <trace_1_concatenate_data>false</trace_1_concatenate_data>
     <rules />
     <trace_0_y_pv_value />
-    <trace_0_trace_type>0</trace_0_trace_type>
+    <trace_0_trace_type>2</trace_0_trace_type>
     <axis_1_grid_color>
       <color red="200" green="200" blue="200" />
     </axis_1_grid_color>
@@ -589,7 +589,7 @@ $(trace_0_y_pv_value)</tooltip>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0">
     <trace_1_visible>true</trace_1_visible>
-    <trace_1_trace_type>0</trace_1_trace_type>
+    <trace_1_trace_type>2</trace_1_trace_type>
     <trace_0_trace_color>
       <color red="0" green="200" blue="0" />
     </trace_0_trace_color>
@@ -661,7 +661,7 @@ $(trace_0_y_pv_value)</tooltip>
     <axis_0_time_format>0</axis_0_time_format>
     <trace_1_plot_mode>0</trace_1_plot_mode>
     <axis_1_log_scale>false</axis_1_log_scale>
-    <trace_1_point_style>0</trace_1_point_style>
+    <trace_1_point_style>1</trace_1_point_style>
     <axis_2_auto_scale_threshold>0.0</axis_2_auto_scale_threshold>
     <title_font>
       <fontdata fontName="Arial" height="12" style="1" />
@@ -694,7 +694,7 @@ $(trace_0_y_pv_value)</tooltip>
     <axis_0_dash_grid_line>true</axis_0_dash_grid_line>
     <trace_0_x_axis_index>0</trace_0_x_axis_index>
     <axis_2_time_format>0</axis_2_time_format>
-    <trace_0_point_style>0</trace_0_point_style>
+    <trace_0_point_style>1</trace_0_point_style>
     <tooltip>$(trace_0_y_pv)
 $(trace_0_y_pv_value)</tooltip>
     <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -746,7 +746,7 @@ $(trace_0_y_pv_value)</tooltip>
     <trace_1_concatenate_data>false</trace_1_concatenate_data>
     <rules />
     <trace_0_y_pv_value />
-    <trace_0_trace_type>0</trace_0_trace_type>
+    <trace_0_trace_type>2</trace_0_trace_type>
     <axis_1_grid_color>
       <color red="200" green="200" blue="200" />
     </axis_1_grid_color>
