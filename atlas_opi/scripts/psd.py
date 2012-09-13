@@ -33,12 +33,11 @@ time.sleep(float(wait) + 2)
 # This is run from the css/CSS_EPICS directory
 plotpath = os.path.abspath("../../sdds/plotPSD")
 
-# Move into the spxrfshare directory, which is what the data file paths are
-#    relative to
-os.chdir("../../../../")
-
 # Get the data file path as a string
 p = subprocess.Popen(["../../sdds/caget_v2", "-St", "LLRF4:FILE0:FullFileName_RBV"], stdout=subprocess.PIPE)
+# If this PV is given a relative path, then the IOC treats it relative to the 
+#    location where the IOC was started.  I can't get this info, so I can't
+#    handle relative paths.  Despite the below code, only absolute paths work
 filepath = p.communicate()[0] # Get the output of the above command
 # If the user defined an absolute path, then it will be unchanged.
 # If the user defined a relative path, it will be made absolute relative to
