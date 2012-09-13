@@ -4887,7 +4887,7 @@ $(pv_value)</tooltip>
       <axis_0_show_grid>true</axis_0_show_grid>
       <axis_2_log_scale>false</axis_2_log_scale>
       <axis_0_log_scale>false</axis_0_log_scale>
-      <trace_1_name>FWD-ampl</trace_1_name>
+      <trace_1_name></trace_1_name>
       <axis_2_grid_color>
         <color red="200" green="200" blue="200" />
       </axis_2_grid_color>
@@ -4933,7 +4933,7 @@ $(pv_value)</tooltip>
       <trace_2_y_axis_index>3</trace_2_y_axis_index>
       <axis_0_auto_scale_threshold>0.0</axis_0_auto_scale_threshold>
       <trace_2_trace_type>0</trace_2_trace_type>
-      <trace_0_name>CAV-ampl</trace_0_name>
+      <trace_0_name></trace_0_name>
       <trace_1_anti_alias>true</trace_1_anti_alias>
       <axis_3_auto_scale_threshold>0.0</axis_3_auto_scale_threshold>
       <axis_2_maximum>100.0</axis_2_maximum>
@@ -5001,7 +5001,7 @@ $(pv_value)</tooltip>
         <color red="200" green="200" blue="200" />
       </axis_3_grid_color>
       <axis_count>4</axis_count>
-      <trace_2_name>REV-ampl</trace_2_name>
+      <trace_2_name></trace_2_name>
       <transparent>false</transparent>
       <trace_2_anti_alias>true</trace_2_anti_alias>
       <axis_0_dash_grid_line>false</axis_0_dash_grid_line>
@@ -5100,8 +5100,26 @@ $(trace_0_y_pv_value)</tooltip>
           </exp>
           <pv trig="true">loc://REVAmp(1)</pv>
         </rule>
+        <rule name="S1 desc" prop_id="trace_0_name" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S1:desc</pv>
+        </rule>
+        <rule name="S2 desc" prop_id="trace_1_name" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S2:desc</pv>
+        </rule>
+        <rule name="S3 desc" prop_id="trace_2_name" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S3:desc</pv>
+        </rule>
       </rules>
-      <trace_2_y_pv>$(TS)$(LLRF):STATS0:S4_mean_ampl</trace_2_y_pv>
+      <trace_2_y_pv>$(TS)$(LLRF):STATS0:S3_mean_ampl</trace_2_y_pv>
       <trace_0_y_pv_value />
       <trace_0_trace_type>0</trace_0_trace_type>
       <axis_1_grid_color>
@@ -5338,6 +5356,24 @@ $(trace_0_y_pv_value)</tooltip>
             <value>false</value>
           </exp>
           <pv trig="true">loc://REVPha(1)</pv>
+        </rule>
+        <rule name="S1 desc" prop_id="trace_0_name" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S1:desc</pv>
+        </rule>
+        <rule name="S2 desc" prop_id="trace_1_name" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S2:desc</pv>
+        </rule>
+        <rule name="S3 desc" prop_id="trace_2_name" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S3:desc</pv>
         </rule>
       </rules>
       <trace_2_y_pv>$(TS)$(LLRF):STATS0:S4_mean_phase</trace_2_y_pv>
