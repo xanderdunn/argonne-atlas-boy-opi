@@ -9,7 +9,7 @@
   <boy_version>3.1.2.20120828</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
-  <height>575</height>
+  <height>625</height>
   <name></name>
   <snap_to_geometry>true</snap_to_geometry>
   <show_grid>true</show_grid>
@@ -45,7 +45,7 @@
       <color red="255" green="255" blue="255" />
     </bg_gradient_color>
     <scripts />
-    <height>570</height>
+    <height>619</height>
     <anti_alias>true</anti_alias>
     <corner_height>16</corner_height>
     <name>Rounded Rectangle</name>
@@ -106,14 +106,14 @@ $(pv_value)</tooltip>
     <axis_0_show_grid>true</axis_0_show_grid>
     <axis_2_log_scale>false</axis_2_log_scale>
     <axis_0_log_scale>false</axis_0_log_scale>
-    <trace_1_name>REV-pha</trace_1_name>
+    <trace_1_name>pha</trace_1_name>
     <axis_2_grid_color>
       <color red="200" green="200" blue="200" />
     </axis_2_grid_color>
     <axis_2_minimum>0.0</axis_2_minimum>
     <trace_0_point_size>4</trace_0_point_size>
     <show_legend>true</show_legend>
-    <y>321</y>
+    <y>372</y>
     <x>8</x>
     <visible>true</visible>
     <trace_0_x_pv_value />
@@ -141,7 +141,7 @@ $(pv_value)</tooltip>
     </axis_0_grid_color>
     <trace_1_line_width>1</trace_1_line_width>
     <axis_0_auto_scale_threshold>0.0</axis_0_auto_scale_threshold>
-    <trace_0_name>REV-ampl</trace_0_name>
+    <trace_0_name>ampl</trace_0_name>
     <trace_1_anti_alias>true</trace_1_anti_alias>
     <axis_2_maximum>100.0</axis_2_maximum>
     <trace_0_update_mode>3</trace_0_update_mode>
@@ -156,7 +156,7 @@ $(pv_value)</tooltip>
     </foreground_color>
     <trace_1_update_mode>3</trace_1_update_mode>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <axis_1_axis_title>REV-ampl</axis_1_axis_title>
+    <axis_1_axis_title>ampl</axis_1_axis_title>
     <axis_2_y_axis>true</axis_2_y_axis>
     <axis_0_maximum>100.0</axis_0_maximum>
     <axis_0_scale_font>
@@ -178,7 +178,7 @@ $(pv_value)</tooltip>
     <trace_1_x_pv_value />
     <axis_0_scale_format></axis_0_scale_format>
     <trace_0_x_pv></trace_0_x_pv>
-    <trace_0_y_pv>$(TS)$(LLRF):STATS0:S$(REV)_mean_ampl</trace_0_y_pv>
+    <trace_0_y_pv>$(TS)$(LLRF):STATS0:S3_mean_ampl</trace_0_y_pv>
     <axis_0_title_font>
       <fontdata fontName="Arial" height="9" style="1" />
     </axis_0_title_font>
@@ -188,7 +188,7 @@ $(pv_value)</tooltip>
     <trigger_pv_value />
     <trace_1_x_pv></trace_1_x_pv>
     <show_plot_area_border>false</show_plot_area_border>
-    <axis_2_axis_title>REV-pha</axis_2_axis_title>
+    <axis_2_axis_title>pha</axis_2_axis_title>
     <widget_type>XY Graph</widget_type>
     <enabled>true</enabled>
     <width>398</width>
@@ -216,7 +216,7 @@ $(trace_0_y_pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </plot_area_background_color>
     <title></title>
-    <trace_1_y_pv>$(TS)$(LLRF):STATS0:S$(REV)_mean_phase</trace_1_y_pv>
+    <trace_1_y_pv>$(TS)$(LLRF):STATS0:S3_mean_phase</trace_1_y_pv>
     <axis_2_auto_scale>true</axis_2_auto_scale>
     <pv_name></pv_name>
     <axis_1_minimum>0.0</axis_1_minimum>
@@ -271,14 +271,14 @@ $(trace_0_y_pv_value)</tooltip>
     <axis_0_show_grid>true</axis_0_show_grid>
     <axis_2_log_scale>false</axis_2_log_scale>
     <axis_0_log_scale>false</axis_0_log_scale>
-    <trace_1_name>CAV-pha</trace_1_name>
+    <trace_1_name>pha</trace_1_name>
     <axis_2_grid_color>
       <color red="200" green="200" blue="200" />
     </axis_2_grid_color>
     <axis_2_minimum>0.0</axis_2_minimum>
     <trace_0_point_size>4</trace_0_point_size>
     <show_legend>true</show_legend>
-    <y>48</y>
+    <y>72</y>
     <x>8</x>
     <visible>true</visible>
     <trace_0_x_pv_value />
@@ -306,7 +306,7 @@ $(trace_0_y_pv_value)</tooltip>
     </axis_0_grid_color>
     <trace_1_line_width>1</trace_1_line_width>
     <axis_0_auto_scale_threshold>0.0</axis_0_auto_scale_threshold>
-    <trace_0_name>CAV-ampl</trace_0_name>
+    <trace_0_name>ampl</trace_0_name>
     <trace_1_anti_alias>true</trace_1_anti_alias>
     <axis_2_maximum>100.0</axis_2_maximum>
     <trace_0_update_mode>3</trace_0_update_mode>
@@ -321,7 +321,7 @@ $(trace_0_y_pv_value)</tooltip>
     </foreground_color>
     <trace_1_update_mode>3</trace_1_update_mode>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <axis_1_axis_title>CAV-ampl</axis_1_axis_title>
+    <axis_1_axis_title>ampl</axis_1_axis_title>
     <axis_2_y_axis>true</axis_2_y_axis>
     <axis_0_maximum>100.0</axis_0_maximum>
     <axis_0_scale_font>
@@ -343,7 +343,7 @@ $(trace_0_y_pv_value)</tooltip>
     <trace_1_x_pv_value />
     <axis_0_scale_format></axis_0_scale_format>
     <trace_0_x_pv></trace_0_x_pv>
-    <trace_0_y_pv>$(TS)$(LLRF):STATS0:S$(CAV)_mean_ampl</trace_0_y_pv>
+    <trace_0_y_pv>$(TS)$(LLRF):STATS0:S1_mean_ampl</trace_0_y_pv>
     <axis_0_title_font>
       <fontdata fontName="Arial" height="9" style="1" />
     </axis_0_title_font>
@@ -353,7 +353,7 @@ $(trace_0_y_pv_value)</tooltip>
     <trigger_pv_value />
     <trace_1_x_pv></trace_1_x_pv>
     <show_plot_area_border>false</show_plot_area_border>
-    <axis_2_axis_title>CAV-pha</axis_2_axis_title>
+    <axis_2_axis_title>pha</axis_2_axis_title>
     <widget_type>XY Graph</widget_type>
     <enabled>true</enabled>
     <width>398</width>
@@ -381,7 +381,7 @@ $(trace_0_y_pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </plot_area_background_color>
     <title></title>
-    <trace_1_y_pv>$(TS)$(LLRF):STATS0:S$(CAV)_mean_phase</trace_1_y_pv>
+    <trace_1_y_pv>$(TS)$(LLRF):STATS0:S1_mean_phase</trace_1_y_pv>
     <axis_2_auto_scale>true</axis_2_auto_scale>
     <pv_name></pv_name>
     <axis_1_minimum>0.0</axis_1_minimum>
@@ -436,14 +436,14 @@ $(trace_0_y_pv_value)</tooltip>
     <axis_0_show_grid>true</axis_0_show_grid>
     <axis_2_log_scale>false</axis_2_log_scale>
     <axis_0_log_scale>false</axis_0_log_scale>
-    <trace_1_name>FWD-pha</trace_1_name>
+    <trace_1_name>pha</trace_1_name>
     <axis_2_grid_color>
       <color red="200" green="200" blue="200" />
     </axis_2_grid_color>
     <axis_2_minimum>0.0</axis_2_minimum>
     <trace_0_point_size>4</trace_0_point_size>
     <show_legend>true</show_legend>
-    <y>48</y>
+    <y>72</y>
     <x>414</x>
     <visible>true</visible>
     <trace_0_x_pv_value />
@@ -471,7 +471,7 @@ $(trace_0_y_pv_value)</tooltip>
     </axis_0_grid_color>
     <trace_1_line_width>1</trace_1_line_width>
     <axis_0_auto_scale_threshold>0.0</axis_0_auto_scale_threshold>
-    <trace_0_name>FWD-ampl</trace_0_name>
+    <trace_0_name>ampl</trace_0_name>
     <trace_1_anti_alias>true</trace_1_anti_alias>
     <axis_2_maximum>100.0</axis_2_maximum>
     <trace_0_update_mode>3</trace_0_update_mode>
@@ -486,7 +486,7 @@ $(trace_0_y_pv_value)</tooltip>
     </foreground_color>
     <trace_1_update_mode>3</trace_1_update_mode>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <axis_1_axis_title>FWD-ampl</axis_1_axis_title>
+    <axis_1_axis_title>ampl</axis_1_axis_title>
     <axis_2_y_axis>true</axis_2_y_axis>
     <axis_0_maximum>100.0</axis_0_maximum>
     <axis_0_scale_font>
@@ -508,7 +508,7 @@ $(trace_0_y_pv_value)</tooltip>
     <trace_1_x_pv_value />
     <axis_0_scale_format></axis_0_scale_format>
     <trace_0_x_pv></trace_0_x_pv>
-    <trace_0_y_pv>$(TS)$(LLRF):STATS0:S$(FWD)_mean_ampl</trace_0_y_pv>
+    <trace_0_y_pv>$(TS)$(LLRF):STATS0:S2_mean_ampl</trace_0_y_pv>
     <axis_0_title_font>
       <fontdata fontName="Arial" height="9" style="1" />
     </axis_0_title_font>
@@ -518,7 +518,7 @@ $(trace_0_y_pv_value)</tooltip>
     <trigger_pv_value />
     <trace_1_x_pv></trace_1_x_pv>
     <show_plot_area_border>false</show_plot_area_border>
-    <axis_2_axis_title>FWD-pha</axis_2_axis_title>
+    <axis_2_axis_title>pha</axis_2_axis_title>
     <widget_type>XY Graph</widget_type>
     <enabled>true</enabled>
     <width>398</width>
@@ -546,7 +546,7 @@ $(trace_0_y_pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </plot_area_background_color>
     <title></title>
-    <trace_1_y_pv>$(TS)$(LLRF):STATS0:S$(FWD)_mean_phase</trace_1_y_pv>
+    <trace_1_y_pv>$(TS)$(LLRF):STATS0:S2_mean_phase</trace_1_y_pv>
     <axis_2_auto_scale>true</axis_2_auto_scale>
     <pv_name></pv_name>
     <axis_1_minimum>0.0</axis_1_minimum>
@@ -601,14 +601,14 @@ $(trace_0_y_pv_value)</tooltip>
     <axis_0_show_grid>true</axis_0_show_grid>
     <axis_2_log_scale>false</axis_2_log_scale>
     <axis_0_log_scale>false</axis_0_log_scale>
-    <trace_1_name>REF-pha</trace_1_name>
+    <trace_1_name>pha</trace_1_name>
     <axis_2_grid_color>
       <color red="200" green="200" blue="200" />
     </axis_2_grid_color>
     <axis_2_minimum>0.0</axis_2_minimum>
     <trace_0_point_size>4</trace_0_point_size>
     <show_legend>true</show_legend>
-    <y>321</y>
+    <y>372</y>
     <x>414</x>
     <visible>true</visible>
     <trace_0_x_pv_value />
@@ -636,7 +636,7 @@ $(trace_0_y_pv_value)</tooltip>
     </axis_0_grid_color>
     <trace_1_line_width>1</trace_1_line_width>
     <axis_0_auto_scale_threshold>0.0</axis_0_auto_scale_threshold>
-    <trace_0_name>REF-ampl</trace_0_name>
+    <trace_0_name>ampl</trace_0_name>
     <trace_1_anti_alias>true</trace_1_anti_alias>
     <axis_2_maximum>100.0</axis_2_maximum>
     <trace_0_update_mode>3</trace_0_update_mode>
@@ -651,7 +651,7 @@ $(trace_0_y_pv_value)</tooltip>
     </foreground_color>
     <trace_1_update_mode>3</trace_1_update_mode>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <axis_1_axis_title>REF-ampl</axis_1_axis_title>
+    <axis_1_axis_title>ampl</axis_1_axis_title>
     <axis_2_y_axis>true</axis_2_y_axis>
     <axis_0_maximum>100.0</axis_0_maximum>
     <axis_0_scale_font>
@@ -673,7 +673,7 @@ $(trace_0_y_pv_value)</tooltip>
     <trace_1_x_pv_value />
     <axis_0_scale_format></axis_0_scale_format>
     <trace_0_x_pv></trace_0_x_pv>
-    <trace_0_y_pv>$(TS)$(LLRF):STATS0:S$(CAV)_mean_ampl</trace_0_y_pv>
+    <trace_0_y_pv>$(TS)$(LLRF):STATS0:S4_mean_ampl</trace_0_y_pv>
     <axis_0_title_font>
       <fontdata fontName="Arial" height="9" style="1" />
     </axis_0_title_font>
@@ -683,7 +683,7 @@ $(trace_0_y_pv_value)</tooltip>
     <trigger_pv_value />
     <trace_1_x_pv></trace_1_x_pv>
     <show_plot_area_border>false</show_plot_area_border>
-    <axis_2_axis_title>REF-pha</axis_2_axis_title>
+    <axis_2_axis_title>pha</axis_2_axis_title>
     <widget_type>XY Graph</widget_type>
     <enabled>true</enabled>
     <width>398</width>
@@ -711,7 +711,7 @@ $(trace_0_y_pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </plot_area_background_color>
     <title></title>
-    <trace_1_y_pv>$(TS)$(LLRF):STATS0:S$(CAV)_mean_phase</trace_1_y_pv>
+    <trace_1_y_pv>$(TS)$(LLRF):STATS0:S4_mean_phase</trace_1_y_pv>
     <axis_2_auto_scale>true</axis_2_auto_scale>
     <pv_name></pv_name>
     <axis_1_minimum>0.0</axis_1_minimum>
@@ -827,7 +827,7 @@ $(pv_value)</tooltip>
     </foreground_color>
     <widget_type>Button</widget_type>
     <enabled>true</enabled>
-    <text>Open w1 P,A Waveform</text>
+    <text>Open S1 P,A Waveform</text>
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
@@ -845,7 +845,7 @@ $(pv_value)</tooltip>
     <y>18</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>pa_cav_waveform.opi</path>
+        <path>s1_pa_waveform.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -876,7 +876,7 @@ $(pv_value)</tooltip>
     </foreground_color>
     <widget_type>Button</widget_type>
     <enabled>true</enabled>
-    <text>Open w3 P,A Waveform</text>
+    <text>Open S3 P,A Waveform</text>
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
@@ -891,10 +891,10 @@ $(pv_value)</tooltip>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
-    <y>294</y>
+    <y>318</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>pa_rev_waveform.opi</path>
+        <path>s3_pa_waveform.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -925,7 +925,7 @@ $(pv_value)</tooltip>
     </foreground_color>
     <widget_type>Button</widget_type>
     <enabled>true</enabled>
-    <text>Open w4 P,A Waveform</text>
+    <text>Open S4 P,A Waveform</text>
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
@@ -940,10 +940,10 @@ $(pv_value)</tooltip>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
-    <y>294</y>
+    <y>318</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>pa_ref_waveform.opi</path>
+        <path>s4_pa_waveform.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -974,7 +974,7 @@ $(pv_value)</tooltip>
     </foreground_color>
     <widget_type>Button</widget_type>
     <enabled>true</enabled>
-    <text>Open w2 P,A Waveform</text>
+    <text>Open S2 P,A Waveform</text>
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
@@ -992,7 +992,7 @@ $(pv_value)</tooltip>
     <y>18</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>pa_fwd_waveform.opi</path>
+        <path>s2_pa_waveform.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -1003,5 +1003,229 @@ $(pv_value)</tooltip>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <x>516</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <read_only>true</read_only>
+    <visible>true</visible>
+    <minimum>-Infinity</minimum>
+    <next_focus>0</next_focus>
+    <show_units>true</show_units>
+    <multiline_input>false</multiline_input>
+    <wuid>1e07c067:139c1143b94:-749e</wuid>
+    <show_native_border>false</show_native_border>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>25</height>
+    <password_input>false</password_input>
+    <name>Text_1</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <format_type>0</format_type>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <precision_from_pv>true</precision_from_pv>
+    <pv_name>$(TS)$(LLRF):STATS0:S1:desc</pv_name>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <background_color>
+      <color name="Dark Gray Border" red="190" green="190" blue="190" />
+    </background_color>
+    <enabled>true</enabled>
+    <widget_type>Text</widget_type>
+    <text></text>
+    <precision>0</precision>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+    </font>
+    <width>178</width>
+    <border_style>0</border_style>
+    <confirm_message></confirm_message>
+    <rules />
+    <pv_value />
+    <maximum>Infinity</maximum>
+    <border_width>1</border_width>
+    <limits_from_pv>false</limits_from_pv>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>46</y>
+    <actions hook="false" hook_all="false" />
+    <x>118</x>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <read_only>true</read_only>
+    <visible>true</visible>
+    <minimum>-1.7976931348623157E308</minimum>
+    <next_focus>0</next_focus>
+    <show_units>true</show_units>
+    <multiline_input>false</multiline_input>
+    <wuid>1e07c067:139c1143b94:-7492</wuid>
+    <show_native_border>false</show_native_border>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>25</height>
+    <password_input>false</password_input>
+    <name>Text_2</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <format_type>0</format_type>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <precision_from_pv>true</precision_from_pv>
+    <pv_name>$(TS)$(LLRF):STATS0:S2:desc</pv_name>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <background_color>
+      <color name="Dark Gray Border" red="190" green="190" blue="190" />
+    </background_color>
+    <enabled>true</enabled>
+    <widget_type>Text</widget_type>
+    <text></text>
+    <precision>0</precision>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+    </font>
+    <width>191</width>
+    <border_style>0</border_style>
+    <confirm_message></confirm_message>
+    <rules />
+    <pv_value />
+    <maximum>1.7976931348623157E308</maximum>
+    <border_width>1</border_width>
+    <limits_from_pv>false</limits_from_pv>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>45</y>
+    <actions hook="false" hook_all="false" />
+    <x>517</x>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <read_only>true</read_only>
+    <visible>true</visible>
+    <minimum>-1.7976931348623157E308</minimum>
+    <next_focus>0</next_focus>
+    <show_units>true</show_units>
+    <multiline_input>false</multiline_input>
+    <wuid>1e07c067:139c1143b94:-748b</wuid>
+    <show_native_border>false</show_native_border>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>25</height>
+    <password_input>false</password_input>
+    <name>Text_3</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <format_type>0</format_type>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <precision_from_pv>true</precision_from_pv>
+    <pv_name>$(TS)$(LLRF):STATS0:S3:desc</pv_name>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <background_color>
+      <color name="Dark Gray Border" red="190" green="190" blue="190" />
+    </background_color>
+    <enabled>true</enabled>
+    <widget_type>Text</widget_type>
+    <text></text>
+    <precision>0</precision>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+    </font>
+    <width>187</width>
+    <border_style>0</border_style>
+    <confirm_message></confirm_message>
+    <rules />
+    <pv_value />
+    <maximum>1.7976931348623157E308</maximum>
+    <border_width>1</border_width>
+    <limits_from_pv>false</limits_from_pv>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>345</y>
+    <actions hook="false" hook_all="false" />
+    <x>113</x>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <read_only>true</read_only>
+    <visible>true</visible>
+    <minimum>-1.7976931348623157E308</minimum>
+    <next_focus>0</next_focus>
+    <show_units>true</show_units>
+    <multiline_input>false</multiline_input>
+    <wuid>1e07c067:139c1143b94:-7473</wuid>
+    <show_native_border>false</show_native_border>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>25</height>
+    <password_input>false</password_input>
+    <name>Text_4</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <format_type>0</format_type>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <precision_from_pv>true</precision_from_pv>
+    <pv_name>$(TS)$(LLRF):STATS0:S4:desc</pv_name>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <background_color>
+      <color name="Dark Gray Border" red="190" green="190" blue="190" />
+    </background_color>
+    <enabled>true</enabled>
+    <widget_type>Text</widget_type>
+    <text></text>
+    <precision>0</precision>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+    </font>
+    <width>187</width>
+    <border_style>0</border_style>
+    <confirm_message></confirm_message>
+    <rules />
+    <pv_value />
+    <maximum>1.7976931348623157E308</maximum>
+    <border_width>1</border_width>
+    <limits_from_pv>false</limits_from_pv>
+    <horizontal_alignment>1</horizontal_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>345</y>
+    <actions hook="false" hook_all="false" />
+    <x>519</x>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
   </widget>
 </display>
