@@ -5527,7 +5527,7 @@ $(trace_0_y_pv_value)</tooltip>
       <width>378</width>
       <border_style>0</border_style>
       <rules />
-      <lock_children>true</lock_children>
+      <lock_children>false</lock_children>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -6691,7 +6691,7 @@ $(pv_value)</tooltip>
       <width>371</width>
       <border_style>0</border_style>
       <rules />
-      <lock_children>true</lock_children>
+      <lock_children>false</lock_children>
       <border_width>1</border_width>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -7906,6 +7906,556 @@ $(pv_value)</tooltip>
       <wrap_words>true</wrap_words>
       <tooltip></tooltip>
       <x>292</x>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0">
+      <trace_1_visible>true</trace_1_visible>
+      <trace_1_trace_type>0</trace_1_trace_type>
+      <axis_3_dash_grid_line>true</axis_3_dash_grid_line>
+      <trace_0_trace_color>
+        <color red="21" green="21" blue="196" />
+      </trace_0_trace_color>
+      <axis_0_auto_scale>true</axis_0_auto_scale>
+      <axis_3_minimum>0.0</axis_3_minimum>
+      <axis_1_time_format>0</axis_1_time_format>
+      <trace_1_point_size>4</trace_1_point_size>
+      <trace_0_plot_mode>0</trace_0_plot_mode>
+      <trace_count>3</trace_count>
+      <trace_2_y_pv_value />
+      <axis_0_show_grid>true</axis_0_show_grid>
+      <axis_2_log_scale>false</axis_2_log_scale>
+      <axis_0_log_scale>false</axis_0_log_scale>
+      <trace_1_name></trace_1_name>
+      <axis_2_grid_color>
+        <color red="200" green="200" blue="200" />
+      </axis_2_grid_color>
+      <axis_2_minimum>0.0</axis_2_minimum>
+      <trace_0_point_size>4</trace_0_point_size>
+      <axis_3_show_grid>true</axis_3_show_grid>
+      <show_legend>true</show_legend>
+      <y>44</y>
+      <x>10</x>
+      <axis_3_axis_color>
+        <color red="0" green="0" blue="0" />
+      </axis_3_axis_color>
+      <visible>true</visible>
+      <trace_0_x_pv_value />
+      <axis_1_visible>true</axis_1_visible>
+      <height>283</height>
+      <axis_1_maximum>100.0</axis_1_maximum>
+      <trace_2_x_pv></trace_2_x_pv>
+      <axis_1_title_font>
+        <fontdata fontName="Arial" height="9" style="1" />
+      </axis_1_title_font>
+      <border_width>1</border_width>
+      <axis_2_left_bottom_side>true</axis_2_left_bottom_side>
+      <trace_2_x_axis_index>0</trace_2_x_axis_index>
+      <axis_2_show_grid>true</axis_2_show_grid>
+      <axis_0_axis_color>
+        <color red="0" green="0" blue="0" />
+      </axis_0_axis_color>
+      <axis_1_scale_format></axis_1_scale_format>
+      <name>TopGraph_1</name>
+      <axis_1_auto_scale_threshold>0.0</axis_1_auto_scale_threshold>
+      <trace_0_line_width>1</trace_0_line_width>
+      <trace_2_x_pv_value />
+      <axis_3_auto_scale>true</axis_3_auto_scale>
+      <show_toolbar>true</show_toolbar>
+      <trace_1_update_delay>100</trace_1_update_delay>
+      <axis_1_show_grid>true</axis_1_show_grid>
+      <axis_0_grid_color>
+        <color red="200" green="200" blue="200" />
+      </axis_0_grid_color>
+      <trace_2_line_width>1</trace_2_line_width>
+      <trace_1_line_width>1</trace_1_line_width>
+      <trace_2_y_axis_index>3</trace_2_y_axis_index>
+      <axis_0_auto_scale_threshold>0.0</axis_0_auto_scale_threshold>
+      <trace_2_trace_type>0</trace_2_trace_type>
+      <trace_0_name></trace_0_name>
+      <trace_1_anti_alias>true</trace_1_anti_alias>
+      <axis_3_auto_scale_threshold>0.0</axis_3_auto_scale_threshold>
+      <axis_2_maximum>100.0</axis_2_maximum>
+      <trace_0_update_mode>3</trace_0_update_mode>
+      <trace_1_buffer_size>100</trace_1_buffer_size>
+      <axis_0_axis_title>Time</axis_0_axis_title>
+      <wuid>1418041:139c5d359d6:-7f55</wuid>
+      <trace_2_buffer_size>100</trace_2_buffer_size>
+      <axis_1_axis_color>
+        <color red="0" green="0" blue="0" />
+      </axis_1_axis_color>
+      <trace_2_update_mode>0</trace_2_update_mode>
+      <foreground_color>
+        <color red="0" green="0" blue="255" />
+      </foreground_color>
+      <trace_1_update_mode>0</trace_1_update_mode>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <axis_1_axis_title></axis_1_axis_title>
+      <axis_2_y_axis>true</axis_2_y_axis>
+      <axis_0_maximum>100.0</axis_0_maximum>
+      <axis_0_scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </axis_0_scale_font>
+      <trace_2_point_size>4</trace_2_point_size>
+      <trace_1_y_pv_value />
+      <axis_0_time_format>3</axis_0_time_format>
+      <trace_1_plot_mode>0</trace_1_plot_mode>
+      <axis_1_log_scale>false</axis_1_log_scale>
+      <trace_1_point_style>0</trace_1_point_style>
+      <axis_2_auto_scale_threshold>0.0</axis_2_auto_scale_threshold>
+      <axis_3_maximum>100.0</axis_3_maximum>
+      <trace_2_plot_mode>0</trace_2_plot_mode>
+      <title_font>
+        <fontdata fontName="Arial" height="12" style="1" />
+      </title_font>
+      <axis_1_dash_grid_line>false</axis_1_dash_grid_line>
+      <axis_2_dash_grid_line>true</axis_2_dash_grid_line>
+      <axis_0_visible>true</axis_0_visible>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <trace_1_x_pv_value />
+      <axis_0_scale_format></axis_0_scale_format>
+      <trace_0_x_pv></trace_0_x_pv>
+      <trace_0_y_pv>$(TS)$(LLRF):STATS0:S1_mean_ampl</trace_0_y_pv>
+      <axis_3_visible>true</axis_3_visible>
+      <axis_0_title_font>
+        <fontdata fontName="Arial" height="9" style="1" />
+      </axis_0_title_font>
+      <axis_1_auto_scale>true</axis_1_auto_scale>
+      <trace_2_update_delay>100</trace_2_update_delay>
+      <trace_0_concatenate_data>true</trace_0_concatenate_data>
+      <actions hook="false" hook_all="false" />
+      <trigger_pv_value />
+      <trace_1_x_pv></trace_1_x_pv>
+      <show_plot_area_border>false</show_plot_area_border>
+      <axis_2_axis_title></axis_2_axis_title>
+      <widget_type>XY Graph</widget_type>
+      <enabled>true</enabled>
+      <width>625</width>
+      <axis_3_title_font>
+        <fontdata fontName="Arial" height="9" style="1" />
+      </axis_3_title_font>
+      <trace_0_buffer_size>100</trace_0_buffer_size>
+      <trigger_pv></trigger_pv>
+      <axis_3_grid_color>
+        <color red="200" green="200" blue="200" />
+      </axis_3_grid_color>
+      <axis_count>4</axis_count>
+      <trace_2_name></trace_2_name>
+      <transparent>false</transparent>
+      <trace_2_anti_alias>true</trace_2_anti_alias>
+      <axis_0_dash_grid_line>false</axis_0_dash_grid_line>
+      <trace_2_visible>true</trace_2_visible>
+      <trace_0_x_axis_index>0</trace_0_x_axis_index>
+      <axis_2_time_format>0</axis_2_time_format>
+      <trace_0_point_style>0</trace_0_point_style>
+      <tooltip>$(trace_0_y_pv)
+$(trace_0_y_pv_value)</tooltip>
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+      <axis_2_title_font>
+        <fontdata fontName="Arial" height="9" style="1" />
+      </axis_2_title_font>
+      <trace_1_x_axis_index>0</trace_1_x_axis_index>
+      <trace_0_y_axis_index>1</trace_0_y_axis_index>
+      <axis_1_scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </axis_1_scale_font>
+      <border_style>0</border_style>
+      <plot_area_background_color>
+        <color red="255" green="255" blue="255" />
+      </plot_area_background_color>
+      <trace_2_concatenate_data>true</trace_2_concatenate_data>
+      <axis_3_scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </axis_3_scale_font>
+      <trace_2_point_style>0</trace_2_point_style>
+      <axis_3_y_axis>true</axis_3_y_axis>
+      <title></title>
+      <axis_3_axis_title></axis_3_axis_title>
+      <axis_3_log_scale>false</axis_3_log_scale>
+      <trace_1_y_pv>$(TS)$(LLRF):STATS0:S2_mean_ampl</trace_1_y_pv>
+      <axis_2_auto_scale>true</axis_2_auto_scale>
+      <pv_name></pv_name>
+      <axis_1_minimum>0.0</axis_1_minimum>
+      <axis_2_axis_color>
+        <color red="0" green="0" blue="0" />
+      </axis_2_axis_color>
+      <trace_0_visible>true</trace_0_visible>
+      <axis_2_scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </axis_2_scale_font>
+      <axis_2_scale_format></axis_2_scale_format>
+      <axis_0_minimum>0.0</axis_0_minimum>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <axis_3_left_bottom_side>true</axis_3_left_bottom_side>
+      <scripts />
+      <trace_0_anti_alias>true</trace_0_anti_alias>
+      <axis_3_time_format>0</axis_3_time_format>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <trace_1_trace_color>
+        <color red="255" green="0" blue="0" />
+      </trace_1_trace_color>
+      <trace_2_trace_color>
+        <color red="0" green="200" blue="0" />
+      </trace_2_trace_color>
+      <pv_value />
+      <axis_2_visible>true</axis_2_visible>
+      <trace_1_y_axis_index>2</trace_1_y_axis_index>
+      <axis_3_scale_format></axis_3_scale_format>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <trace_1_concatenate_data>true</trace_1_concatenate_data>
+      <rules>
+        <rule name="CAV Visibility" prop_id="trace_0_visible" out_exp="false">
+          <exp bool_exp="pvInt0 == 1">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 0">
+            <value>false</value>
+          </exp>
+          <pv trig="true">loc://CAVAmp(1)</pv>
+        </rule>
+        <rule name="FWD Visibility" prop_id="trace_1_visible" out_exp="false">
+          <exp bool_exp="pvInt0 == 1">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 0">
+            <value>false</value>
+          </exp>
+          <pv trig="true">loc://FWDAmp(1)</pv>
+        </rule>
+        <rule name="REV Visibility" prop_id="trace_2_visible" out_exp="false">
+          <exp bool_exp="pvInt0 == 1">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 0">
+            <value>false</value>
+          </exp>
+          <pv trig="true">loc://REVAmp(1)</pv>
+        </rule>
+        <rule name="S1 desc" prop_id="trace_0_name" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S1:desc</pv>
+        </rule>
+        <rule name="S2 desc" prop_id="trace_1_name" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S2:desc</pv>
+        </rule>
+        <rule name="S3 desc" prop_id="trace_2_name" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S3:desc</pv>
+        </rule>
+        <rule name="s1 axis title" prop_id="axis_1_axis_title" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S1:desc</pv>
+        </rule>
+        <rule name="s2 axis title" prop_id="axis_2_axis_title" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S2:desc</pv>
+        </rule>
+        <rule name="s3 axis title" prop_id="axis_3_axis_title" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S3:desc</pv>
+        </rule>
+      </rules>
+      <trace_2_y_pv>$(TS)$(LLRF):STATS0:S3_mean_ampl</trace_2_y_pv>
+      <trace_0_y_pv_value />
+      <trace_0_trace_type>0</trace_0_trace_type>
+      <axis_1_grid_color>
+        <color red="200" green="200" blue="200" />
+      </axis_1_grid_color>
+      <trace_0_update_delay>0</trace_0_update_delay>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.xyGraph" version="1.0">
+      <trace_1_visible>true</trace_1_visible>
+      <trace_1_trace_type>0</trace_1_trace_type>
+      <axis_3_dash_grid_line>true</axis_3_dash_grid_line>
+      <trace_0_trace_color>
+        <color red="0" green="0" blue="255" />
+      </trace_0_trace_color>
+      <axis_0_auto_scale>true</axis_0_auto_scale>
+      <axis_3_minimum>0.0</axis_3_minimum>
+      <axis_1_time_format>0</axis_1_time_format>
+      <trace_1_point_size>4</trace_1_point_size>
+      <trace_0_plot_mode>0</trace_0_plot_mode>
+      <trace_count>3</trace_count>
+      <trace_2_y_pv_value />
+      <axis_0_show_grid>true</axis_0_show_grid>
+      <axis_2_log_scale>false</axis_2_log_scale>
+      <axis_0_log_scale>false</axis_0_log_scale>
+      <trace_1_name></trace_1_name>
+      <axis_2_grid_color>
+        <color red="200" green="200" blue="200" />
+      </axis_2_grid_color>
+      <axis_2_minimum>0.0</axis_2_minimum>
+      <trace_0_point_size>4</trace_0_point_size>
+      <axis_3_show_grid>true</axis_3_show_grid>
+      <show_legend>true</show_legend>
+      <y>479</y>
+      <x>8</x>
+      <axis_3_axis_color>
+        <color red="0" green="0" blue="0" />
+      </axis_3_axis_color>
+      <visible>true</visible>
+      <trace_0_x_pv_value />
+      <axis_1_visible>true</axis_1_visible>
+      <height>286</height>
+      <axis_1_maximum>100.0</axis_1_maximum>
+      <trace_2_x_pv></trace_2_x_pv>
+      <axis_1_title_font>
+        <fontdata fontName="Arial" height="9" style="1" />
+      </axis_1_title_font>
+      <border_width>1</border_width>
+      <axis_2_left_bottom_side>true</axis_2_left_bottom_side>
+      <trace_2_x_axis_index>0</trace_2_x_axis_index>
+      <axis_2_show_grid>true</axis_2_show_grid>
+      <axis_0_axis_color>
+        <color red="0" green="0" blue="0" />
+      </axis_0_axis_color>
+      <axis_1_scale_format></axis_1_scale_format>
+      <name>BottomGraph_1</name>
+      <axis_1_auto_scale_threshold>0.0</axis_1_auto_scale_threshold>
+      <trace_0_line_width>1</trace_0_line_width>
+      <trace_2_x_pv_value />
+      <axis_3_auto_scale>true</axis_3_auto_scale>
+      <show_toolbar>true</show_toolbar>
+      <trace_1_update_delay>0</trace_1_update_delay>
+      <axis_1_show_grid>true</axis_1_show_grid>
+      <axis_0_grid_color>
+        <color red="200" green="200" blue="200" />
+      </axis_0_grid_color>
+      <trace_2_line_width>1</trace_2_line_width>
+      <trace_1_line_width>1</trace_1_line_width>
+      <trace_2_y_axis_index>3</trace_2_y_axis_index>
+      <axis_0_auto_scale_threshold>0.0</axis_0_auto_scale_threshold>
+      <trace_2_trace_type>0</trace_2_trace_type>
+      <trace_0_name></trace_0_name>
+      <trace_1_anti_alias>true</trace_1_anti_alias>
+      <axis_3_auto_scale_threshold>0.0</axis_3_auto_scale_threshold>
+      <axis_2_maximum>100.0</axis_2_maximum>
+      <trace_0_update_mode>0</trace_0_update_mode>
+      <trace_1_buffer_size>100</trace_1_buffer_size>
+      <axis_0_axis_title>Time (sec)</axis_0_axis_title>
+      <wuid>1418041:139c5d359d6:-7f54</wuid>
+      <trace_2_buffer_size>100</trace_2_buffer_size>
+      <axis_1_axis_color>
+        <color red="0" green="0" blue="0" />
+      </axis_1_axis_color>
+      <trace_2_update_mode>3</trace_2_update_mode>
+      <foreground_color>
+        <color red="0" green="0" blue="255" />
+      </foreground_color>
+      <trace_1_update_mode>3</trace_1_update_mode>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <axis_1_axis_title></axis_1_axis_title>
+      <axis_2_y_axis>true</axis_2_y_axis>
+      <axis_0_maximum>100.0</axis_0_maximum>
+      <axis_0_scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </axis_0_scale_font>
+      <trace_2_point_size>4</trace_2_point_size>
+      <trace_1_y_pv_value />
+      <axis_0_time_format>3</axis_0_time_format>
+      <trace_1_plot_mode>0</trace_1_plot_mode>
+      <axis_1_log_scale>false</axis_1_log_scale>
+      <trace_1_point_style>0</trace_1_point_style>
+      <axis_2_auto_scale_threshold>0.0</axis_2_auto_scale_threshold>
+      <axis_3_maximum>100.0</axis_3_maximum>
+      <trace_2_plot_mode>0</trace_2_plot_mode>
+      <title_font>
+        <fontdata fontName="Arial" height="12" style="1" />
+      </title_font>
+      <axis_1_dash_grid_line>true</axis_1_dash_grid_line>
+      <axis_2_dash_grid_line>true</axis_2_dash_grid_line>
+      <axis_0_visible>true</axis_0_visible>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <trace_1_x_pv_value />
+      <axis_0_scale_format></axis_0_scale_format>
+      <trace_0_x_pv></trace_0_x_pv>
+      <trace_0_y_pv>$(TS)$(LLRF):STATS0:S1_mean_phase</trace_0_y_pv>
+      <axis_3_visible>true</axis_3_visible>
+      <axis_0_title_font>
+        <fontdata fontName="Arial" height="9" style="1" />
+      </axis_0_title_font>
+      <axis_1_auto_scale>true</axis_1_auto_scale>
+      <trace_2_update_delay>0</trace_2_update_delay>
+      <trace_0_concatenate_data>true</trace_0_concatenate_data>
+      <actions hook="false" hook_all="false" />
+      <trigger_pv_value />
+      <trace_1_x_pv></trace_1_x_pv>
+      <show_plot_area_border>false</show_plot_area_border>
+      <axis_2_axis_title></axis_2_axis_title>
+      <widget_type>XY Graph</widget_type>
+      <enabled>true</enabled>
+      <width>625</width>
+      <axis_3_title_font>
+        <fontdata fontName="Arial" height="9" style="1" />
+      </axis_3_title_font>
+      <trace_0_buffer_size>100</trace_0_buffer_size>
+      <trigger_pv></trigger_pv>
+      <axis_3_grid_color>
+        <color red="200" green="200" blue="200" />
+      </axis_3_grid_color>
+      <axis_count>4</axis_count>
+      <trace_2_name></trace_2_name>
+      <transparent>false</transparent>
+      <trace_2_anti_alias>true</trace_2_anti_alias>
+      <axis_0_dash_grid_line>true</axis_0_dash_grid_line>
+      <trace_2_visible>true</trace_2_visible>
+      <trace_0_x_axis_index>0</trace_0_x_axis_index>
+      <axis_2_time_format>0</axis_2_time_format>
+      <trace_0_point_style>0</trace_0_point_style>
+      <tooltip>$(trace_0_y_pv)
+$(trace_0_y_pv_value)</tooltip>
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+      <axis_2_title_font>
+        <fontdata fontName="Arial" height="9" style="1" />
+      </axis_2_title_font>
+      <trace_1_x_axis_index>0</trace_1_x_axis_index>
+      <trace_0_y_axis_index>1</trace_0_y_axis_index>
+      <axis_1_scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </axis_1_scale_font>
+      <border_style>0</border_style>
+      <plot_area_background_color>
+        <color red="255" green="255" blue="255" />
+      </plot_area_background_color>
+      <trace_2_concatenate_data>true</trace_2_concatenate_data>
+      <axis_3_scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </axis_3_scale_font>
+      <trace_2_point_style>0</trace_2_point_style>
+      <axis_3_y_axis>true</axis_3_y_axis>
+      <title></title>
+      <axis_3_axis_title></axis_3_axis_title>
+      <axis_3_log_scale>false</axis_3_log_scale>
+      <trace_1_y_pv>$(TS)$(LLRF):STATS0:S2_mean_phase</trace_1_y_pv>
+      <axis_2_auto_scale>true</axis_2_auto_scale>
+      <pv_name></pv_name>
+      <axis_1_minimum>0.0</axis_1_minimum>
+      <axis_2_axis_color>
+        <color red="0" green="0" blue="0" />
+      </axis_2_axis_color>
+      <trace_0_visible>true</trace_0_visible>
+      <axis_2_scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </axis_2_scale_font>
+      <axis_2_scale_format></axis_2_scale_format>
+      <axis_0_minimum>0.0</axis_0_minimum>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <axis_3_left_bottom_side>true</axis_3_left_bottom_side>
+      <scripts />
+      <trace_0_anti_alias>true</trace_0_anti_alias>
+      <axis_3_time_format>0</axis_3_time_format>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <trace_1_trace_color>
+        <color name="Red" red="255" green="0" blue="0" />
+      </trace_1_trace_color>
+      <trace_2_trace_color>
+        <color red="0" green="200" blue="0" />
+      </trace_2_trace_color>
+      <pv_value />
+      <axis_2_visible>true</axis_2_visible>
+      <trace_1_y_axis_index>2</trace_1_y_axis_index>
+      <axis_3_scale_format></axis_3_scale_format>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <trace_1_concatenate_data>true</trace_1_concatenate_data>
+      <rules>
+        <rule name="CAV Visibility" prop_id="trace_0_visible" out_exp="false">
+          <exp bool_exp="pvInt0 == 1">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 0">
+            <value>false</value>
+          </exp>
+          <pv trig="true">loc://CAVPha(1)</pv>
+        </rule>
+        <rule name="FWD Visibility" prop_id="trace_1_visible" out_exp="false">
+          <exp bool_exp="pvInt0 == 1">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 0">
+            <value>false</value>
+          </exp>
+          <pv trig="true">loc://FWDPha(1)</pv>
+        </rule>
+        <rule name="REV Visibility" prop_id="trace_2_visible" out_exp="false">
+          <exp bool_exp="pvInt0 == 1">
+            <value>true</value>
+          </exp>
+          <exp bool_exp="pvInt0 == 0">
+            <value>false</value>
+          </exp>
+          <pv trig="true">loc://REVPha(1)</pv>
+        </rule>
+        <rule name="S1 desc" prop_id="trace_0_name" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S1:desc</pv>
+        </rule>
+        <rule name="S2 desc" prop_id="trace_1_name" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S2:desc</pv>
+        </rule>
+        <rule name="S3 desc" prop_id="trace_2_name" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S3:desc</pv>
+        </rule>
+        <rule name="s1 axis title" prop_id="axis_1_axis_title" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S1:desc</pv>
+        </rule>
+        <rule name="s2 axis title" prop_id="axis_2_axis_title" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S2:desc</pv>
+        </rule>
+        <rule name="s3 axis title" prop_id="axis_3_axis_title" out_exp="true">
+          <exp bool_exp="1">
+            <value>pvStr0</value>
+          </exp>
+          <pv trig="true">$(TS)$(LLRF):STATS0:S3:desc</pv>
+        </rule>
+      </rules>
+      <trace_2_y_pv>$(TS)$(LLRF):STATS0:S4_mean_phase</trace_2_y_pv>
+      <trace_0_y_pv_value />
+      <trace_0_trace_type>0</trace_0_trace_type>
+      <axis_1_grid_color>
+        <color red="200" green="200" blue="200" />
+      </axis_1_grid_color>
+      <trace_0_update_delay>100</trace_0_update_delay>
     </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0">
