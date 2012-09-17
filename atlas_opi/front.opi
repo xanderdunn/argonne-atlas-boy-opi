@@ -7808,11 +7808,11 @@ $(trace_0_y_pv_value)</tooltip>
       <axis_1_axis_color>
         <color red="0" green="0" blue="0" />
       </axis_1_axis_color>
-      <trace_2_update_mode>3</trace_2_update_mode>
+      <trace_2_update_mode>0</trace_2_update_mode>
       <foreground_color>
         <color red="0" green="0" blue="255" />
       </foreground_color>
-      <trace_1_update_mode>3</trace_1_update_mode>
+      <trace_1_update_mode>0</trace_1_update_mode>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <axis_1_axis_title></axis_1_axis_title>
       <axis_2_y_axis>true</axis_2_y_axis>
