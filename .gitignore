@@ -21,7 +21,7 @@ org.eclipse.egit.core
 .indexes/
 
 # temp
-workbench.xml
+# workbench.xml
 
 # Other Unecessary System files
 *~
