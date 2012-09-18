@@ -856,7 +856,7 @@ $(pv_value)</tooltip>
       <scripts />
       <height>25</height>
       <password_input>false</password_input>
-      <name>Text_24</name>
+      <name>welch2</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <format_type>0</format_type>
       <scale_options>
@@ -912,7 +912,7 @@ $(pv_value)</tooltip>
       <scripts />
       <height>25</height>
       <password_input>false</password_input>
-      <name>Text_25</name>
+      <name>welch1</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <format_type>0</format_type>
       <scale_options>
