@@ -11,7 +11,11 @@
   </macros>
   <wuid>7b0e122e:138e31abd8a:-7f27</wuid>
   <boy_version>3.1.2.20120828</boy_version>
-  <scripts />
+  <scripts>
+    <path pathString="scripts/css_bin_dir.py" checkConnect="true" sfe="false" seoe="false">
+      <pv trig="true">1</pv>
+    </path>
+  </scripts>
   <show_ruler>true</show_ruler>
   <height>1032</height>
   <name></name>
@@ -1399,8 +1403,8 @@ $(pv_value)</tooltip>
       <y>0</y>
       <actions hook="false" hook_all="false">
         <action type="EXECUTE_CMD">
-          <command>./run_caxgui</command>
-          <command_directory>../../caXGUI/</command_directory>
+          <command>./caXGUI</command>
+          <command_directory>$(caxgui.dir)/bin/$(host.arch)/</command_directory>
           <wait_time>10</wait_time>
           <description></description>
         </action>
@@ -1503,8 +1507,8 @@ $(pv_value)</tooltip>
       <y>0</y>
       <actions hook="false" hook_all="false">
         <action type="EXECUTE_CMD">
-          <command>./run_medm</command>
-          <command_directory>../../medm/</command_directory>
+          <command>./medm -x -attach  LLRF4_launcher.adl</command>
+          <command_directory>$(medm.dir)</command_directory>
           <wait_time>10</wait_time>
           <description></description>
         </action>
