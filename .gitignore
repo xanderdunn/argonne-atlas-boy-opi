@@ -6,9 +6,11 @@ org.python.pydev.prefs
 .lock
 dialog_settings.xml
 org.eclipse.ui.ide
-
-# Ignore all Eclipse workspace settings files
-#.metadata
+com.python.pydev.analysis
+org.python.pydev
+org.eclipse.jdt.ui.prefs
+org.eclipse.jdt.core
+org.eclipse.jdt.ui
 
 # Other Unecessary System files
 *~
