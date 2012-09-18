@@ -844,7 +844,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
-      <read_only>true</read_only>
+      <read_only>false</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
       <next_focus>0</next_focus>
@@ -900,7 +900,7 @@ $(pv_value)</tooltip>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
-      <read_only>true</read_only>
+      <read_only>false</read_only>
       <visible>true</visible>
       <minimum>-1.7976931348623157E308</minimum>
       <next_focus>0</next_focus>
