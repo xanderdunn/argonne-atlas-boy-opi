@@ -96,7 +96,7 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <wuid>-2dbecc1e:13958e2d3fa:-7e0b</wuid>
     <scripts />
-    <height>206</height>
+    <height>236</height>
     <name>PSDPhasePlot</name>
     <scale_options>
       <width_scalable>false</width_scalable>
@@ -140,7 +140,7 @@ $(pv_value)</tooltip>
         <color red="255" green="255" blue="255" />
       </bg_gradient_color>
       <scripts />
-      <height>205</height>
+      <height>235</height>
       <anti_alias>true</anti_alias>
       <corner_height>16</corner_height>
       <name>Rounded Rectangle</name>
@@ -486,11 +486,11 @@ $(pv_value)</tooltip>
       </foreground_color>
       <widget_type>Button</widget_type>
       <enabled>true</enabled>
-      <text>Take Measurement</text>
+      <text>Take Data</text>
       <font>
         <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
       </font>
-      <width>145</width>
+      <width>97</width>
       <border_style>0</border_style>
       <push_action_index>0</push_action_index>
       <image></image>
@@ -501,19 +501,18 @@ $(pv_value)</tooltip>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
-      <y>174</y>
+      <y>192</y>
       <actions hook="false" hook_all="false">
-        <action type="EXECUTE_PYTHONSCRIPT">
-          <path>scripts/psd.py</path>
-          <scriptText><![CDATA[from org.csstudio.opibuilder.scriptUtil import PVUtil
-]]></scriptText>
-          <embedded>false</embedded>
+        <action type="EXECUTE_CMD">
+          <command>caput $(TS)$(LLRF):FILE0:Capture 1</command>
+          <command_directory>$(user.home)</command_directory>
+          <wait_time>10</wait_time>
           <description></description>
         </action>
       </actions>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-      <x>198</x>
+      <x>45</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -631,7 +630,7 @@ $(pv_value)</tooltip>
       <border_alarm_sensitive>false</border_alarm_sensitive>
       <read_only>true</read_only>
       <visible>true</visible>
-      <minimum>-Infinity</minimum>
+      <minimum>-1.7976931348623157E308</minimum>
       <next_focus>0</next_focus>
       <show_units>true</show_units>
       <multiline_input>false</multiline_input>
@@ -670,7 +669,7 @@ $(pv_value)</tooltip>
       <confirm_message></confirm_message>
       <rules />
       <pv_value />
-      <maximum>Infinity</maximum>
+      <maximum>1.7976931348623157E308</maximum>
       <border_width>1</border_width>
       <limits_from_pv>false</limits_from_pv>
       <horizontal_alignment>0</horizontal_alignment>
@@ -680,6 +679,278 @@ $(pv_value)</tooltip>
       <y>144</y>
       <actions hook="false" hook_all="false" />
       <x>45</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.NativeButton" version="1.0">
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <wuid>-16546a49:139d9b52a1e:-7f2f</wuid>
+      <scripts />
+      <height>25</height>
+      <name>Text_4</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <pv_name></pv_name>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <widget_type>Button</widget_type>
+      <enabled>true</enabled>
+      <text>Plot Previous File</text>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>133</width>
+      <border_style>0</border_style>
+      <push_action_index>0</push_action_index>
+      <image></image>
+      <rules />
+      <pv_value />
+      <toggle_button>false</toggle_button>
+      <border_width>1</border_width>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <y>192</y>
+      <actions hook="false" hook_all="false">
+        <action type="EXECUTE_PYTHONSCRIPT">
+          <path>scripts/psd.py</path>
+          <scriptText><![CDATA[from org.csstudio.opibuilder.scriptUtil import PVUtil
+]]></scriptText>
+          <embedded>false</embedded>
+          <description></description>
+        </action>
+      </actions>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <x>156</x>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <read_only>true</read_only>
+      <visible>true</visible>
+      <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
+      <show_units>true</show_units>
+      <multiline_input>false</multiline_input>
+      <wuid>6071f05f:139d9c57fe8:-7d67</wuid>
+      <show_native_border>false</show_native_border>
+      <auto_size>true</auto_size>
+      <scripts />
+      <height>21</height>
+      <password_input>false</password_input>
+      <name>Text_24</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <format_type>0</format_type>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <precision_from_pv>true</precision_from_pv>
+      <pv_name></pv_name>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <background_color>
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Text</widget_type>
+      <text>welch2</text>
+      <precision>0</precision>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>51</width>
+      <border_style>0</border_style>
+      <confirm_message></confirm_message>
+      <rules />
+      <pv_value />
+      <maximum>1.7976931348623157E308</maximum>
+      <border_width>1</border_width>
+      <limits_from_pv>false</limits_from_pv>
+      <horizontal_alignment>0</horizontal_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <y>206</y>
+      <actions hook="false" hook_all="false" />
+      <x>362</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <read_only>true</read_only>
+      <visible>true</visible>
+      <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
+      <show_units>true</show_units>
+      <multiline_input>false</multiline_input>
+      <wuid>6071f05f:139d9c57fe8:-7d64</wuid>
+      <show_native_border>false</show_native_border>
+      <auto_size>true</auto_size>
+      <scripts />
+      <height>21</height>
+      <password_input>false</password_input>
+      <name>Text_25</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <format_type>0</format_type>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <precision_from_pv>true</precision_from_pv>
+      <pv_name></pv_name>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <background_color>
+        <color name="Dark Gray Border" red="190" green="190" blue="190" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Text</widget_type>
+      <text>welch1</text>
+      <precision>0</precision>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>51</width>
+      <border_style>0</border_style>
+      <confirm_message></confirm_message>
+      <rules />
+      <pv_value />
+      <maximum>1.7976931348623157E308</maximum>
+      <border_width>1</border_width>
+      <limits_from_pv>false</limits_from_pv>
+      <horizontal_alignment>0</horizontal_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <y>176</y>
+      <actions hook="false" hook_all="false" />
+      <x>362</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <read_only>true</read_only>
+      <visible>true</visible>
+      <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
+      <show_units>true</show_units>
+      <multiline_input>false</multiline_input>
+      <wuid>6071f05f:139d9c57fe8:-7d50</wuid>
+      <show_native_border>false</show_native_border>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>25</height>
+      <password_input>false</password_input>
+      <name>Text_24</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <format_type>0</format_type>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <precision_from_pv>true</precision_from_pv>
+      <pv_name>loc://welch2(4096)</pv_name>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Text</widget_type>
+      <text></text>
+      <precision>0</precision>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>100</width>
+      <border_style>0</border_style>
+      <confirm_message></confirm_message>
+      <rules />
+      <pv_value />
+      <maximum>1.7976931348623157E308</maximum>
+      <border_width>1</border_width>
+      <limits_from_pv>false</limits_from_pv>
+      <horizontal_alignment>0</horizontal_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <y>204</y>
+      <actions hook="false" hook_all="false" />
+      <x>426</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.NativeText" version="1.0">
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <read_only>true</read_only>
+      <visible>true</visible>
+      <minimum>-1.7976931348623157E308</minimum>
+      <next_focus>0</next_focus>
+      <show_units>true</show_units>
+      <multiline_input>false</multiline_input>
+      <wuid>6071f05f:139d9c57fe8:-7d4f</wuid>
+      <show_native_border>false</show_native_border>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>25</height>
+      <password_input>false</password_input>
+      <name>Text_25</name>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <format_type>0</format_type>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <precision_from_pv>true</precision_from_pv>
+      <pv_name>loc://welch1(8196)</pv_name>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Text</widget_type>
+      <text></text>
+      <precision>0</precision>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>100</width>
+      <border_style>0</border_style>
+      <confirm_message></confirm_message>
+      <rules />
+      <pv_value />
+      <maximum>1.7976931348623157E308</maximum>
+      <border_width>1</border_width>
+      <limits_from_pv>false</limits_from_pv>
+      <horizontal_alignment>0</horizontal_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <y>174</y>
+      <actions hook="false" hook_all="false" />
+      <x>426</x>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     </widget>
