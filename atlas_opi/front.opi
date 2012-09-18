@@ -1404,7 +1404,7 @@ $(pv_value)</tooltip>
       <actions hook="false" hook_all="false">
         <action type="EXECUTE_CMD">
           <command>./caXGUI</command>
-          <command_directory>$(caxgui.dir)/bin/$(host.arch)/</command_directory>
+          <command_directory>$(caxgui.full.dir)</command_directory>
           <wait_time>10</wait_time>
           <description></description>
         </action>
