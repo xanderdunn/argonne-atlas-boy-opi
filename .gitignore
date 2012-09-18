@@ -11,6 +11,17 @@ org.python.pydev
 org.eclipse.jdt.ui.prefs
 org.eclipse.jdt.core
 org.eclipse.jdt.ui
+.history
+org.eclipse.debug.ui.prefs
+org.eclipse.egit.core.prefs
+org.eclipse.egit.ui.prefs
+org.eclipse.gef.prefs
+org.eclipse.ui.editors.prefs
+org.eclipse.egit.core
+.indexes/
+
+# temp
+workbench.xml
 
 # Other Unecessary System files
 *~
