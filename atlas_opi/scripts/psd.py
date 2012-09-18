@@ -39,8 +39,7 @@ welch2 = PVUtil.getLong(display.getWidget("welch2").getPV())
 
 # Get the absolute path of the plotPSD script
 # This is run from the css/CSS_EPICS directory
-os.path.normpath(join(css_dir, path))
-plotpath = os.path.abspath("../../sdds/plotPSD")
+os.path.normpath(os.path.join(css_dir, "../../sdds/plotPSD"))
 
 # Get the data file path as a string
 p = subprocess.Popen(["../../sdds/caget_v2", "-St", "LLRF4:FILE0:FullFileName_RBV"], stdout=subprocess.PIPE, cwd=css_dir)
