@@ -23,8 +23,6 @@ from java.lang import System # Get Java environment variables
 css_dir_var = System.getProperty("osgi.install.area")
 css_dir = css_dir_var.split(":")[1]
 
-# cwd=css_loc
-# export PATH=/usr/local/oag/apps/bin/linux-x86:$PATH
 # Get the file save duration time as a variable
 # This is run from ops/cavCtl/css/CSS_EPICS/
 p = subprocess.Popen(["../../sdds/caget_v2", "-t", "LLRF4:FILE0:FileDurTime"], stdout=subprocess.PIPE, cwd=css_dir)
@@ -55,4 +53,4 @@ filepath = os.path.abspath(filepath)
 
 # run plotPSD from the directory of the user's data file
 runpath = os.path.split(filepath)[0] # Get just the directory of the data file
-subprocess.Popen([plotpath, filepath, str(welch1), str(welch2)], cwd=runpath) # Run plotPSD on the data file
+p.stdin.write(["export", "PATH=/usr/local/oag/apps/bin/linux-x86:$PATH;", plotpath, filepath, str(welch1), str(welch2)], cwd=runpath) # Run plotPSD on the data file
