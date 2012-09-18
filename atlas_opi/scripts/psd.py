@@ -53,4 +53,4 @@ filepath = os.path.abspath(filepath)
 
 # run plotPSD from the directory of the user's data file
 runpath = os.path.split(filepath)[0] # Get just the directory of the data file
-subprocess.Popen(["export", "PATH=/usr/local/oag/apps/bin/linux-x86:$PATH;", plotpath, filepath, str(welch1), str(welch2)], cwd=runpath) # Run plotPSD on the data file
+subprocess.Popen(["export", "PATH=/usr/local/oag/apps/bin/linux-x86:$PATH;", plotpath, filepath, str(welch1), str(welch2)], cwd=runpath, shell=True) # Run plotPSD on the data file
