@@ -4,6 +4,7 @@
 
 from org.csstudio.opibuilder.scriptUtil import PVUtil # CSS BOY tools
 import subprocess
+from java.lang import System # Get Java environment variables
 
 # The EPICS extensions version of caget does not support -S string
 #   output.  Hence, we use the EPICS base version.  A linux-x86_64
