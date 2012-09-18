@@ -9,18 +9,17 @@ import os # get environment variable
 css_dir_var = System.getProperty("osgi.install.area")
 css_dir = css_dir_var.split(":")[1]
 System.setProperty("css.dir", css_dir)
-print css_dir
 
 # Define the medm directory
 medm_dir= os.path.normpath(os.path.join(css_dir, "../../medm/"))
 System.setProperty("medm.dir", medm_dir)
-print medm_dir
 
 # Define the caxgui directory
 caxgui_dir = os.path.normpath(os.path.join(css_dir, "../../caXGUI/"))
 System.setProperty("caxgui.dir", caxgui_dir)
-print caxgui_dir
 
 host_arch = os.environ['EPICS_HOST_ARCH']
 System.setProperty("host.arch", host_arch)
-print host_arch
+
+System.setProperty("caxgui.full.dir", caxgui_dir + "/bin/" + host_arch + "/")
+print System.getProperty("caxgui.full.dir")
