@@ -627,14 +627,14 @@ $(trace_0_y_pv_value)</tooltip>
     <axis_1_scale_format></axis_1_scale_format>
     <name>XY Graph_3</name>
     <axis_1_auto_scale_threshold>0.0</axis_1_auto_scale_threshold>
-    <trace_0_line_width>2</trace_0_line_width>
+    <trace_0_line_width>1</trace_0_line_width>
     <show_toolbar>true</show_toolbar>
     <trace_1_update_delay>100</trace_1_update_delay>
     <axis_1_show_grid>true</axis_1_show_grid>
     <axis_0_grid_color>
       <color red="200" green="200" blue="200" />
     </axis_0_grid_color>
-    <trace_1_line_width>2</trace_1_line_width>
+    <trace_1_line_width>1</trace_1_line_width>
     <axis_0_auto_scale_threshold>0.0</axis_0_auto_scale_threshold>
     <trace_0_name>ampl</trace_0_name>
     <trace_1_anti_alias>true</trace_1_anti_alias>
