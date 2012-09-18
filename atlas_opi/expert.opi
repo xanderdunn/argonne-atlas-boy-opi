@@ -63,7 +63,7 @@
     <width>303</width>
     <border_style>0</border_style>
     <rules />
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
@@ -497,7 +497,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -642,7 +642,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -743,7 +743,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -888,7 +888,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -1033,7 +1033,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -1246,7 +1246,7 @@ $(pv_value)</tooltip>
     <width>295</width>
     <border_style>0</border_style>
     <rules />
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
@@ -2260,7 +2260,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -2361,7 +2361,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -2530,7 +2530,7 @@ $(pv_value)</tooltip>
     <width>337</width>
     <border_style>0</border_style>
     <rules />
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
@@ -4157,7 +4157,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -4462,7 +4462,7 @@ $(pv_value)</tooltip>
     <width>204</width>
     <border_style>0</border_style>
     <rules />
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
@@ -4549,7 +4549,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -4641,7 +4641,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -4733,7 +4733,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -4825,7 +4825,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -4917,7 +4917,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -5009,7 +5009,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -5101,7 +5101,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -5193,7 +5193,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -5547,7 +5547,7 @@ $(pv_value)</tooltip>
     <width>332</width>
     <border_style>0</border_style>
     <rules />
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
@@ -5634,7 +5634,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -5675,7 +5675,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -5924,7 +5924,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -6016,7 +6016,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -6407,7 +6407,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -6552,7 +6552,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -6736,7 +6736,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -7104,7 +7104,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -7145,7 +7145,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -7288,7 +7288,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -7431,7 +7431,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -7472,7 +7472,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -7615,7 +7615,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -7724,7 +7724,7 @@ $(pv_value)</tooltip>
     <width>219</width>
     <border_style>0</border_style>
     <rules />
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
@@ -7995,7 +7995,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
@@ -8087,7 +8087,7 @@ $(pv_value)</tooltip>
         <color red="226" green="226" blue="226" />
       </background_color>
       <foreground_color>
-        <color red="0" green="170" blue="0" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
       <widget_type>Label</widget_type>
       <enabled>true</enabled>
