@@ -21,7 +21,7 @@ from java.lang import System # Get Java environment variables
 
 # Get the absolute path of the css binary
 css_dir_var = System.getProperty("osgi.install.area")
-css_dir = css_loc_var.split(":")[1]
+css_dir = css_dir_var.split(":")[1]
 
 # cwd=css_loc
 # export PATH=/usr/local/oag/apps/bin/linux-x86:$PATH
