@@ -4904,10 +4904,10 @@ $(pv_value)</tooltip>
         <pv trig="true">loc://rescale</pv>
         <pv trig="false">$(TS)LLRF4:STATS0:S1_mean_ampl</pv>
         <pv trig="false">$(TS)LLRF4:STATS0:S2_mean_ampl</pv>
-        <pv trig="false">$(TS)LLRF4:STATS0:S4_mean_ampl</pv>
+        <pv trig="false">$(TS)LLRF4:STATS0:S3_mean_ampl</pv>
         <pv trig="false">$(TS)LLRF4:STATS0:S1_mean_phase</pv>
         <pv trig="false">$(TS)LLRF4:STATS0:S2_mean_phase</pv>
-        <pv trig="false">$(TS)LLRF4:STATS0:S4_mean_phase</pv>
+        <pv trig="false">$(TS)LLRF4:STATS0:S3_mean_phase</pv>
         <pv trig="false">loc://offset1</pv>
         <pv trig="false">loc://offset2</pv>
         <pv trig="false">loc://offset3</pv>
