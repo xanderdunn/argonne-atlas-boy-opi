@@ -17,10 +17,14 @@ ts = display.getMacroValue("TS")
 llrf = display.getMacroValue("LLRF")
 fullpv = ts + llrf + ":FILE0:FullFileName_RBV" # concat
 
+# Get the absolute path of the css binary
+css_dir_var = System.getProperty("osgi.install.area")
+css_dir = css_loc_var.split(":")[1]
+
 # Get the last saved data file full path
 # This is run from ops/cavCtl/css/CSS_EPICS/
-p = subprocess.Popen(["../../sdds/caget_v2", "-St", fullpv], stdout=subprocess.PIPE)
+p = subprocess.Popen(["../../sdds/caget_v2", "-St", fullpv], stdout=subprocess.PIPE, cwd=css_dir)
 filepath = p.communicate()[0]
 
 # Execute the plotIQ script using the data file path
-p = subprocess.Popen(["../../sdds/plotIQ", filepath])
+subprocess.Popen(["../../sdds/plotIQ", filepath], cwd=css_dir)
