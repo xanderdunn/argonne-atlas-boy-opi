@@ -35,12 +35,16 @@
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
 <filters>
 <filter element=".*" isEnabled="false"/>
+<filter element="*.class" isEnabled="true"/>
+<filter element="*.pyc" isEnabled="true"/>
+<filter element="*.class" isEnabled="true"/>
+<filter element="*.pyo" isEnabled="true"/>
 </filters>
 <expanded>
 <element path="/atlas_opi"/>
 </expanded>
 <selection>
-<element path="/atlas_opi/front.opi"/>
+<element path="/atlas_opi"/>
 </selection>
 </viewState>
 </view>
@@ -219,6 +223,9 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
 <trimArea IMemento.internal.id="1024">
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>

@@ -1,12 +1,14 @@
 # Unecessary Eclipse workspace settings files
 pydev
 org.eclipse.team.cvs.core
+org.eclipse.team.cvs.ui.prefs
+org.python.pydev.prefs
 .lock
 dialog_settings.xml
 org.eclipse.ui.ide
 
 # Ignore all Eclipse workspace settings files
-.metadata
+#.metadata
 
 # Other Unecessary System files
 *~
