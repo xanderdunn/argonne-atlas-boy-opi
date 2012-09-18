@@ -2,7 +2,7 @@
 
 # Description: This is the PSD script in scripts.opi
 
-# from org.csstudio.opibuilder.scriptUtil import PVUtil # CSS BOY tools
+from org.csstudio.opibuilder.scriptUtil import PVUtil # CSS BOY tools
 import subprocess # For executing command-line stuff
 import time # For sleeping
 import os # For working with paths
