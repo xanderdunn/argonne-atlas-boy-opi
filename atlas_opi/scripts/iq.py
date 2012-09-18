@@ -20,7 +20,7 @@ fullpv = ts + llrf + ":FILE0:FullFileName_RBV" # concat
 
 # Get the absolute path of the css binary
 css_dir_var = System.getProperty("osgi.install.area")
-css_dir = css_loc_var.split(":")[1]
+css_dir = css_dir_var.split(":")[1]
 
 # Get the last saved data file full path
 # This is run from ops/cavCtl/css/CSS_EPICS/
