@@ -2,10 +2,10 @@
 
 # Description: This is the script for the "Plot Last File" on front.opi
 
-from org.csstudio.opibuilder.scriptUtil import PVUtil # CSS BOY tools
-import subprocess # for 
+import subprocess # for executing shell commands
 from java.lang import System # Get Java environment variables
 import string # for removing new lines
+from dir_defs import *
 
 # The EPICS extensions version of caget does not support -S string
 #   output.  Hence, we use the EPICS base version.  A linux-x86_64
@@ -15,13 +15,11 @@ import string # for removing new lines
 #   binary.  All paths will be relative to this location.
 
 # Get macros
-ts = display.getMacroValue("TS")
-llrf = display.getMacroValue("LLRF")
 fullpv = ts + llrf + ":FILE0:FullFileName_RBV" # concat
 
 # Get the absolute path of the css binary
-css_dir_var = System.getProperty("osgi.install.area")
-css_dir = css_dir_var.split(":")[1]
+# css_dir_var = System.getProperty("osgi.install.area")
+# css_dir = css_dir_var.split(":")[1]
 
 # Get the last saved data file full path
 # This is run from ops/cavCtl/css/CSS_EPICS/

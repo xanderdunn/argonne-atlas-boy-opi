@@ -7,11 +7,12 @@ import subprocess # for executing command-line stuff
 import time # for sleeping
 import os # for working with paths
 from java.lang import System # for getting Java environment variables
-import string # 
+import string # for replacing characters
+from dir_defs import * # local file with directory definitions
 
 # The EPICS extensions version of caget does not support -S string
 #   output.  Hence, we use the EPICS base version.  A linux-x86_64
-#   binary has been included in the sdds directory
+#   binary named caget_v2 has been included in the sdds directory
 
 # This script will be executed from the directory containing the css
 #   binary.  All paths will be relative to this location.
@@ -19,10 +20,6 @@ import string #
 # Originally this was a shell script, but I changed it to a Python script
 #   because it made path finding much easier.  I can tell CSS BOY to
 #   execute from $(user.dir), which is where css was executed
-
-# Get the absolute path of the css binary
-css_dir_var = System.getProperty("osgi.install.area")
-css_dir = css_dir_var.split(":")[1]
 
 # Get the file save duration time as a variable
 # This is run from ops/cavCtl/css/CSS_EPICS/
@@ -32,11 +29,9 @@ wait = p.communicate()[0]
 # Add 2 seconds to the total wait time and sleep for that time
 time.sleep(float(wait) + 2)
 
-# Get the welch values
+# Get the local welch values
 welch1 = str(PVUtil.getLong(display.getWidget("welch1").getPV()))
 welch2 = str(PVUtil.getLong(display.getWidget("welch2").getPV()))
-# print "welch1 =", welch1
-# print "welch2 =", welch2
 
 # Get the absolute path of the plotPSD script
 # This is run from the css/CSS_EPICS directory
@@ -46,7 +41,7 @@ plotpath = os.path.normpath(os.path.join(css_dir, "../../sdds/plotPSD"))
 p = subprocess.Popen(["../../sdds/caget_v2", "-St", "LLRF4:FILE0:FullFileName_RBV"], stdout=subprocess.PIPE, cwd=css_dir)
 # If this PV is given a relative path, then the IOC treats it relative to the 
 #    location where the IOC was started.  I can't get this info, so I can't
-#    handle relative paths.  Despite the below code, only absolute paths work
+#    handle relative paths.  Only absolute paths work
 filepath = p.communicate()[0] # Get the output of the above command
 # If the user defined an absolute path, then it will be unchanged.
 # If the user defined a relative path, it will be made absolute relative to
@@ -55,8 +50,7 @@ filepath = p.communicate()[0] # Get the output of the above command
 # print "Data filepath is:", filepath
 
 # Get the location of the bash script that will be run
-workspace = System.getProperty("user.workspace")
-script_path = workspace + "atlas_opi/scripts/psd.sh"
+script_path = workspace_dir + "atlas_opi/scripts/psd.sh"
 
 # Remove new lines
 def rem(str0):
@@ -64,5 +58,4 @@ def rem(str0):
 
 # run plotPSD from the directory of the user's data file
 runpath = os.path.split(filepath)[0] # Get just the directory of the data file
-# print "The full command: ", script_path + " " + plotpath + " " + filepath + " " + welch1 + " " + welch2
 subprocess.Popen([rem(script_path) + " " + rem(plotpath) + " " + rem(filepath) + " " + rem(welch1) + " " + rem(welch2)], cwd=runpath, shell=True)
