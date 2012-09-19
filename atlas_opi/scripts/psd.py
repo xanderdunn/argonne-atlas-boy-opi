@@ -37,8 +37,8 @@ time.sleep(float(wait) + 2)
 # Get the welch values
 welch1 = str(PVUtil.getLong(display.getWidget("welch1").getPV()))
 welch2 = str(PVUtil.getLong(display.getWidget("welch2").getPV()))
-print "welch1 =", welch1
-print "welch2 =", welch2
+# print "welch1 =", welch1
+# print "welch2 =", welch2
 
 # Get the absolute path of the plotPSD script
 # This is run from the css/CSS_EPICS directory
@@ -54,7 +54,7 @@ filepath = p.communicate()[0] # Get the output of the above command
 # If the user defined a relative path, it will be made absolute relative to
 #    spxrfshare
 # filepath = os.path.abspath(filepath)
-print "Data filepath is:", filepath
+# print "Data filepath is:", filepath
 
 workspace = System.getProperty("user.workspace")
 script_path = workspace + "atlas_opi/scripts/psd.sh"
@@ -65,6 +65,6 @@ def rem(str0):
 
 # run plotPSD from the directory of the user's data file
 runpath = os.path.split(filepath)[0] # Get just the directory of the data file
-print "The full command: ", script_path + " " + plotpath + " " + filepath + " " + welch1 + " " + welch2
+# print "The full command: ", script_path + " " + plotpath + " " + filepath + " " + welch1 + " " + welch2
 subprocess.Popen([rem(script_path) + " " + rem(plotpath) + " " + rem(filepath) + " " + rem(welch1) + " " + rem(welch2)], cwd=runpath, shell=True)
 # subprocess.Popen([plotpath, filepath, str(welch1), str(welch2)], cwd=runpath) # Run plotPSD on the data file
