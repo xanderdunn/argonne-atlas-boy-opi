@@ -36,6 +36,8 @@ time.sleep(float(wait) + 2)
 # Get the welch values
 welch1 = PVUtil.getLong(display.getWidget("welch1").getPV())
 welch2 = PVUtil.getLong(display.getWidget("welch2").getPV())
+print "welch1 = ", welch1
+print "welch2 = ", welch2
 
 # Get the absolute path of the plotPSD script
 # This is run from the css/CSS_EPICS directory
