@@ -15,6 +15,10 @@ echo "I have been called."
 export PATH=/usr/local/oag/apps/bin/linux-x86:$PATH
 # export | grep PATH
 
+echo "Current working directory:"
+pwd
+
+echo "Parameters:"
 echo $1
 echo $2
 echo $3
