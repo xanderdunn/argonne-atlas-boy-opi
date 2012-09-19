@@ -61,7 +61,7 @@ script_path = workspace + "atlas_opi/scripts/psd.sh"
 
 # Remove new lines
 def rem(str0):
-    return string.repalce(str0, "\n", "")
+    return string.replace(str0, "\n", "")
 
 # run plotPSD from the directory of the user's data file
 runpath = os.path.split(filepath)[0] # Get just the directory of the data file
