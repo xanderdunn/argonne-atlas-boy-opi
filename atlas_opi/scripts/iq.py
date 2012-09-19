@@ -27,5 +27,9 @@ css_dir = css_dir_var.split(":")[1]
 p = subprocess.Popen(["../../sdds/caget_v2", "-St", fullpv], stdout=subprocess.PIPE, cwd=css_dir)
 filepath = p.communicate()[0]
 
+# Remove new lines
+def rem(str0):
+    return string.replace(str0, "\n", "")
+
 # Execute the plotIQ script using the data file path
-subprocess.Popen(["../../sdds/plotIQ", filepath], cwd=css_dir)
+subprocess.Popen("../../sdds/plotIQ" + rem(filepath), cwd=css_dir)
