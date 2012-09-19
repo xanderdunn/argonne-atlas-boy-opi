@@ -23,6 +23,8 @@ org.eclipse.help.ui.prefs
 org.eclipse.help.base.prefs
 org.eclipse.ltk.core.refactoring
 org.eclipse.team.cvs.ui
+.markers.snap
+.syncinfo.snap
 
 # Unwanted CSS BOY workspace
 CSS
