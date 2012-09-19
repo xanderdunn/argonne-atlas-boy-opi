@@ -24,4 +24,4 @@ echo $2
 echo $3
 echo $4
 
-$1 $2 (eval $3) (eval $4)
+$1 $2 $3 $4
