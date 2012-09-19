@@ -5,7 +5,7 @@
 import subprocess # for executing shell commands
 from java.lang import System # Get Java environment variables
 import string # for removing new lines
-from dir_defs import *
+from defs import * # local library with common definitions
 
 # The EPICS extensions version of caget does not support -S string
 #   output.  Hence, we use the EPICS base version.  A linux-x86_64
@@ -17,18 +17,10 @@ from dir_defs import *
 # Get macros
 fullpv = ts + llrf + ":FILE0:FullFileName_RBV" # concat
 
-# Get the absolute path of the css binary
-# css_dir_var = System.getProperty("osgi.install.area")
-# css_dir = css_dir_var.split(":")[1]
-
 # Get the last saved data file full path
 # This is run from ops/cavCtl/css/CSS_EPICS/
 p = subprocess.Popen(["../../sdds/caget_v2", "-St", fullpv], stdout=subprocess.PIPE, cwd=css_dir)
 filepath = p.communicate()[0]
-
-# Remove new lines
-def rem(str0):
-    return string.replace(str0, "\n", "")
 
 # Execute the plotIQ script using the data file path
 subprocess.Popen(["../../sdds/plotIQ", rem(filepath)], cwd=css_dir)

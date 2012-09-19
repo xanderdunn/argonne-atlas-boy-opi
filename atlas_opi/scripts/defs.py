@@ -5,9 +5,10 @@
 from org.csstudio.opibuilder.scriptUtil import PVUtil # CSS BOY tools
 from java.lang import System # for getting Java environment variables
 import os # for getting os environment variables
+import string # rem()
 
 def main():
-    # Get Directories
+    # Set Directories
     # ====================================
 
     # Get the absolute path of the css binary
@@ -41,7 +42,7 @@ def main():
     System.setProperty("user.workspace", workspace_dir)
     print "User workspace:", workspace_dir
 
-    # Get Macros
+    # Set Macros
     # ====================================
     ts = display.getMacroValue("TS")
     System.setProperty("macro.ts", ts)
@@ -50,6 +51,10 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# Remove new line characters
+def rem(str0):
+    return string.replace(str0, "\n", "")
 
 # Code to run as import module:
 css_dir = System.getProperty("css.dir")

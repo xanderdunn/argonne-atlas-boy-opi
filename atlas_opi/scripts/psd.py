@@ -8,7 +8,7 @@ import time # for sleeping
 import os # for working with paths
 from java.lang import System # for getting Java environment variables
 import string # for replacing characters
-from dir_defs import * # local file with directory definitions
+from defs import * # local file with directory definitions
 
 # The EPICS extensions version of caget does not support -S string
 #   output.  Hence, we use the EPICS base version.  A linux-x86_64
@@ -39,22 +39,14 @@ plotpath = os.path.normpath(os.path.join(css_dir, "../../sdds/plotPSD"))
 
 # Get the data file path as a string
 p = subprocess.Popen(["../../sdds/caget_v2", "-St", "LLRF4:FILE0:FullFileName_RBV"], stdout=subprocess.PIPE, cwd=css_dir)
+filepath = p.communicate()[0] # Get the output of the above command
 # If this PV is given a relative path, then the IOC treats it relative to the 
 #    location where the IOC was started.  I can't get this info, so I can't
 #    handle relative paths.  Only absolute paths work
-filepath = p.communicate()[0] # Get the output of the above command
-# If the user defined an absolute path, then it will be unchanged.
-# If the user defined a relative path, it will be made absolute relative to
-#    spxrfshare
 # filepath = os.path.abspath(filepath)
-# print "Data filepath is:", filepath
 
 # Get the location of the bash script that will be run
 script_path = workspace_dir + "atlas_opi/scripts/psd.sh"
-
-# Remove new lines
-def rem(str0):
-    return string.replace(str0, "\n", "")
 
 # run plotPSD from the directory of the user's data file
 runpath = os.path.split(filepath)[0] # Get just the directory of the data file
