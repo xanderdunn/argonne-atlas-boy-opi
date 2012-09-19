@@ -60,5 +60,6 @@ script_path = workspace + "atlas_opi/scripts/psd.sh"
 
 # run plotPSD from the directory of the user's data file
 runpath = os.path.split(filepath)[0] # Get just the directory of the data file
+print "The full command: ", script_path + " " + plotpath + " " + filepath + " " + welch1 + " " + welch2
 subprocess.Popen([script_path + " " + plotpath + " " + filepath + " " + welch1 + " " + welch2], cwd=runpath, shell=True)
 # subprocess.Popen([plotpath, filepath, str(welch1), str(welch2)], cwd=runpath) # Run plotPSD on the data file
