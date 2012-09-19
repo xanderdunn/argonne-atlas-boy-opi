@@ -3,8 +3,9 @@
 # Description: This is the script for the "Plot Last File" on front.opi
 
 from org.csstudio.opibuilder.scriptUtil import PVUtil # CSS BOY tools
-import subprocess
+import subprocess # for 
 from java.lang import System # Get Java environment variables
+import string # for removing new lines
 
 # The EPICS extensions version of caget does not support -S string
 #   output.  Hence, we use the EPICS base version.  A linux-x86_64
