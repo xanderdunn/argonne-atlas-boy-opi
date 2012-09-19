@@ -12,6 +12,12 @@
 echo "I have been called."
 
 # Fix for llrf2
-export PATH=/usr/local/oag/apps/bin/linux-x86
+export PATH=/usr/local/oag/apps/bin/linux-x86:$PATH
+# export | grep PATH
 
-$1$2$3$4
+echo $1
+echo $2
+echo $3
+echo $4
+
+$1 $2 $3 $4
