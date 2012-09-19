@@ -22,6 +22,7 @@ org.eclipse.egit.core
 org.eclipse.help.ui.prefs
 org.eclipse.help.base.prefs
 org.eclipse.ltk.core.refactoring
+org.eclipse.team.cvs.ui
 
 # temp
 # workbench.xml
