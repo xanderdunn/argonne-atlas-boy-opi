@@ -8,11 +8,6 @@ from org.csstudio.opibuilder.scriptUtil import PVUtil
 #PVs
 # pvs[0] = $(TS)$(LLRF):FILE0:Capture
 
-# Get macros
-# ts = display.getMacroValue("TS")
-# llrf = display.getMacroValue("LLRF")
-# pv = ts + llrf + ":FILE0:Capture"
-
 get_pv = display.getWidget("Capture_Indicator").getPV()
 set_pv = display.getWidget("Save_Button").getPV()
 
