@@ -2,11 +2,11 @@
 
 # Description: This is the PSD script in scripts.opi
 
-from org.csstudio.opibuilder.scriptUtil import PVUtil # CSS BOY tools
-import subprocess # For executing command-line stuff
-import time # For sleeping
-import os # For working with paths
-from java.lang import System # Get Java environment variables
+from org.csstudio.opibuilder.scriptUtil import PVUtil # for CSS BOY tools
+import subprocess # for executing command-line stuff
+import time # for sleeping
+import os # for working with paths
+from java.lang import System # for getting Java environment variables
 
 # The EPICS extensions version of caget does not support -S string
 #   output.  Hence, we use the EPICS base version.  A linux-x86_64
@@ -52,7 +52,10 @@ filepath = p.communicate()[0] # Get the output of the above command
 #    spxrfshare
 filepath = os.path.abspath(filepath)
 
+workspace = System.getProperty("user.workspace")
+script_path = workspace + "/atlas_opi/scripts/psd.sh"
+
 # run plotPSD from the directory of the user's data file
 runpath = os.path.split(filepath)[0] # Get just the directory of the data file
-subprocess.Popen(["export PATH=/usr/local/oag/apps/bin/linux-x86:$PATH; export | grep PATH; " + plotpath + " " + filepath + " " + str(welch1) + " " + str(welch2)], stdin=subprocess.PIPE, shell=True, cwd=runpath)
+subprocess.Popen([script_path, plotpath, filepath, str(welch1), str(welch2)], stdin=subprocess.PIPE, shell=True, cwd=runpath)
 # subprocess.Popen([plotpath, filepath, str(welch1), str(welch2)], cwd=runpath) # Run plotPSD on the data file

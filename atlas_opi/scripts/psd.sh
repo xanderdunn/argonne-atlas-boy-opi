@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Description: This script executes the plotPSD script, but first it sets the
+#   path to improve compatibility with llrf2
+
+# Arguments
+# $1 == path to plotPSD
+# $2 == path to data file to be plotted
+# $3 == welch1 parameter
+# $4 == welch2 parameter
+
+# Fix for llrf2
+export PATH=/usr/local/oag/apps/bin/linux-x86
+
+$1 $2 $3 $4
