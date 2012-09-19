@@ -5,9 +5,6 @@ from org.csstudio.opibuilder.scriptUtil import PVUtil
 # If it is taking data, then stop by writing 0
 # It it is not taking data, then start by writing 1
 
-#PVs
-# pvs[0] = $(TS)$(LLRF):FILE0:Capture
-
 get_pv = display.getWidget("Capture_Indicator").getPV()
 set_pv = display.getWidget("Save_Button").getPV()
 
