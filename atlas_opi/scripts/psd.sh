@@ -14,4 +14,4 @@ echo "I have been called."
 # Fix for llrf2
 export PATH=/usr/local/oag/apps/bin/linux-x86
 
-$1 $2 $3 $4
+$1$2$3$4
