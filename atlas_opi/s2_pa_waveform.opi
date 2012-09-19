@@ -14,7 +14,7 @@
   <snap_to_geometry>true</snap_to_geometry>
   <show_grid>true</show_grid>
   <background_color>
-    <color red="240" green="240" blue="240" />
+    <color name="Dark Gray Border" red="190" green="190" blue="190" />
   </background_color>
   <foreground_color>
     <color red="192" green="192" blue="192" />
