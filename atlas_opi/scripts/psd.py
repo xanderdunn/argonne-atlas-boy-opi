@@ -53,7 +53,7 @@ filepath = p.communicate()[0] # Get the output of the above command
 filepath = os.path.abspath(filepath)
 
 workspace = System.getProperty("user.workspace")
-script_path = workspace + "/atlas_opi/scripts/psd.sh"
+script_path = workspace + "atlas_opi/scripts/psd.sh"
 
 # run plotPSD from the directory of the user's data file
 runpath = os.path.split(filepath)[0] # Get just the directory of the data file
