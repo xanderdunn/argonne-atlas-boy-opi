@@ -10,9 +10,9 @@
     <C>userCalcOut$(N)</C>
   </macros>
   <wuid>7b0e122e:138e31abd8a:-7f27</wuid>
-  <boy_version>3.1.2.20120828</boy_version>
+  <boy_version>3.1.2.20120829</boy_version>
   <scripts>
-    <path pathString="scripts/css_bin_dir.py" checkConnect="true" sfe="false" seoe="false">
+    <path pathString="scripts/dir_defs.py" checkConnect="true" sfe="false" seoe="false">
       <pv trig="true">1</pv>
     </path>
   </scripts>
