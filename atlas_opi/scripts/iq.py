@@ -33,4 +33,4 @@ def rem(str0):
     return string.replace(str0, "\n", "")
 
 # Execute the plotIQ script using the data file path
-subprocess.Popen("../../sdds/plotIQ" + rem(filepath), cwd=css_dir)
+subprocess.Popen("../../sdds/plotIQ" + " " + rem(filepath), cwd=css_dir)
