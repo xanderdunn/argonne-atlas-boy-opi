@@ -22,4 +22,3 @@ host_arch = os.environ['EPICS_HOST_ARCH']
 System.setProperty("host.arch", host_arch)
 
 System.setProperty("caxgui.full.dir", caxgui_dir + "/bin/" + host_arch + "/")
-print System.getProperty("caxgui.full.dir")
