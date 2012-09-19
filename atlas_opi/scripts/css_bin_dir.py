@@ -1,9 +1,9 @@
 #!/bin/python
 
-# Description: get the directory of the css binary and set it as a system var
+# Description: get common directories and set them as system macros
 
-from java.lang import System # Get Java environment variables
-import os # get environment variable
+from java.lang import System # for getting Java environment variables
+import os # for getting os environment variables
 
 # Get the absolute path of the css binary
 css_dir_var = System.getProperty("osgi.install.area")
@@ -18,7 +18,9 @@ System.setProperty("medm.dir", medm_dir)
 caxgui_dir = os.path.normpath(os.path.join(css_dir, "../../caXGUI/"))
 System.setProperty("caxgui.dir", caxgui_dir)
 
+# Define the epics host architecture
 host_arch = os.environ['EPICS_HOST_ARCH']
 System.setProperty("host.arch", host_arch)
 
+# Define the full caxgui directory
 System.setProperty("caxgui.full.dir", caxgui_dir + "/bin/" + host_arch + "/")
