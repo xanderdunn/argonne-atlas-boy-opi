@@ -50,12 +50,13 @@ filepath = p.communicate()[0] # Get the output of the above command
 # If the user defined an absolute path, then it will be unchanged.
 # If the user defined a relative path, it will be made absolute relative to
 #    spxrfshare
-filepath = os.path.abspath(filepath)
+# filepath = os.path.abspath(filepath)
+print "Data filepath is:", filepath
 
 workspace = System.getProperty("user.workspace")
 script_path = workspace + "atlas_opi/scripts/psd.sh"
 
 # run plotPSD from the directory of the user's data file
 runpath = os.path.split(filepath)[0] # Get just the directory of the data file
-subprocess.Popen([script_path, plotpath, filepath, str(welch1), str(welch2)], cwd=runpath)
+subprocess.Popen([script_path, plotpath, filepath, str(welch1), str(welch2)], cwd=runpath, shell=True)
 # subprocess.Popen([plotpath, filepath, str(welch1), str(welch2)], cwd=runpath) # Run plotPSD on the data file
