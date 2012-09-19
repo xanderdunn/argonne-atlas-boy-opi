@@ -8,15 +8,11 @@ from org.csstudio.opibuilder.scriptUtil import PVUtil
 # pvs[0] = $(TS)$(LLRF):DRV0:sel2_phstep_ao
 # pvs[1] = $(TS)$(LLRF):DRV0:sel2_dds_bo
 
-# Get the PVs
-get_pv = display.getWidget("sel2_phstep").getPV()
-set_pv = display.getWidget("sel2_dds").getPV()
-
 # Get the scalar value
-val = PVUtil.getLong(get_pv)
+val = PVUtil.getLong(pvs[0])
 
 # Set the boolean value based on this:
 if val != 0:
-    set_pv.setValue(1) # Turn it on
+    pvs[1].setValue(1) # Turn it on
 elif val == 0:
-    set_pv.setValue(0) # Turn it off
+    pvs[1].setValue(0) # Turn it off
