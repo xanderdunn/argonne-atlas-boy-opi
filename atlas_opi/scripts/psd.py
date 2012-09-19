@@ -7,6 +7,7 @@ import subprocess # for executing command-line stuff
 import time # for sleeping
 import os # for working with paths
 from java.lang import System # for getting Java environment variables
+import string # 
 
 # The EPICS extensions version of caget does not support -S string
 #   output.  Hence, we use the EPICS base version.  A linux-x86_64
@@ -36,8 +37,8 @@ time.sleep(float(wait) + 2)
 # Get the welch values
 welch1 = str(PVUtil.getLong(display.getWidget("welch1").getPV()))
 welch2 = str(PVUtil.getLong(display.getWidget("welch2").getPV()))
-print "welch1 = ", welch1
-print "welch2 = ", welch2
+print "welch1 =", welch1
+print "welch2 =", welch2
 
 # Get the absolute path of the plotPSD script
 # This is run from the css/CSS_EPICS directory
@@ -58,8 +59,12 @@ print "Data filepath is:", filepath
 workspace = System.getProperty("user.workspace")
 script_path = workspace + "atlas_opi/scripts/psd.sh"
 
+# Remove new lines
+def rem(str0):
+    return string.repalce(str0, "\n", "")
+
 # run plotPSD from the directory of the user's data file
 runpath = os.path.split(filepath)[0] # Get just the directory of the data file
 print "The full command: ", script_path + " " + plotpath + " " + filepath + " " + welch1 + " " + welch2
-subprocess.Popen([script_path + " " + plotpath + " " + filepath + " " + welch1 + " " + welch2], cwd=runpath, shell=True)
+subprocess.Popen([rem(script_path) + " " + rem(plotpath) + " " + rem(filepath) + " " + rem(welch1) + " " + rem(welch2)], cwd=runpath, shell=True)
 # subprocess.Popen([plotpath, filepath, str(welch1), str(welch2)], cwd=runpath) # Run plotPSD on the data file
