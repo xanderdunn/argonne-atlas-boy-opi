@@ -9,6 +9,8 @@
 # $3 == welch1 parameter
 # $4 == welch2 parameter
 
+echo "I have been called."
+
 # Fix for llrf2
 export PATH=/usr/local/oag/apps/bin/linux-x86
 
